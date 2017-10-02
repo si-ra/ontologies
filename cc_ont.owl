@@ -1,0 +1,669 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.siemens.com/bt/cc/ontology#"
+     xml:base="http://www.siemens.com/bt/cc/ontology"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.siemens.com/bt/cc/ontology"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.siemens.com/bt/cc/ontology#managedType -->
+
+    <owl:AnnotationProperty rdf:about="http://www.siemens.com/bt/cc/ontology#managedType">
+        <rdfs:range rdf:resource="http://www.siemens.com/bt/cc/ontology#ManagedType"/>
+        <rdfs:domain rdf:resource="http://www.siemens.com/bt/cc/ontology#FunctionType"/>
+        <rdfs:domain rdf:resource="http://www.siemens.com/bt/cc/ontology#Object"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.siemens.com/bt/cc/ontology#GmsAny -->
+
+    <rdfs:Datatype rdf:about="http://www.siemens.com/bt/cc/ontology#GmsAny">
+        <owl:equivalentClass>
+            <rdfs:Datatype>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.siemens.com/bt/cc/ontology#GmsBitString"/>
+                    <rdf:Description rdf:about="http://www.siemens.com/bt/cc/ontology#GmsBool"/>
+                    <rdf:Description rdf:about="http://www.siemens.com/bt/cc/ontology#GmsDateTime"/>
+                    <rdf:Description rdf:about="http://www.siemens.com/bt/cc/ontology#GmsDuration"/>
+                    <rdf:Description rdf:about="http://www.siemens.com/bt/cc/ontology#GmsEnum"/>
+                    <rdf:Description rdf:about="http://www.siemens.com/bt/cc/ontology#GmsInt"/>
+                    <rdf:Description rdf:about="http://www.siemens.com/bt/cc/ontology#GmsReal"/>
+                    <rdf:Description rdf:about="http://www.siemens.com/bt/cc/ontology#GmsUint"/>
+                    <rdf:Description rdf:about="http://www.siemens.com/bt/cc/ontology#PvssString"/>
+                </owl:unionOf>
+            </rdfs:Datatype>
+        </owl:equivalentClass>
+    </rdfs:Datatype>
+    
+
+
+    <!-- http://www.siemens.com/bt/cc/ontology#GmsBitString -->
+
+    <rdfs:Datatype rdf:about="http://www.siemens.com/bt/cc/ontology#GmsBitString">
+        <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </rdfs:Datatype>
+    
+
+
+    <!-- http://www.siemens.com/bt/cc/ontology#GmsBool -->
+
+    <rdfs:Datatype rdf:about="http://www.siemens.com/bt/cc/ontology#GmsBool">
+        <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </rdfs:Datatype>
+    
+
+
+    <!-- http://www.siemens.com/bt/cc/ontology#GmsDateTime -->
+
+    <rdfs:Datatype rdf:about="http://www.siemens.com/bt/cc/ontology#GmsDateTime">
+        <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </rdfs:Datatype>
+    
+
+
+    <!-- http://www.siemens.com/bt/cc/ontology#GmsDuration -->
+
+    <rdfs:Datatype rdf:about="http://www.siemens.com/bt/cc/ontology#GmsDuration">
+        <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedLong"/>
+    </rdfs:Datatype>
+    
+
+
+    <!-- http://www.siemens.com/bt/cc/ontology#GmsEnum -->
+
+    <rdfs:Datatype rdf:about="http://www.siemens.com/bt/cc/ontology#GmsEnum">
+        <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedInt"/>
+    </rdfs:Datatype>
+    
+
+
+    <!-- http://www.siemens.com/bt/cc/ontology#GmsInt -->
+
+    <rdfs:Datatype rdf:about="http://www.siemens.com/bt/cc/ontology#GmsInt">
+        <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </rdfs:Datatype>
+    
+
+
+    <!-- http://www.siemens.com/bt/cc/ontology#GmsReal -->
+
+    <rdfs:Datatype rdf:about="http://www.siemens.com/bt/cc/ontology#GmsReal">
+        <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </rdfs:Datatype>
+    
+
+
+    <!-- http://www.siemens.com/bt/cc/ontology#GmsUint -->
+
+    <rdfs:Datatype rdf:about="http://www.siemens.com/bt/cc/ontology#GmsUint"/>
+    
+
+
+    <!-- http://www.siemens.com/bt/cc/ontology#PvssString -->
+
+    <rdfs:Datatype rdf:about="http://www.siemens.com/bt/cc/ontology#PvssString">
+        <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </rdfs:Datatype>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.siemens.com/bt/cc/ontology#belongsToView -->
+
+    <owl:ObjectProperty rdf:about="http://www.siemens.com/bt/cc/ontology#belongsToView">
+        <rdfs:domain rdf:resource="http://www.siemens.com/bt/cc/ontology#CNSNode"/>
+        <rdfs:range rdf:resource="http://www.siemens.com/bt/cc/ontology#View"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.siemens.com/bt/cc/ontology#hasAlarm -->
+
+    <owl:ObjectProperty rdf:about="http://www.siemens.com/bt/cc/ontology#hasAlarm">
+        <rdfs:domain rdf:resource="http://www.siemens.com/bt/cc/ontology#Property"/>
+        <rdfs:range rdf:resource="http://www.siemens.com/bt/cc/ontology#AlarmConfiguration"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.siemens.com/bt/cc/ontology#hasChildNode -->
+
+    <owl:ObjectProperty rdf:about="http://www.siemens.com/bt/cc/ontology#hasChildNode">
+        <rdfs:subPropertyOf rdf:resource="http://www.siemens.com/bt/cc/ontology#hasLink"/>
+        <owl:inverseOf rdf:resource="http://www.siemens.com/bt/cc/ontology#hasParentNode"/>
+        <rdfs:domain rdf:resource="http://www.siemens.com/bt/cc/ontology#CNSNode"/>
+        <rdfs:range rdf:resource="http://www.siemens.com/bt/cc/ontology#CNSNode"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.siemens.com/bt/cc/ontology#hasCommand -->
+
+    <owl:ObjectProperty rdf:about="http://www.siemens.com/bt/cc/ontology#hasCommand">
+        <rdfs:domain rdf:resource="http://www.siemens.com/bt/cc/ontology#Property"/>
+        <rdfs:range rdf:resource="http://www.siemens.com/bt/cc/ontology#CommandConfiguration"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.siemens.com/bt/cc/ontology#hasConversion -->
+
+    <owl:ObjectProperty rdf:about="http://www.siemens.com/bt/cc/ontology#hasConversion">
+        <rdfs:domain rdf:resource="http://www.siemens.com/bt/cc/ontology#Property"/>
+        <rdfs:range rdf:resource="http://www.siemens.com/bt/cc/ontology#ConversionConfiguration"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.siemens.com/bt/cc/ontology#hasDefaultProperty -->
+
+    <owl:ObjectProperty rdf:about="http://www.siemens.com/bt/cc/ontology#hasDefaultProperty">
+        <rdfs:subPropertyOf rdf:resource="http://www.siemens.com/bt/cc/ontology#hasProperty"/>
+        <rdfs:domain rdf:resource="http://www.siemens.com/bt/cc/ontology#Object"/>
+        <rdfs:range rdf:resource="http://www.siemens.com/bt/cc/ontology#Property"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.siemens.com/bt/cc/ontology#hasFunction -->
+
+    <owl:ObjectProperty rdf:about="http://www.siemens.com/bt/cc/ontology#hasFunction">
+        <rdfs:domain rdf:resource="http://www.siemens.com/bt/cc/ontology#Object"/>
+        <rdfs:range rdf:resource="http://www.siemens.com/bt/cc/ontology#FunctionType"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.siemens.com/bt/cc/ontology#hasFunctionMapper -->
+
+    <owl:ObjectProperty rdf:about="http://www.siemens.com/bt/cc/ontology#hasFunctionMapper">
+        <rdfs:domain rdf:resource="http://www.siemens.com/bt/cc/ontology#Object"/>
+        <rdfs:range rdf:resource="http://www.siemens.com/bt/cc/ontology#FunctionMapper"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.siemens.com/bt/cc/ontology#hasIdentifier -->
+
+    <owl:ObjectProperty rdf:about="http://www.siemens.com/bt/cc/ontology#hasIdentifier">
+        <rdfs:domain rdf:resource="http://www.siemens.com/bt/cc/ontology#Object"/>
+        <rdfs:domain rdf:resource="http://www.siemens.com/bt/cc/ontology#Property"/>
+        <rdfs:range rdf:resource="http://www.siemens.com/bt/cc/ontology#DPIdentifier"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.siemens.com/bt/cc/ontology#hasLink -->
+
+    <owl:ObjectProperty rdf:about="http://www.siemens.com/bt/cc/ontology#hasLink"/>
+    
+
+
+    <!-- http://www.siemens.com/bt/cc/ontology#hasMappingFunction -->
+
+    <owl:ObjectProperty rdf:about="http://www.siemens.com/bt/cc/ontology#hasMappingFunction">
+        <rdfs:domain rdf:resource="http://www.siemens.com/bt/cc/ontology#FunctionMapper"/>
+        <rdfs:range rdf:resource="http://www.siemens.com/bt/cc/ontology#FunctionType"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.siemens.com/bt/cc/ontology#hasParentNode -->
+
+    <owl:ObjectProperty rdf:about="http://www.siemens.com/bt/cc/ontology#hasParentNode">
+        <rdfs:subPropertyOf rdf:resource="http://www.siemens.com/bt/cc/ontology#hasLink"/>
+        <rdfs:domain rdf:resource="http://www.siemens.com/bt/cc/ontology#CNSNode"/>
+        <rdfs:range rdf:resource="http://www.siemens.com/bt/cc/ontology#CNSNode"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.siemens.com/bt/cc/ontology#hasProperty -->
+
+    <owl:ObjectProperty rdf:about="http://www.siemens.com/bt/cc/ontology#hasProperty">
+        <rdfs:domain rdf:resource="http://www.siemens.com/bt/cc/ontology#FunctionType"/>
+        <rdfs:domain rdf:resource="http://www.siemens.com/bt/cc/ontology#Object"/>
+        <rdfs:range rdf:resource="http://www.siemens.com/bt/cc/ontology#Property"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.siemens.com/bt/cc/ontology#hasPropertyMap -->
+
+    <owl:ObjectProperty rdf:about="http://www.siemens.com/bt/cc/ontology#hasPropertyMap">
+        <rdfs:domain rdf:resource="http://www.siemens.com/bt/cc/ontology#FunctionMapper"/>
+        <rdfs:range rdf:resource="http://www.siemens.com/bt/cc/ontology#PropertyMap"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.siemens.com/bt/cc/ontology#hasRelatedItem -->
+
+    <owl:ObjectProperty rdf:about="http://www.siemens.com/bt/cc/ontology#hasRelatedItem">
+        <rdfs:subPropertyOf rdf:resource="http://www.siemens.com/bt/cc/ontology#hasLink"/>
+        <rdfs:domain rdf:resource="http://www.siemens.com/bt/cc/ontology#Property"/>
+        <rdfs:range rdf:resource="http://www.siemens.com/bt/cc/ontology#DPIdentifier"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.siemens.com/bt/cc/ontology#hasRootNode -->
+
+    <owl:ObjectProperty rdf:about="http://www.siemens.com/bt/cc/ontology#hasRootNode">
+        <rdfs:domain rdf:resource="http://www.siemens.com/bt/cc/ontology#View"/>
+        <rdfs:range rdf:resource="http://www.siemens.com/bt/cc/ontology#CNSNode"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.siemens.com/bt/cc/ontology#hasSmoothing -->
+
+    <owl:ObjectProperty rdf:about="http://www.siemens.com/bt/cc/ontology#hasSmoothing">
+        <rdfs:domain rdf:resource="http://www.siemens.com/bt/cc/ontology#Property"/>
+        <rdfs:range rdf:resource="http://www.siemens.com/bt/cc/ontology#SmoothingConfiguration"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.siemens.com/bt/cc/ontology#hasText -->
+
+    <owl:ObjectProperty rdf:about="http://www.siemens.com/bt/cc/ontology#hasText">
+        <rdfs:domain rdf:resource="http://www.siemens.com/bt/cc/ontology#TextGroupElement"/>
+        <rdfs:range rdf:resource="http://www.siemens.com/bt/cc/ontology#MultiLanguageText"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.siemens.com/bt/cc/ontology#hasTextGroup -->
+
+    <owl:ObjectProperty rdf:about="http://www.siemens.com/bt/cc/ontology#hasTextGroup">
+        <rdfs:range rdf:resource="http://www.siemens.com/bt/cc/ontology#TextGroup"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.siemens.com/bt/cc/ontology#hasTextGroupElement -->
+
+    <owl:ObjectProperty rdf:about="http://www.siemens.com/bt/cc/ontology#hasTextGroupElement">
+        <rdfs:domain rdf:resource="http://www.siemens.com/bt/cc/ontology#TextGroup"/>
+        <rdfs:range rdf:resource="http://www.siemens.com/bt/cc/ontology#TextGroupElement"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.siemens.com/bt/cc/ontology#hasDatapointObjectId -->
+
+    <owl:DatatypeProperty rdf:about="http://www.siemens.com/bt/cc/ontology#hasDatapointObjectId">
+        <rdfs:domain rdf:resource="http://www.siemens.com/bt/cc/ontology#CNSNode"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.siemens.com/bt/cc/ontology#hasDescription -->
+
+    <owl:DatatypeProperty rdf:about="http://www.siemens.com/bt/cc/ontology#hasDescription">
+        <rdfs:domain rdf:resource="http://www.siemens.com/bt/cc/ontology#CNSNode"/>
+        <rdfs:domain rdf:resource="http://www.siemens.com/bt/cc/ontology#Object"/>
+        <rdfs:domain rdf:resource="http://www.siemens.com/bt/cc/ontology#Property"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.siemens.com/bt/cc/ontology#hasDiscipline -->
+
+    <owl:DatatypeProperty rdf:about="http://www.siemens.com/bt/cc/ontology#hasDiscipline"/>
+    
+
+
+    <!-- http://www.siemens.com/bt/cc/ontology#hasEquivalentValueType -->
+
+    <owl:DatatypeProperty rdf:about="http://www.siemens.com/bt/cc/ontology#hasEquivalentValueType">
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.siemens.com/bt/cc/ontology#hasIcon -->
+
+    <owl:DatatypeProperty rdf:about="http://www.siemens.com/bt/cc/ontology#hasIcon">
+        <rdfs:domain rdf:resource="http://www.siemens.com/bt/cc/ontology#Property"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.siemens.com/bt/cc/ontology#hasMax -->
+
+    <owl:DatatypeProperty rdf:about="http://www.siemens.com/bt/cc/ontology#hasMax"/>
+    
+
+
+    <!-- http://www.siemens.com/bt/cc/ontology#hasMin -->
+
+    <owl:DatatypeProperty rdf:about="http://www.siemens.com/bt/cc/ontology#hasMin"/>
+    
+
+
+    <!-- http://www.siemens.com/bt/cc/ontology#hasName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.siemens.com/bt/cc/ontology#hasName">
+        <rdfs:domain rdf:resource="http://www.siemens.com/bt/cc/ontology#CNSNode"/>
+        <rdfs:domain rdf:resource="http://www.siemens.com/bt/cc/ontology#FunctionType"/>
+        <rdfs:domain rdf:resource="http://www.siemens.com/bt/cc/ontology#Object"/>
+        <rdfs:domain rdf:resource="http://www.siemens.com/bt/cc/ontology#Property"/>
+        <rdfs:domain rdf:resource="http://www.siemens.com/bt/cc/ontology#TextGroup"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.siemens.com/bt/cc/ontology#hasObjectType -->
+
+    <owl:DatatypeProperty rdf:about="http://www.siemens.com/bt/cc/ontology#hasObjectType"/>
+    
+
+
+    <!-- http://www.siemens.com/bt/cc/ontology#hasPropertyID -->
+
+    <owl:DatatypeProperty rdf:about="http://www.siemens.com/bt/cc/ontology#hasPropertyID">
+        <rdfs:domain rdf:resource="http://www.siemens.com/bt/cc/ontology#Property"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedInt"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.siemens.com/bt/cc/ontology#hasSystemDesignation -->
+
+    <owl:DatatypeProperty rdf:about="http://www.siemens.com/bt/cc/ontology#hasSystemDesignation">
+        <rdfs:domain rdf:resource="http://www.siemens.com/bt/cc/ontology#DPIdentifier"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.siemens.com/bt/cc/ontology#hasSystemIdentifier -->
+
+    <owl:DatatypeProperty rdf:about="http://www.siemens.com/bt/cc/ontology#hasSystemIdentifier">
+        <rdfs:domain rdf:resource="http://www.siemens.com/bt/cc/ontology#DPIdentifier"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.siemens.com/bt/cc/ontology#hasValueType -->
+
+    <owl:DatatypeProperty rdf:about="http://www.siemens.com/bt/cc/ontology#hasValueType">
+        <rdfs:range rdf:resource="http://www.siemens.com/bt/cc/ontology#GmsAny"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.siemens.com/bt/cc/ontology#AlarmConfiguration -->
+
+    <owl:Class rdf:about="http://www.siemens.com/bt/cc/ontology#AlarmConfiguration"/>
+    
+
+
+    <!-- http://www.siemens.com/bt/cc/ontology#CNSNode -->
+
+    <owl:Class rdf:about="http://www.siemens.com/bt/cc/ontology#CNSNode"/>
+    
+
+
+    <!-- http://www.siemens.com/bt/cc/ontology#CommandConfiguration -->
+
+    <owl:Class rdf:about="http://www.siemens.com/bt/cc/ontology#CommandConfiguration"/>
+    
+
+
+    <!-- http://www.siemens.com/bt/cc/ontology#ConversionConfiguration -->
+
+    <owl:Class rdf:about="http://www.siemens.com/bt/cc/ontology#ConversionConfiguration"/>
+    
+
+
+    <!-- http://www.siemens.com/bt/cc/ontology#DPIdentifier -->
+
+    <owl:Class rdf:about="http://www.siemens.com/bt/cc/ontology#DPIdentifier"/>
+    
+
+
+    <!-- http://www.siemens.com/bt/cc/ontology#Discipline -->
+
+    <owl:Class rdf:about="http://www.siemens.com/bt/cc/ontology#Discipline"/>
+    
+
+
+    <!-- http://www.siemens.com/bt/cc/ontology#ExtendedMapper -->
+
+    <owl:Class rdf:about="http://www.siemens.com/bt/cc/ontology#ExtendedMapper">
+        <rdfs:subClassOf rdf:resource="http://www.siemens.com/bt/cc/ontology#PropertyMap"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.siemens.com/bt/cc/ontology#FunctionMapper -->
+
+    <owl:Class rdf:about="http://www.siemens.com/bt/cc/ontology#FunctionMapper"/>
+    
+
+
+    <!-- http://www.siemens.com/bt/cc/ontology#FunctionType -->
+
+    <owl:Class rdf:about="http://www.siemens.com/bt/cc/ontology#FunctionType"/>
+    
+
+
+    <!-- http://www.siemens.com/bt/cc/ontology#FunctionalMapper -->
+
+    <owl:Class rdf:about="http://www.siemens.com/bt/cc/ontology#FunctionalMapper">
+        <rdfs:subClassOf rdf:resource="http://www.siemens.com/bt/cc/ontology#PropertyMap"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.siemens.com/bt/cc/ontology#LogicalViewRoot -->
+
+    <owl:Class rdf:about="http://www.siemens.com/bt/cc/ontology#LogicalViewRoot">
+        <rdfs:subClassOf rdf:resource="http://www.siemens.com/bt/cc/ontology#CNSNode"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.siemens.com/bt/cc/ontology#ManagedType -->
+
+    <owl:Class rdf:about="http://www.siemens.com/bt/cc/ontology#ManagedType"/>
+    
+
+
+    <!-- http://www.siemens.com/bt/cc/ontology#ManagementViewRoot -->
+
+    <owl:Class rdf:about="http://www.siemens.com/bt/cc/ontology#ManagementViewRoot">
+        <rdfs:subClassOf rdf:resource="http://www.siemens.com/bt/cc/ontology#CNSNode"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.siemens.com/bt/cc/ontology#MixedMapper -->
+
+    <owl:Class rdf:about="http://www.siemens.com/bt/cc/ontology#MixedMapper">
+        <rdfs:subClassOf rdf:resource="http://www.siemens.com/bt/cc/ontology#PropertyMap"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.siemens.com/bt/cc/ontology#MultiLanguageText -->
+
+    <owl:Class rdf:about="http://www.siemens.com/bt/cc/ontology#MultiLanguageText"/>
+    
+
+
+    <!-- http://www.siemens.com/bt/cc/ontology#Object -->
+
+    <owl:Class rdf:about="http://www.siemens.com/bt/cc/ontology#Object"/>
+    
+
+
+    <!-- http://www.siemens.com/bt/cc/ontology#ObjectSubtype -->
+
+    <owl:Class rdf:about="http://www.siemens.com/bt/cc/ontology#ObjectSubtype">
+        <rdfs:subClassOf rdf:resource="http://www.siemens.com/bt/cc/ontology#ObjectType"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.siemens.com/bt/cc/ontology#ObjectType -->
+
+    <owl:Class rdf:about="http://www.siemens.com/bt/cc/ontology#ObjectType"/>
+    
+
+
+    <!-- http://www.siemens.com/bt/cc/ontology#Property -->
+
+    <owl:Class rdf:about="http://www.siemens.com/bt/cc/ontology#Property"/>
+    
+
+
+    <!-- http://www.siemens.com/bt/cc/ontology#PropertyMap -->
+
+    <owl:Class rdf:about="http://www.siemens.com/bt/cc/ontology#PropertyMap"/>
+    
+
+
+    <!-- http://www.siemens.com/bt/cc/ontology#SimpleMapper -->
+
+    <owl:Class rdf:about="http://www.siemens.com/bt/cc/ontology#SimpleMapper">
+        <rdfs:subClassOf rdf:resource="http://www.siemens.com/bt/cc/ontology#PropertyMap"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.siemens.com/bt/cc/ontology#SmoothingConfiguration -->
+
+    <owl:Class rdf:about="http://www.siemens.com/bt/cc/ontology#SmoothingConfiguration"/>
+    
+
+
+    <!-- http://www.siemens.com/bt/cc/ontology#TextGroup -->
+
+    <owl:Class rdf:about="http://www.siemens.com/bt/cc/ontology#TextGroup"/>
+    
+
+
+    <!-- http://www.siemens.com/bt/cc/ontology#TextGroupElement -->
+
+    <owl:Class rdf:about="http://www.siemens.com/bt/cc/ontology#TextGroupElement"/>
+    
+
+
+    <!-- http://www.siemens.com/bt/cc/ontology#UserViewRoot -->
+
+    <owl:Class rdf:about="http://www.siemens.com/bt/cc/ontology#UserViewRoot">
+        <rdfs:subClassOf rdf:resource="http://www.siemens.com/bt/cc/ontology#CNSNode"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.siemens.com/bt/cc/ontology#View -->
+
+    <owl:Class rdf:about="http://www.siemens.com/bt/cc/ontology#View"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.siemens.com/bt/cc/ontology#LogicalView -->
+
+    <owl:NamedIndividual rdf:about="http://www.siemens.com/bt/cc/ontology#LogicalView">
+        <rdf:type rdf:resource="http://www.siemens.com/bt/cc/ontology#View"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.siemens.com/bt/cc/ontology#ManagementView -->
+
+    <owl:NamedIndividual rdf:about="http://www.siemens.com/bt/cc/ontology#ManagementView">
+        <rdf:type rdf:resource="http://www.siemens.com/bt/cc/ontology#View"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.siemens.com/bt/cc/ontology#UserView -->
+
+    <owl:NamedIndividual rdf:about="http://www.siemens.com/bt/cc/ontology#UserView">
+        <rdf:type rdf:resource="http://www.siemens.com/bt/cc/ontology#View"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
