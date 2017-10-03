@@ -157,6 +157,7 @@
     <!-- https://si-ra.github.io/ontologies/cc.owl#hasAlarm -->
 
     <owl:ObjectProperty rdf:about="https://si-ra.github.io/ontologies/cc.owl#hasAlarm">
+        <rdfs:subPropertyOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#hasConfiguration"/>
         <rdfs:domain rdf:resource="https://si-ra.github.io/ontologies/cc.owl#Property"/>
         <rdfs:range rdf:resource="https://si-ra.github.io/ontologies/cc.owl#AlarmConfiguration"/>
     </owl:ObjectProperty>
@@ -177,15 +178,23 @@
     <!-- https://si-ra.github.io/ontologies/cc.owl#hasCommand -->
 
     <owl:ObjectProperty rdf:about="https://si-ra.github.io/ontologies/cc.owl#hasCommand">
+        <rdfs:subPropertyOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#hasConfiguration"/>
         <rdfs:domain rdf:resource="https://si-ra.github.io/ontologies/cc.owl#Property"/>
         <rdfs:range rdf:resource="https://si-ra.github.io/ontologies/cc.owl#CommandConfiguration"/>
     </owl:ObjectProperty>
     
 
 
+    <!-- https://si-ra.github.io/ontologies/cc.owl#hasConfiguration -->
+
+    <owl:ObjectProperty rdf:about="https://si-ra.github.io/ontologies/cc.owl#hasConfiguration"/>
+    
+
+
     <!-- https://si-ra.github.io/ontologies/cc.owl#hasConversion -->
 
     <owl:ObjectProperty rdf:about="https://si-ra.github.io/ontologies/cc.owl#hasConversion">
+        <rdfs:subPropertyOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#hasConfiguration"/>
         <rdfs:domain rdf:resource="https://si-ra.github.io/ontologies/cc.owl#Property"/>
         <rdfs:range rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ConversionConfiguration"/>
     </owl:ObjectProperty>
@@ -296,6 +305,7 @@
     <!-- https://si-ra.github.io/ontologies/cc.owl#hasSmoothing -->
 
     <owl:ObjectProperty rdf:about="https://si-ra.github.io/ontologies/cc.owl#hasSmoothing">
+        <rdfs:subPropertyOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#hasConfiguration"/>
         <rdfs:domain rdf:resource="https://si-ra.github.io/ontologies/cc.owl#Property"/>
         <rdfs:range rdf:resource="https://si-ra.github.io/ontologies/cc.owl#SmoothingConfiguration"/>
     </owl:ObjectProperty>
@@ -360,7 +370,9 @@
 
     <!-- https://si-ra.github.io/ontologies/cc.owl#hasDiscipline -->
 
-    <owl:DatatypeProperty rdf:about="https://si-ra.github.io/ontologies/cc.owl#hasDiscipline"/>
+    <owl:DatatypeProperty rdf:about="https://si-ra.github.io/ontologies/cc.owl#hasDiscipline">
+        <rdfs:subPropertyOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#hasSemanticTag"/>
+    </owl:DatatypeProperty>
     
 
 
@@ -407,7 +419,9 @@
 
     <!-- https://si-ra.github.io/ontologies/cc.owl#hasObjectType -->
 
-    <owl:DatatypeProperty rdf:about="https://si-ra.github.io/ontologies/cc.owl#hasObjectType"/>
+    <owl:DatatypeProperty rdf:about="https://si-ra.github.io/ontologies/cc.owl#hasObjectType">
+        <rdfs:subPropertyOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#hasSemanticTag"/>
+    </owl:DatatypeProperty>
     
 
 
@@ -417,6 +431,12 @@
         <rdfs:domain rdf:resource="https://si-ra.github.io/ontologies/cc.owl#Property"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedInt"/>
     </owl:DatatypeProperty>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/cc.owl#hasSemanticTag -->
+
+    <owl:DatatypeProperty rdf:about="https://si-ra.github.io/ontologies/cc.owl#hasSemanticTag"/>
     
 
 
@@ -459,7 +479,9 @@
 
     <!-- https://si-ra.github.io/ontologies/cc.owl#AlarmConfiguration -->
 
-    <owl:Class rdf:about="https://si-ra.github.io/ontologies/cc.owl#AlarmConfiguration"/>
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/cc.owl#AlarmConfiguration">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#PropertyConfiguration"/>
+    </owl:Class>
     
 
 
@@ -471,13 +493,17 @@
 
     <!-- https://si-ra.github.io/ontologies/cc.owl#CommandConfiguration -->
 
-    <owl:Class rdf:about="https://si-ra.github.io/ontologies/cc.owl#CommandConfiguration"/>
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/cc.owl#CommandConfiguration">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#PropertyConfiguration"/>
+    </owl:Class>
     
 
 
     <!-- https://si-ra.github.io/ontologies/cc.owl#ConversionConfiguration -->
 
-    <owl:Class rdf:about="https://si-ra.github.io/ontologies/cc.owl#ConversionConfiguration"/>
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/cc.owl#ConversionConfiguration">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#PropertyConfiguration"/>
+    </owl:Class>
     
 
 
@@ -489,7 +515,9 @@
 
     <!-- https://si-ra.github.io/ontologies/cc.owl#Discipline -->
 
-    <owl:Class rdf:about="https://si-ra.github.io/ontologies/cc.owl#Discipline"/>
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/cc.owl#Discipline">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#SemanticTag"/>
+    </owl:Class>
     
 
 
@@ -531,7 +559,9 @@
 
     <!-- https://si-ra.github.io/ontologies/cc.owl#ManagedType -->
 
-    <owl:Class rdf:about="https://si-ra.github.io/ontologies/cc.owl#ManagedType"/>
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/cc.owl#ManagedType">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#SemanticTag"/>
+    </owl:Class>
     
 
 
@@ -573,7 +603,9 @@
 
     <!-- https://si-ra.github.io/ontologies/cc.owl#ObjectType -->
 
-    <owl:Class rdf:about="https://si-ra.github.io/ontologies/cc.owl#ObjectType"/>
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/cc.owl#ObjectType">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#SemanticTag"/>
+    </owl:Class>
     
 
 
@@ -583,9 +615,21 @@
     
 
 
+    <!-- https://si-ra.github.io/ontologies/cc.owl#PropertyConfiguration -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/cc.owl#PropertyConfiguration"/>
+    
+
+
     <!-- https://si-ra.github.io/ontologies/cc.owl#PropertyMap -->
 
     <owl:Class rdf:about="https://si-ra.github.io/ontologies/cc.owl#PropertyMap"/>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/cc.owl#SemanticTag -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/cc.owl#SemanticTag"/>
     
 
 
@@ -599,7 +643,17 @@
 
     <!-- https://si-ra.github.io/ontologies/cc.owl#SmoothingConfiguration -->
 
-    <owl:Class rdf:about="https://si-ra.github.io/ontologies/cc.owl#SmoothingConfiguration"/>
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/cc.owl#SmoothingConfiguration">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#PropertyConfiguration"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/cc.owl#SubDiscipline -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/cc.owl#SubDiscipline">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#Discipline"/>
+    </owl:Class>
     
 
 

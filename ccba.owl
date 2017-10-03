@@ -106,23 +106,11 @@
             <ontology:managedType rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#Point"/>   
             <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Desigo PX-FW Hvac Entha and abs Hum To Temp and rel Hum</rdfs:comment>
         </owl:Class>
-<owl:Class rdf:about="https://si-ra.github.io/ontologies/ccba.owl#GMS_desigo_px_EOT_BA_FW_Hvac_Hcrv_10">
-            <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#Object"/>
-
-            <ontology:managedType rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#Point"/>   
-            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Desigo PX-FW Hvac Heatcurve</rdfs:comment>
-        </owl:Class>
 <owl:Class rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Hcrv">
             <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#FunctionType"/>
 
             <ontology:managedType rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#UnknownManagedType"/>   
             <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hcrv</rdfs:comment>
-        </owl:Class>
-<owl:Class rdf:about="https://si-ra.github.io/ontologies/ccba.owl#GMS_desigo_px_EOT_BA_FW_Hvac_Hra_10">
-            <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#Object"/>
-
-            <ontology:managedType rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#Point"/>   
-            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Desigo PX-FW Hvac Heat Release Algo</rdfs:comment>
         </owl:Class>
 <owl:Class rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Hra">
             <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#FunctionType"/>
@@ -130,35 +118,17 @@
             <ontology:managedType rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#UnknownManagedType"/>   
             <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hra</rdfs:comment>
         </owl:Class>
-<owl:Class rdf:about="https://si-ra.github.io/ontologies/ccba.owl#GMS_desigo_px_EOT_BA_PX_Block_10">
-            <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#Object"/>
-
-            <ontology:managedType rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#Point"/>   
-            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Desigo PX Block</rdfs:comment>
-        </owl:Class>
 <owl:Class rdf:about="https://si-ra.github.io/ontologies/ccba.owl#MtrH1">
             <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#FunctionType"/>
 
             <ontology:managedType rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#UnknownManagedType"/>   
             <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MtrH1</rdfs:comment>
         </owl:Class>
-<owl:Class rdf:about="https://si-ra.github.io/ontologies/ccba.owl#GMS_desigo_px_EOT_BA_PX_CI_10">
-            <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#Object"/>
-
-            <ontology:managedType rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#BACnetPoint"/>   
-            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Desigo PX Counter Input</rdfs:comment>
-        </owl:Class>
 <owl:Class rdf:about="https://si-ra.github.io/ontologies/ccba.owl#MeasureCumulated">
             <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#FunctionType"/>
 
             <ontology:managedType rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#UnknownManagedType"/>   
             <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MeasureCumulated (for CI)</rdfs:comment>
-        </owl:Class>
-<owl:Class rdf:about="https://si-ra.github.io/ontologies/ccba.owl#GMS_desigo_px_EOT_BA_PX_AI_10">
-            <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#Object"/>
-
-            <ontology:managedType rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#BACnetPoint"/>   
-            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Desigo PX Analog Input</rdfs:comment>
         </owl:Class>
 <owl:Class rdf:about="https://si-ra.github.io/ontologies/ccba.owl#SensorFlow">
             <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#FunctionType"/>
@@ -184,35 +154,17 @@
             <ontology:managedType rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#UnknownManagedType"/>   
             <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SensorTemperature</rdfs:comment>
         </owl:Class>
-<owl:Class rdf:about="https://si-ra.github.io/ontologies/ccba.owl#GMS_desigo_px_EOT_BA_FW_Hvac_NgtC_10">
-            <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#Object"/>
-
-            <ontology:managedType rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#Point"/>   
-            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Desigo PX-FW Hvac Night Cooling Function</rdfs:comment>
-        </owl:Class>
 <owl:Class rdf:about="https://si-ra.github.io/ontologies/ccba.owl#NgtC">
             <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#FunctionType"/>
 
             <ontology:managedType rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#UnknownManagedType"/>   
             <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NgtC</rdfs:comment>
         </owl:Class>
-<owl:Class rdf:about="https://si-ra.github.io/ontologies/ccba.owl#GMS_desigo_px_EOT_BA_FW_Hvac_OSSC_10">
-            <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#Object"/>
-
-            <ontology:managedType rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#Point"/>   
-            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Desigo PX-FW Hvac Optimum Start Stop Control</rdfs:comment>
-        </owl:Class>
 <owl:Class rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Ossc">
             <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#FunctionType"/>
 
             <ontology:managedType rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#UnknownManagedType"/>   
             <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ossc</rdfs:comment>
-        </owl:Class>
-<owl:Class rdf:about="https://si-ra.github.io/ontologies/ccba.owl#GMS_desigo_px_EOT_BA_FW_Hvac_PrdvHCtl_10">
-            <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#Object"/>
-
-            <ontology:managedType rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#Point"/>   
-            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Desigo PX-FW Hvac Predictive Heating Control</rdfs:comment>
         </owl:Class>
 <owl:Class rdf:about="https://si-ra.github.io/ontologies/ccba.owl#PrdvHCtl">
             <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#FunctionType"/>
@@ -238,23 +190,11 @@
             <ontology:managedType rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#Point"/>   
             <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Desigo PX-FW Math Solar Facade Conversion</rdfs:comment>
         </owl:Class>
-<owl:Class rdf:about="https://si-ra.github.io/ontologies/ccba.owl#GMS_desigo_px_EOT_BA_FW_Math_SolPos_10">
-            <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#Object"/>
-
-            <ontology:managedType rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#Point"/>   
-            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Desigo PX-FW Math Solar Position</rdfs:comment>
-        </owl:Class>
 <owl:Class rdf:about="https://si-ra.github.io/ontologies/ccba.owl#SolPos">
             <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#FunctionType"/>
 
             <ontology:managedType rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#UnknownManagedType"/>   
             <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SolPos</rdfs:comment>
-        </owl:Class>
-<owl:Class rdf:about="https://si-ra.github.io/ontologies/ccba.owl#GMS_desigo_px_EOT_BA_FW_Hvac_SpField_10">
-            <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#Object"/>
-
-            <ontology:managedType rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#Point"/>   
-            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Desigo PX-FW Hvac Setpoint Field</rdfs:comment>
         </owl:Class>
 <owl:Class rdf:about="https://si-ra.github.io/ontologies/ccba.owl#SpField">
             <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#FunctionType"/>
@@ -262,35 +202,17 @@
             <ontology:managedType rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#UnknownManagedType"/>   
             <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SpField</rdfs:comment>
         </owl:Class>
-<owl:Class rdf:about="https://si-ra.github.io/ontologies/ccba.owl#GMS_desigo_px_EOT_BA_FW_Hvac_SpSupply_10">
-            <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#Object"/>
-
-            <ontology:managedType rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#Point"/>   
-            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Desigo PX-FW Hvac Setpoint Supply</rdfs:comment>
-        </owl:Class>
 <owl:Class rdf:about="https://si-ra.github.io/ontologies/ccba.owl#SpSupply">
             <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#FunctionType"/>
 
             <ontology:managedType rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#UnknownManagedType"/>   
             <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SpSupply</rdfs:comment>
         </owl:Class>
-<owl:Class rdf:about="https://si-ra.github.io/ontologies/ccba.owl#GMS_desigo_px_EOT_BA_FW_Ctrl_Swi2p_10">
-            <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#Object"/>
-
-            <ontology:managedType rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#Point"/>   
-            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Desigo PX-FW Control Switch 2 points</rdfs:comment>
-        </owl:Class>
 <owl:Class rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Swi2p">
             <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#FunctionType"/>
 
             <ontology:managedType rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#UnknownManagedType"/>   
             <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Swi2p</rdfs:comment>
-        </owl:Class>
-<owl:Class rdf:about="https://si-ra.github.io/ontologies/ccba.owl#GMS_desigo_px_EOT_BA_FW_Ctrl_Swi2ph_10">
-            <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#Object"/>
-
-            <ontology:managedType rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#Point"/>   
-            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Desigo PX-FW Control Switch 2 points and Hys</rdfs:comment>
         </owl:Class>
 <owl:Class rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Swi2ph">
             <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#FunctionType"/>
@@ -310,23 +232,11 @@
             <ontology:managedType rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#UnknownManagedType"/>   
             <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RoomFpb05</rdfs:comment>
         </owl:Class>
-<owl:Class rdf:about="https://si-ra.github.io/ontologies/ccba.owl#GMS_desigo_px_EOT_BA_FW_RX_BUsROc_10">
-            <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#Object"/>
-
-            <ontology:managedType rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#Point"/>   
-            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Desigo PX-RX BUsROc</rdfs:comment>
-        </owl:Class>
 <owl:Class rdf:about="https://si-ra.github.io/ontologies/ccba.owl#BUsROc">
             <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#FunctionType"/>
 
             <ontology:managedType rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#UnknownManagedType"/>   
             <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BUsROc</rdfs:comment>
-        </owl:Class>
-<owl:Class rdf:about="https://si-ra.github.io/ontologies/ccba.owl#GMS_desigo_px_EOT_BA_PX_DISCIP_10">
-            <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#Object"/>
-
-            <ontology:managedType rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#BACnetPoint"/>   
-            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Desigo PX Discipline</rdfs:comment>
         </owl:Class>
 <owl:Class rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Discipline">
             <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#FunctionType"/>
@@ -334,23 +244,11 @@
             <ontology:managedType rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#UnknownManagedType"/>   
             <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Discipline</rdfs:comment>
         </owl:Class>
-<owl:Class rdf:about="https://si-ra.github.io/ontologies/ccba.owl#GMS_desigo_px_EOT_BA_FW_RX_Fpb05_10">
-            <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#Object"/>
-
-            <ontology:managedType rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#Point"/>   
-            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Desigo PX-RX Fpb05</rdfs:comment>
-        </owl:Class>
 <owl:Class rdf:about="https://si-ra.github.io/ontologies/ccba.owl#HvacFull">
             <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#FunctionType"/>
 
             <ontology:managedType rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#UnknownManagedType"/>   
             <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HvacFull</rdfs:comment>
-        </owl:Class>
-<owl:Class rdf:about="https://si-ra.github.io/ontologies/ccba.owl#GMS_desigo_px_EOT_BA_PX_AVAL_OP_10">
-            <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#Object"/>
-
-            <ontology:managedType rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#BACnetPoint"/>   
-            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Desigo PX Analog Value Operating</rdfs:comment>
         </owl:Class>
 <owl:Class rdf:about="https://si-ra.github.io/ontologies/ccba.owl#SensorRoomTemperature">
             <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#FunctionType"/>
@@ -370,29 +268,11 @@
             <ontology:managedType rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#UnknownManagedType"/>   
             <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RoomInt06</rdfs:comment>
         </owl:Class>
-<owl:Class rdf:about="https://si-ra.github.io/ontologies/ccba.owl#GMS_desigo_px_EOT_BA_FW_RX_Bls_10">
-            <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#Object"/>
-
-            <ontology:managedType rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#Point"/>   
-            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Desigo PX-RX Bls</rdfs:comment>
-        </owl:Class>
 <owl:Class rdf:about="https://si-ra.github.io/ontologies/ccba.owl#BLS01">
             <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#FunctionType"/>
 
             <ontology:managedType rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#UnknownManagedType"/>   
             <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BLS01</rdfs:comment>
-        </owl:Class>
-<owl:Class rdf:about="https://si-ra.github.io/ontologies/ccba.owl#GMS_desigo_px_EOT_BA_FW_RX_Clc02_10">
-            <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#Object"/>
-
-            <ontology:managedType rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#Point"/>   
-            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Desigo PX-RX Clc02</rdfs:comment>
-        </owl:Class>
-<owl:Class rdf:about="https://si-ra.github.io/ontologies/ccba.owl#GMS_desigo_px_EOT_BA_FW_RX_Lgt_10">
-            <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#Object"/>
-
-            <ontology:managedType rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#Point"/>   
-            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Desigo PX-RX Lgt</rdfs:comment>
         </owl:Class>
 <owl:Class rdf:about="https://si-ra.github.io/ontologies/ccba.owl#LGT01">
             <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#FunctionType"/>
@@ -406,12 +286,6 @@
             <ontology:managedType rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#UnknownManagedType"/>   
             <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RoomFnc04</rdfs:comment>
         </owl:Class>
-<owl:Class rdf:about="https://si-ra.github.io/ontologies/ccba.owl#GMS_desigo_px_EOT_BA_FW_RX_Fnc04_10">
-            <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#Object"/>
-
-            <ontology:managedType rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#Point"/>   
-            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Desigo PX-RX Fnc04</rdfs:comment>
-        </owl:Class>
 <owl:Class rdf:about="https://si-ra.github.io/ontologies/ccba.owl#GMS_desigo_px_EOT_BA_PX_TrigAna_10">
             <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#Object"/>
 
@@ -424,17 +298,17 @@
             <ontology:managedType rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#BACnetPoint"/>   
             <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Desigo PX Analog Output Reduced</rdfs:comment>
         </owl:Class>
+<owl:Class rdf:about="https://si-ra.github.io/ontologies/ccba.owl#GMS_desigo_px_EOT_BA_PX_AVAL_OP_10">
+            <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#Object"/>
+
+            <ontology:managedType rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#BACnetPoint"/>   
+            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Desigo PX Analog Value Operating</rdfs:comment>
+        </owl:Class>
 <owl:Class rdf:about="https://si-ra.github.io/ontologies/ccba.owl#RoomFnc08">
             <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#FunctionType"/>
 
             <ontology:managedType rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#UnknownManagedType"/>   
             <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RoomFnc08</rdfs:comment>
-        </owl:Class>
-<owl:Class rdf:about="https://si-ra.github.io/ontologies/ccba.owl#GMS_desigo_px_EOT_BA_FW_RX_Fnc08_10">
-            <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#Object"/>
-
-            <ontology:managedType rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#Point"/>   
-            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Desigo PX-RX Fnc08</rdfs:comment>
         </owl:Class>
 <owl:Class rdf:about="https://si-ra.github.io/ontologies/ccba.owl#RoomInt07">
             <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#FunctionType"/>
@@ -454,18 +328,6 @@
             <ontology:managedType rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#UnknownManagedType"/>   
             <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RoomClc08</rdfs:comment>
         </owl:Class>
-<owl:Class rdf:about="https://si-ra.github.io/ontologies/ccba.owl#GMS_desigo_px_EOT_BA_FW_RX_Clc08_10">
-            <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#Object"/>
-
-            <ontology:managedType rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#Point"/>   
-            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Desigo PX-RX Clc08</rdfs:comment>
-        </owl:Class>
-<owl:Class rdf:about="https://si-ra.github.io/ontologies/ccba.owl#GMS_desigo_px_EOT_BA_PX_MSCHED_10">
-            <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#Object"/>
-
-            <ontology:managedType rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#BACnetSchedule"/>   
-            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Desigo PX Multistate Scheduler</rdfs:comment>
-        </owl:Class>
 <owl:Class rdf:about="https://si-ra.github.io/ontologies/ccba.owl#SchedAnyStatus">
             <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#FunctionType"/>
 
@@ -478,23 +340,11 @@
             <ontology:managedType rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#UnknownManagedType"/>   
             <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RoomFnc20</rdfs:comment>
         </owl:Class>
-<owl:Class rdf:about="https://si-ra.github.io/ontologies/ccba.owl#GMS_desigo_px_EOT_BA_FW_RX_Fnc20_10">
-            <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#Object"/>
-
-            <ontology:managedType rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#Point"/>   
-            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Desigo PX-RX Fnc20</rdfs:comment>
-        </owl:Class>
 <owl:Class rdf:about="https://si-ra.github.io/ontologies/ccba.owl#RoomVav01">
             <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#FunctionType"/>
 
             <ontology:managedType rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#UnknownManagedType"/>   
             <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RoomVav01</rdfs:comment>
-        </owl:Class>
-<owl:Class rdf:about="https://si-ra.github.io/ontologies/ccba.owl#GMS_desigo_px_EOT_BA_FW_RX_Vav01_10">
-            <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#Object"/>
-
-            <ontology:managedType rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#Point"/>   
-            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Desigo PX-RX Vav01</rdfs:comment>
         </owl:Class>
 <owl:Class rdf:about="https://si-ra.github.io/ontologies/ccba.owl#RoomInt03">
             <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#FunctionType"/>
@@ -507,12 +357,6 @@
 
             <ontology:managedType rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#UnknownManagedType"/>   
             <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RoomInt15</rdfs:comment>
-        </owl:Class>
-<owl:Class rdf:about="https://si-ra.github.io/ontologies/ccba.owl#GMS_desigo_px_EOT_BA_FW_RX_Vav08_10">
-            <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#Object"/>
-
-            <ontology:managedType rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#Point"/>   
-            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Desigo PX-RX Vav08</rdfs:comment>
         </owl:Class>
 <owl:Class rdf:about="https://si-ra.github.io/ontologies/ccba.owl#RoomInt17">
             <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#FunctionType"/>
@@ -538,12 +382,6 @@
             <ontology:managedType rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#UnknownManagedType"/>   
             <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RoomRad01</rdfs:comment>
         </owl:Class>
-<owl:Class rdf:about="https://si-ra.github.io/ontologies/ccba.owl#GMS_desigo_px_EOT_BA_FW_RX_Rad01_10">
-            <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#Object"/>
-
-            <ontology:managedType rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#Point"/>   
-            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Desigo PX-RX Rad01</rdfs:comment>
-        </owl:Class>
 <owl:Class rdf:about="https://si-ra.github.io/ontologies/ccba.owl#GMS_desigo_px_EOT_BA_PX_AVar_10">
             <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#Object"/>
 
@@ -556,23 +394,17 @@
             <ontology:managedType rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#UnknownManagedType"/>   
             <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RoomVav14</rdfs:comment>
         </owl:Class>
-<owl:Class rdf:about="https://si-ra.github.io/ontologies/ccba.owl#GMS_desigo_px_EOT_BA_FW_RX_Vav14_10">
+<owl:Class rdf:about="https://si-ra.github.io/ontologies/ccba.owl#GMS_desigo_px_EOT_BA_PX_AI_10">
             <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#Object"/>
 
-            <ontology:managedType rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#Point"/>   
-            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Desigo PX-RX Vav14</rdfs:comment>
+            <ontology:managedType rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#BACnetPoint"/>   
+            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Desigo PX Analog Input</rdfs:comment>
         </owl:Class>
 <owl:Class rdf:about="https://si-ra.github.io/ontologies/ccba.owl#GMS_desigo_px_EOT_BA_PX_AI_RED_10">
             <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#Object"/>
 
             <ontology:managedType rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#BACnetPoint"/>   
             <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Desigo PX Analog Input Reduced</rdfs:comment>
-        </owl:Class>
-<owl:Class rdf:about="https://si-ra.github.io/ontologies/ccba.owl#GMS_desigo_px_EOT_BA_PX_ASCHED_10">
-            <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#Object"/>
-
-            <ontology:managedType rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#BACnetSchedule"/>   
-            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Desigo PX Analog Scheduler</rdfs:comment>
         </owl:Class>
 <owl:Class rdf:about="https://si-ra.github.io/ontologies/ccba.owl#GMS_desigo_px_EOT_BA_PX_AVAL_10">
             <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#Object"/>
@@ -604,12 +436,6 @@
             <ontology:managedType rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#BACnetPoint"/>   
             <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Desigo PX Binary Output Reduced</rdfs:comment>
         </owl:Class>
-<owl:Class rdf:about="https://si-ra.github.io/ontologies/ccba.owl#GMS_desigo_px_EOT_BA_PX_BSCHED_10">
-            <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#Object"/>
-
-            <ontology:managedType rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#BACnetSchedule"/>   
-            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Desigo PX Binary Scheduler</rdfs:comment>
-        </owl:Class>
 <owl:Class rdf:about="https://si-ra.github.io/ontologies/ccba.owl#GMS_desigo_px_EOT_BA_PX_BVAL_10">
             <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#Object"/>
 
@@ -622,17 +448,17 @@
             <ontology:managedType rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#BACnetPoint"/>   
             <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Desigo PX Binary Value Operating</rdfs:comment>
         </owl:Class>
+<owl:Class rdf:about="https://si-ra.github.io/ontologies/ccba.owl#GMS_desigo_px_EOT_BA_PX_CI_10">
+            <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#Object"/>
+
+            <ontology:managedType rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#BACnetPoint"/>   
+            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Desigo PX Counter Input</rdfs:comment>
+        </owl:Class>
 <owl:Class rdf:about="https://si-ra.github.io/ontologies/ccba.owl#GMS_desigo_px_EOT_BA_PX_CI_ACC_10">
             <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#Object"/>
 
             <ontology:managedType rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#BACnetPoint"/>   
             <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Desigo PX Accumulator</rdfs:comment>
-        </owl:Class>
-<owl:Class rdf:about="https://si-ra.github.io/ontologies/ccba.owl#GMS_desigo_px_EOT_BA_PX_CMD_10">
-            <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#Object"/>
-
-            <ontology:managedType rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#BACnetCommandTable"/>   
-            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Desigo PX Command</rdfs:comment>
         </owl:Class>
 <owl:Class rdf:about="https://si-ra.github.io/ontologies/ccba.owl#CommandDigital">
             <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#FunctionType"/>
@@ -640,23 +466,11 @@
             <ontology:managedType rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#UnknownManagedType"/>   
             <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CommandDigital Enum (Generic)</rdfs:comment>
         </owl:Class>
-<owl:Class rdf:about="https://si-ra.github.io/ontologies/ccba.owl#GMS_desigo_px_EOT_BA_PX_CMD_CTL_10">
-            <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#Object"/>
-
-            <ontology:managedType rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#BACnetPoint"/>   
-            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Desigo PX Command Control</rdfs:comment>
-        </owl:Class>
 <owl:Class rdf:about="https://si-ra.github.io/ontologies/ccba.owl#PltCtl">
             <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#FunctionType"/>
 
             <ontology:managedType rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#UnknownManagedType"/>   
             <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PltCtl</rdfs:comment>
-        </owl:Class>
-<owl:Class rdf:about="https://si-ra.github.io/ontologies/ccba.owl#GMS_desigo_px_EOT_BA_PX_EVTERL_10">
-            <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#Object"/>
-
-            <ontology:managedType rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#BACnetEventEnrollment"/>   
-            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Desigo PX Event Enrollment</rdfs:comment>
         </owl:Class>
 <owl:Class rdf:about="https://si-ra.github.io/ontologies/ccba.owl#ObserverEE">
             <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#FunctionType"/>
@@ -712,23 +526,11 @@
             <ontology:managedType rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#BACnetPoint"/>   
             <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Desigo PX Multistate Value Operating</rdfs:comment>
         </owl:Class>
-<owl:Class rdf:about="https://si-ra.github.io/ontologies/ccba.owl#GMS_desigo_px_EOT_BA_PX_PID_CTR_10">
-            <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#Object"/>
-
-            <ontology:managedType rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#BACnetPoint"/>   
-            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Desigo PX Pid Controller</rdfs:comment>
-        </owl:Class>
 <owl:Class rdf:about="https://si-ra.github.io/ontologies/ccba.owl#FnctController">
             <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#FunctionType"/>
 
             <ontology:managedType rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#UnknownManagedType"/>   
             <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FnctController</rdfs:comment>
-        </owl:Class>
-<owl:Class rdf:about="https://si-ra.github.io/ontologies/ccba.owl#GMS_desigo_px_EOT_BA_PX_PWR_CTL_10">
-            <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#Object"/>
-
-            <ontology:managedType rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#BACnetPoint"/>   
-            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Desigo PX Power Control</rdfs:comment>
         </owl:Class>
 <owl:Class rdf:about="https://si-ra.github.io/ontologies/ccba.owl#PwrCtl">
             <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#FunctionType"/>
@@ -736,23 +538,11 @@
             <ontology:managedType rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#UnknownManagedType"/>   
             <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PwrCtl</rdfs:comment>
         </owl:Class>
-<owl:Class rdf:about="https://si-ra.github.io/ontologies/ccba.owl#GMS_desigo_px_EOT_BA_PX_SCHED_10">
-            <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#Object"/>
-
-            <ontology:managedType rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#BACnetSchedule"/>   
-            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Desigo PX Scheduler</rdfs:comment>
-        </owl:Class>
 <owl:Class rdf:about="https://si-ra.github.io/ontologies/ccba.owl#GMS_desigo_px_EOT_BA_PX_TRNDMLT_10">
             <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#Object"/>
 
             <ontology:managedType rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#TrendLog"/>   
             <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Desigo PX Trend Log Multi</rdfs:comment>
-        </owl:Class>
-<owl:Class rdf:about="https://si-ra.github.io/ontologies/ccba.owl#GMS_Aggregator">
-            <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#Object"/>
-
-            <ontology:managedType rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#Aggregator"/>   
-            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aggregator</rdfs:comment>
         </owl:Class>
 <owl:Class rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Ahu01">
             <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#FunctionType"/>
@@ -777,12 +567,6 @@
 
             <ontology:managedType rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#UnknownManagedType"/>   
             <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ValveVariable</rdfs:comment>
-        </owl:Class>
-<owl:Class rdf:about="https://si-ra.github.io/ontologies/ccba.owl#GMS_desigo_px_EOT_BA_PX_CMN_ALM_10">
-            <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#Object"/>
-
-            <ontology:managedType rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#BACnetPoint"/>   
-            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Desigo PX Common Alarm</rdfs:comment>
         </owl:Class>
 <owl:Class rdf:about="https://si-ra.github.io/ontologies/ccba.owl#CmnAlarm">
             <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#FunctionType"/>
@@ -946,12 +730,6 @@
             <ontology:managedType rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#UnknownManagedType"/>   
             <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MonitorFlow</rdfs:comment>
         </owl:Class>
-<owl:Class rdf:about="https://si-ra.github.io/ontologies/ccba.owl#GMS_desigo_px_EOT_BA_FW_Hvac_KickFnct_10">
-            <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#Object"/>
-
-            <ontology:managedType rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#Point"/>   
-            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Desigo PX-FW Hvac KickFnct</rdfs:comment>
-        </owl:Class>
 <owl:Class rdf:about="https://si-ra.github.io/ontologies/ccba.owl#KickFnct">
             <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#FunctionType"/>
 
@@ -988,23 +766,11 @@
             <ontology:managedType rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#UnknownManagedType"/>   
             <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">XCasCtl</rdfs:comment>
         </owl:Class>
-<owl:Class rdf:about="https://si-ra.github.io/ontologies/ccba.owl#GMS_desigo_px_EOT_BA_FW_Ctrl_CasCtr_10">
-            <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#Object"/>
-
-            <ontology:managedType rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#Point"/>   
-            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Desigo PX-FW Control Cascasde controller</rdfs:comment>
-        </owl:Class>
 <owl:Class rdf:about="https://si-ra.github.io/ontologies/ccba.owl#CasCtr">
             <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#FunctionType"/>
 
             <ontology:managedType rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#UnknownManagedType"/>   
             <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CasCtr</rdfs:comment>
-        </owl:Class>
-<owl:Class rdf:about="https://si-ra.github.io/ontologies/ccba.owl#GMS_desigo_px_EOT_BA_FW_Math_Char_10">
-            <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#Object"/>
-
-            <ontology:managedType rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#Point"/>   
-            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Desigo PX-FW Math Char</rdfs:comment>
         </owl:Class>
 <owl:Class rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Char">
             <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#FunctionType"/>
@@ -1096,6 +862,12 @@
             <ontology:managedType rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#UnknownManagedType"/>   
             <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FanMdlt</rdfs:comment>
         </owl:Class>
+<owl:Class rdf:about="https://si-ra.github.io/ontologies/ccba.owl#GMS_desigo_px_EOT_BA_PX_Block_10">
+            <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#Object"/>
+
+            <ontology:managedType rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#Point"/>   
+            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Desigo PX Block</rdfs:comment>
+        </owl:Class>
 <owl:Class rdf:about="https://si-ra.github.io/ontologies/ccba.owl#SensorRoomHumidity">
             <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#FunctionType"/>
 
@@ -1155,12 +927,6 @@
 
             <ontology:managedType rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#UnknownManagedType"/>   
             <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HCMxCrt20</rdfs:comment>
-        </owl:Class>
-<owl:Class rdf:about="https://si-ra.github.io/ontologies/ccba.owl#GMS_desigo_px_EOT_BA_FW_Hvac_PwmCtl_10">
-            <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#Object"/>
-
-            <ontology:managedType rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#Point"/>   
-            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Desigo PX-FW Hvac Pulsewidth Modulation Control</rdfs:comment>
         </owl:Class>
 <owl:Class rdf:about="https://si-ra.github.io/ontologies/ccba.owl#PWMCtl">
             <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#FunctionType"/>
@@ -1398,409 +1164,409 @@
 <owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Light"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectType"/></owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Blinds"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectType"/></owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Manual"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Unassigned"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Plant"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Variable"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Binary"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Multi-state"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Variable"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Binary"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Multi-state"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#FixDome"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#PTZ"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Fix"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#360°"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#180°"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Panorama"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Collective"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Gas"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Transponder"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Wireless"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Variable"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Binary"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Multi-state"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#ControlRoom"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Mobile"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Web"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Analog"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Binary"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Multi-state"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Server"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#ManagementStation"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Variable"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Binary"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Multi-state"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Evacuation"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Generic"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#UGA"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Pseudo"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#CabinetProtection"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Locking"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Magnetic"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#PanelAccess"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Alarm"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Evacuation"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#EvacuationUnit"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Fire"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#RemoteDevice"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#RemoteFault"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#RemoteFire"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#RemoteSounder"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Sprinkler"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Tamper"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#UGA"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#PMI"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Terminal"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Variable"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Binary"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Multi-state"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Water"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Directexpension"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Plant"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Variable"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Binary"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Multi-state"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Plant"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Variable"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Binary"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Multi-state"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Exhaust"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#FaceBypass"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Fire"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Mixing"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Outside"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Recirculating"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Smoke"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Supply"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Extract"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Variable"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Binary"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Multi-state"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Alarm"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Condenser"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#DifferentialPressure"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Door"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Electrical"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Error"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Filter"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Flame"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Flow"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Frost"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Gas"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Humidity"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Level"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Mode"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Occupancy"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Presence"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Pressure"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Rain"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Smoke"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Status"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Tamper"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Temperature"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Wind"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Window"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Automatic"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Manual"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Changeover"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Dewpoint"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Fault"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Velocity"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Pseudo"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#CardReader"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#HardDisk"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Keyboard"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Monitor"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#SMSGateway"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#SupervisionCard"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#TAPGateway"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Automationstation"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Automationstationinformation"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Router"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Web"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Gateway"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#FEP"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#PMIDisplay"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Plant"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#File"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#HTML"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#PDF"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#RTF"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#TXT"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#BACnetClient"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Comark"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#OPCClient"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#OPCServer"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#SNMP"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#WMI"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#X-Net"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Fire"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Sprinkler"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Variable"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Binary"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Multi-state"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Variable"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Binary"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Multi-state"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Plateheatexchanger"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Run-aroundcoil"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Rotatingheatexchanger"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Variable"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Binary"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Multi-state"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#CoolingTower"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Exhaust"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#MultiState"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Return"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Supply"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#VariableSpeed"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Extract"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Outside"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Binary"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Simple"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Double"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Particulate"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Electronic"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Air"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Water"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Controller"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#HeatCurve"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Kick"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#PlantControl"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#SummerWinter"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Cascasde"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Heatrelease"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Optimumstartstop"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Changeover"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Solar"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Wheaterstation"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Characteristic"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Legionella"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Coordinator"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Peakdemandlimiting"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#EnergyMonitoring"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Page"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Symbol"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Template"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Viewport"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#BACnet"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#OPC"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Video"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Plant"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Variable"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Binary"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Multi-state"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Variable"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Binary"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Multi-state"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Preheating"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Reheating"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Plant"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Variable"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Binary"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Multi-state"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Variable"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Binary"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Multi-state"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Airwasher"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Steam"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#ColdSteam"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#ElectricalSteam"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Ultrasonic"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Binary"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#BinarySupervised"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Relay"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#JournalingPrinter"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#AlarmTable"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Function"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#GraphicTemplate"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Icon"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#ImportRule"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Media"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#ObjectModel"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Symbol"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#TextGroup"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#PullStation"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#CallPoint"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Alarming"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#CPUCard"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Expander"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#External"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Gateway"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Horn"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#I/OCard"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#InterfaceCard"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#LineCard"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Notification"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#RemoteTransmission"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#StandbyCPUCard"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#StandbyInterfaceCard"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Variable"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Binary"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Multi-state"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#BACnet"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Comark"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#OPC"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#SNMP"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#WMI"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#X-Net"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#EventEnrollment"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#NotificationClass"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#RemoteNotification"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Binary"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#BinarySupervised"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Relay"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Battery"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Main"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Standby"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Variable"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Binary"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Multi-state"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#LocalPrinter"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#ServerPrinter"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#AlarmBlock"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Application"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#BACnetLoop"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#BACnetProgram"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Clock"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#CommandSequence"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#LoadControl"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#ObjectList"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#PDL"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#PPCLProgram"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Profile"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Program"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#TimeProgram"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#ChilledWater"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#CondenserWater"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#DomesticWater"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#HotWater"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#MultiState"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Oil"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Sump"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#VariableSpeed"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Binary"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Twin"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#EventReport"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#StandardReport"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Template"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Calendar"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#CommandGroup"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Schedule"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#TimeTrigger"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#AirQuality"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#CO2"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#DifferentialPressure"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Filter"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Flow"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Humidity"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Level"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Lux"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Position"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Pressure"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Quality"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Solar"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Temperature"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Wind"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Changeover"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Speed"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Velocity"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Video"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#DatabaseEngine"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#FEP"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#HistoryDatabase"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#MainServer"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#WebServer"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Extension"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#AirQuality"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Analog"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Binary"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#CO2"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#DifferentialPressure"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Electrical"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Enthalpy"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Flow"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Gain"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Humidity"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Level"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Limit"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Lux"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Mode"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Position"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Pressure"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Temperature"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Time"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Binary"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Multistate"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Manual"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Maintenance"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Selector"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Log"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#OfflineTrend"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#OnlineTrend"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#TrendLogDefinition"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#View"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Variable"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Binary"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Multi-state"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Accumulator"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Analog"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Binary"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Consumption"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Cosine"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Current"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Energy"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Frequency"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Multi-state"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Power"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Time"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Voltage"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Volume"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Bypass"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Cooling"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Gas"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Heating"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Humidity"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Isolation"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Changeover"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Binary"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Variable"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Area"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Building"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Campus"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Cluster"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Door"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Facility"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Floor"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Group"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Plant"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Room"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#RootFolder"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Section"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#StructuredView"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#SystemFolder"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Unit"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#UserDefinedFolder"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Zone"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Automatic"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Manual"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Technical"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Burglary"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Extinguishing"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Sprinkler"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Gas"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Plant"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Plant"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Plant"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Plant"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Variable"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Binary"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Multi-state"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Display"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Alarm"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Sequence"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#GroupSwitching"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
-<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#EmergencyLight"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubType"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Unassigned"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Plant"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Variable"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Binary"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Multi-state"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Variable"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Binary"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Multi-state"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#FixDome"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#PTZ"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Fix"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#360°"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#180°"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Panorama"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Collective"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Gas"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Transponder"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Wireless"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Variable"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Binary"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Multi-state"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#ControlRoom"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Mobile"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Web"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Analog"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Binary"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Multi-state"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Server"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#ManagementStation"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Variable"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Binary"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Multi-state"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Evacuation"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Generic"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#UGA"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Pseudo"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#CabinetProtection"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Locking"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Magnetic"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#PanelAccess"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Alarm"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Evacuation"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#EvacuationUnit"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Fire"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#RemoteDevice"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#RemoteFault"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#RemoteFire"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#RemoteSounder"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Sprinkler"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Tamper"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#UGA"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#PMI"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Terminal"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Variable"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Binary"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Multi-state"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Water"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Directexpension"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Plant"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Variable"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Binary"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Multi-state"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Plant"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Variable"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Binary"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Multi-state"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Exhaust"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#FaceBypass"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Fire"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Mixing"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Outside"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Recirculating"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Smoke"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Supply"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Extract"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Variable"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Binary"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Multi-state"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Alarm"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Condenser"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#DifferentialPressure"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Door"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Electrical"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Error"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Filter"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Flame"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Flow"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Frost"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Gas"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Humidity"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Level"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Mode"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Occupancy"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Presence"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Pressure"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Rain"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Smoke"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Status"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Tamper"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Temperature"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Wind"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Window"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Automatic"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Manual"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Changeover"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Dewpoint"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Fault"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Velocity"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Pseudo"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#CardReader"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#HardDisk"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Keyboard"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Monitor"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#SMSGateway"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#SupervisionCard"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#TAPGateway"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Automationstation"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Automationstationinformation"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Router"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Web"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Gateway"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#FEP"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#PMIDisplay"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Plant"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#File"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#HTML"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#PDF"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#RTF"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#TXT"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#BACnetClient"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Comark"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#OPCClient"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#OPCServer"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#SNMP"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#WMI"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#X-Net"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Fire"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Sprinkler"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Variable"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Binary"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Multi-state"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Variable"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Binary"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Multi-state"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Plateheatexchanger"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Run-aroundcoil"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Rotatingheatexchanger"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Variable"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Binary"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Multi-state"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#CoolingTower"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Exhaust"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#MultiState"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Return"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Supply"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#VariableSpeed"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Extract"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Outside"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Binary"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Simple"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Double"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Particulate"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Electronic"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Air"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Water"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Controller"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#HeatCurve"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Kick"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#PlantControl"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#SummerWinter"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Cascasde"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Heatrelease"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Optimumstartstop"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Changeover"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Solar"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Wheaterstation"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Characteristic"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Legionella"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Coordinator"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Peakdemandlimiting"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#EnergyMonitoring"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Page"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Symbol"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Template"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Viewport"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#BACnet"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#OPC"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Video"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Plant"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Variable"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Binary"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Multi-state"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Variable"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Binary"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Multi-state"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Preheating"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Reheating"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Plant"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Variable"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Binary"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Multi-state"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Variable"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Binary"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Multi-state"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Airwasher"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Steam"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#ColdSteam"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#ElectricalSteam"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Ultrasonic"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Binary"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#BinarySupervised"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Relay"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#JournalingPrinter"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#AlarmTable"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Function"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#GraphicTemplate"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Icon"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#ImportRule"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Media"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#ObjectModel"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Symbol"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#TextGroup"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#PullStation"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#CallPoint"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Alarming"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#CPUCard"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Expander"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#External"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Gateway"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Horn"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#I/OCard"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#InterfaceCard"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#LineCard"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Notification"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#RemoteTransmission"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#StandbyCPUCard"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#StandbyInterfaceCard"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Variable"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Binary"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Multi-state"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#BACnet"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Comark"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#OPC"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#SNMP"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#WMI"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#X-Net"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#EventEnrollment"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#NotificationClass"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#RemoteNotification"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Binary"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#BinarySupervised"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Relay"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Battery"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Main"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Standby"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Variable"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Binary"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Multi-state"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#LocalPrinter"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#ServerPrinter"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#AlarmBlock"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Application"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#BACnetLoop"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#BACnetProgram"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Clock"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#CommandSequence"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#LoadControl"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#ObjectList"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#PDL"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#PPCLProgram"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Profile"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Program"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#TimeProgram"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#ChilledWater"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#CondenserWater"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#DomesticWater"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#HotWater"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#MultiState"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Oil"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Sump"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#VariableSpeed"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Binary"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Twin"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#EventReport"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#StandardReport"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Template"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Calendar"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#CommandGroup"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Schedule"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#TimeTrigger"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#AirQuality"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#CO2"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#DifferentialPressure"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Filter"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Flow"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Humidity"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Level"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Lux"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Position"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Pressure"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Quality"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Solar"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Temperature"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Wind"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Changeover"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Speed"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Velocity"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Video"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#DatabaseEngine"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#FEP"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#HistoryDatabase"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#MainServer"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#WebServer"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Extension"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#AirQuality"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Analog"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Binary"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#CO2"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#DifferentialPressure"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Electrical"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Enthalpy"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Flow"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Gain"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Humidity"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Level"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Limit"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Lux"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Mode"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Position"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Pressure"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Temperature"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Time"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Binary"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Multistate"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Manual"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Maintenance"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Selector"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Log"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#OfflineTrend"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#OnlineTrend"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#TrendLogDefinition"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#View"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Variable"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Binary"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Multi-state"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Accumulator"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Analog"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Binary"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Consumption"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Cosine"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Current"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Energy"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Frequency"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Multi-state"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Power"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Time"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Voltage"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Volume"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Bypass"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Cooling"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Gas"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Heating"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Humidity"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Isolation"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Changeover"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Binary"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Variable"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Area"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Building"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Campus"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Cluster"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Door"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Facility"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Floor"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Group"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Plant"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Room"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#RootFolder"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Section"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#StructuredView"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#SystemFolder"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Unit"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#UserDefinedFolder"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Zone"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Automatic"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Manual"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Technical"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Burglary"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Extinguishing"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Sprinkler"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Gas"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Plant"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Plant"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Plant"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Plant"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Variable"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Binary"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Multi-state"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Display"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Alarm"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Sequence"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#GroupSwitching"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#EmergencyLight"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype"/></owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#ManagementSystem"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#Discipline"/></owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#BuildingInfrastructure"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#Discipline"/></owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#BuildingAutomation"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#Discipline"/></owl:NamedIndividual>
