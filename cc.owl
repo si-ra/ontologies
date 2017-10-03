@@ -1,0 +1,669 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://si-ra.github.io/ontologies/cc.owl#"
+     xml:base="https://si-ra.github.io/ontologies/cc.owl"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="https://si-ra.github.io/ontologies/cc.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/cc.owl#managedType -->
+
+    <owl:AnnotationProperty rdf:about="https://si-ra.github.io/ontologies/cc.owl#managedType">
+        <rdfs:range rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ManagedType"/>
+        <rdfs:domain rdf:resource="https://si-ra.github.io/ontologies/cc.owl#FunctionType"/>
+        <rdfs:domain rdf:resource="https://si-ra.github.io/ontologies/cc.owl#Object"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/cc.owl#GmsAny -->
+
+    <rdfs:Datatype rdf:about="https://si-ra.github.io/ontologies/cc.owl#GmsAny">
+        <owl:equivalentClass>
+            <rdfs:Datatype>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://si-ra.github.io/ontologies/cc.owl#GmsBitString"/>
+                    <rdf:Description rdf:about="https://si-ra.github.io/ontologies/cc.owl#GmsBool"/>
+                    <rdf:Description rdf:about="https://si-ra.github.io/ontologies/cc.owl#GmsDateTime"/>
+                    <rdf:Description rdf:about="https://si-ra.github.io/ontologies/cc.owl#GmsDuration"/>
+                    <rdf:Description rdf:about="https://si-ra.github.io/ontologies/cc.owl#GmsEnum"/>
+                    <rdf:Description rdf:about="https://si-ra.github.io/ontologies/cc.owl#GmsInt"/>
+                    <rdf:Description rdf:about="https://si-ra.github.io/ontologies/cc.owl#GmsReal"/>
+                    <rdf:Description rdf:about="https://si-ra.github.io/ontologies/cc.owl#GmsUint"/>
+                    <rdf:Description rdf:about="https://si-ra.github.io/ontologies/cc.owl#PvssString"/>
+                </owl:unionOf>
+            </rdfs:Datatype>
+        </owl:equivalentClass>
+    </rdfs:Datatype>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/cc.owl#GmsBitString -->
+
+    <rdfs:Datatype rdf:about="https://si-ra.github.io/ontologies/cc.owl#GmsBitString">
+        <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </rdfs:Datatype>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/cc.owl#GmsBool -->
+
+    <rdfs:Datatype rdf:about="https://si-ra.github.io/ontologies/cc.owl#GmsBool">
+        <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </rdfs:Datatype>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/cc.owl#GmsDateTime -->
+
+    <rdfs:Datatype rdf:about="https://si-ra.github.io/ontologies/cc.owl#GmsDateTime">
+        <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </rdfs:Datatype>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/cc.owl#GmsDuration -->
+
+    <rdfs:Datatype rdf:about="https://si-ra.github.io/ontologies/cc.owl#GmsDuration">
+        <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedLong"/>
+    </rdfs:Datatype>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/cc.owl#GmsEnum -->
+
+    <rdfs:Datatype rdf:about="https://si-ra.github.io/ontologies/cc.owl#GmsEnum">
+        <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedInt"/>
+    </rdfs:Datatype>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/cc.owl#GmsInt -->
+
+    <rdfs:Datatype rdf:about="https://si-ra.github.io/ontologies/cc.owl#GmsInt">
+        <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </rdfs:Datatype>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/cc.owl#GmsReal -->
+
+    <rdfs:Datatype rdf:about="https://si-ra.github.io/ontologies/cc.owl#GmsReal">
+        <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </rdfs:Datatype>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/cc.owl#GmsUint -->
+
+    <rdfs:Datatype rdf:about="https://si-ra.github.io/ontologies/cc.owl#GmsUint"/>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/cc.owl#PvssString -->
+
+    <rdfs:Datatype rdf:about="https://si-ra.github.io/ontologies/cc.owl#PvssString">
+        <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </rdfs:Datatype>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/cc.owl#belongsToView -->
+
+    <owl:ObjectProperty rdf:about="https://si-ra.github.io/ontologies/cc.owl#belongsToView">
+        <rdfs:domain rdf:resource="https://si-ra.github.io/ontologies/cc.owl#CNSNode"/>
+        <rdfs:range rdf:resource="https://si-ra.github.io/ontologies/cc.owl#View"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/cc.owl#hasAlarm -->
+
+    <owl:ObjectProperty rdf:about="https://si-ra.github.io/ontologies/cc.owl#hasAlarm">
+        <rdfs:domain rdf:resource="https://si-ra.github.io/ontologies/cc.owl#Property"/>
+        <rdfs:range rdf:resource="https://si-ra.github.io/ontologies/cc.owl#AlarmConfiguration"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/cc.owl#hasChildNode -->
+
+    <owl:ObjectProperty rdf:about="https://si-ra.github.io/ontologies/cc.owl#hasChildNode">
+        <rdfs:subPropertyOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#hasLink"/>
+        <owl:inverseOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#hasParentNode"/>
+        <rdfs:domain rdf:resource="https://si-ra.github.io/ontologies/cc.owl#CNSNode"/>
+        <rdfs:range rdf:resource="https://si-ra.github.io/ontologies/cc.owl#CNSNode"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/cc.owl#hasCommand -->
+
+    <owl:ObjectProperty rdf:about="https://si-ra.github.io/ontologies/cc.owl#hasCommand">
+        <rdfs:domain rdf:resource="https://si-ra.github.io/ontologies/cc.owl#Property"/>
+        <rdfs:range rdf:resource="https://si-ra.github.io/ontologies/cc.owl#CommandConfiguration"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/cc.owl#hasConversion -->
+
+    <owl:ObjectProperty rdf:about="https://si-ra.github.io/ontologies/cc.owl#hasConversion">
+        <rdfs:domain rdf:resource="https://si-ra.github.io/ontologies/cc.owl#Property"/>
+        <rdfs:range rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ConversionConfiguration"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/cc.owl#hasDefaultProperty -->
+
+    <owl:ObjectProperty rdf:about="https://si-ra.github.io/ontologies/cc.owl#hasDefaultProperty">
+        <rdfs:subPropertyOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#hasProperty"/>
+        <rdfs:domain rdf:resource="https://si-ra.github.io/ontologies/cc.owl#Object"/>
+        <rdfs:range rdf:resource="https://si-ra.github.io/ontologies/cc.owl#Property"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/cc.owl#hasFunction -->
+
+    <owl:ObjectProperty rdf:about="https://si-ra.github.io/ontologies/cc.owl#hasFunction">
+        <rdfs:domain rdf:resource="https://si-ra.github.io/ontologies/cc.owl#Object"/>
+        <rdfs:range rdf:resource="https://si-ra.github.io/ontologies/cc.owl#FunctionType"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/cc.owl#hasFunctionMapper -->
+
+    <owl:ObjectProperty rdf:about="https://si-ra.github.io/ontologies/cc.owl#hasFunctionMapper">
+        <rdfs:domain rdf:resource="https://si-ra.github.io/ontologies/cc.owl#Object"/>
+        <rdfs:range rdf:resource="https://si-ra.github.io/ontologies/cc.owl#FunctionMapper"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/cc.owl#hasIdentifier -->
+
+    <owl:ObjectProperty rdf:about="https://si-ra.github.io/ontologies/cc.owl#hasIdentifier">
+        <rdfs:domain rdf:resource="https://si-ra.github.io/ontologies/cc.owl#Object"/>
+        <rdfs:domain rdf:resource="https://si-ra.github.io/ontologies/cc.owl#Property"/>
+        <rdfs:range rdf:resource="https://si-ra.github.io/ontologies/cc.owl#DPIdentifier"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/cc.owl#hasLink -->
+
+    <owl:ObjectProperty rdf:about="https://si-ra.github.io/ontologies/cc.owl#hasLink"/>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/cc.owl#hasMappingFunction -->
+
+    <owl:ObjectProperty rdf:about="https://si-ra.github.io/ontologies/cc.owl#hasMappingFunction">
+        <rdfs:domain rdf:resource="https://si-ra.github.io/ontologies/cc.owl#FunctionMapper"/>
+        <rdfs:range rdf:resource="https://si-ra.github.io/ontologies/cc.owl#FunctionType"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/cc.owl#hasParentNode -->
+
+    <owl:ObjectProperty rdf:about="https://si-ra.github.io/ontologies/cc.owl#hasParentNode">
+        <rdfs:subPropertyOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#hasLink"/>
+        <rdfs:domain rdf:resource="https://si-ra.github.io/ontologies/cc.owl#CNSNode"/>
+        <rdfs:range rdf:resource="https://si-ra.github.io/ontologies/cc.owl#CNSNode"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/cc.owl#hasProperty -->
+
+    <owl:ObjectProperty rdf:about="https://si-ra.github.io/ontologies/cc.owl#hasProperty">
+        <rdfs:domain rdf:resource="https://si-ra.github.io/ontologies/cc.owl#FunctionType"/>
+        <rdfs:domain rdf:resource="https://si-ra.github.io/ontologies/cc.owl#Object"/>
+        <rdfs:range rdf:resource="https://si-ra.github.io/ontologies/cc.owl#Property"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/cc.owl#hasPropertyMap -->
+
+    <owl:ObjectProperty rdf:about="https://si-ra.github.io/ontologies/cc.owl#hasPropertyMap">
+        <rdfs:domain rdf:resource="https://si-ra.github.io/ontologies/cc.owl#FunctionMapper"/>
+        <rdfs:range rdf:resource="https://si-ra.github.io/ontologies/cc.owl#PropertyMap"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/cc.owl#hasRelatedItem -->
+
+    <owl:ObjectProperty rdf:about="https://si-ra.github.io/ontologies/cc.owl#hasRelatedItem">
+        <rdfs:subPropertyOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#hasLink"/>
+        <rdfs:domain rdf:resource="https://si-ra.github.io/ontologies/cc.owl#Property"/>
+        <rdfs:range rdf:resource="https://si-ra.github.io/ontologies/cc.owl#DPIdentifier"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/cc.owl#hasRootNode -->
+
+    <owl:ObjectProperty rdf:about="https://si-ra.github.io/ontologies/cc.owl#hasRootNode">
+        <rdfs:domain rdf:resource="https://si-ra.github.io/ontologies/cc.owl#View"/>
+        <rdfs:range rdf:resource="https://si-ra.github.io/ontologies/cc.owl#CNSNode"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/cc.owl#hasSmoothing -->
+
+    <owl:ObjectProperty rdf:about="https://si-ra.github.io/ontologies/cc.owl#hasSmoothing">
+        <rdfs:domain rdf:resource="https://si-ra.github.io/ontologies/cc.owl#Property"/>
+        <rdfs:range rdf:resource="https://si-ra.github.io/ontologies/cc.owl#SmoothingConfiguration"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/cc.owl#hasText -->
+
+    <owl:ObjectProperty rdf:about="https://si-ra.github.io/ontologies/cc.owl#hasText">
+        <rdfs:domain rdf:resource="https://si-ra.github.io/ontologies/cc.owl#TextGroupElement"/>
+        <rdfs:range rdf:resource="https://si-ra.github.io/ontologies/cc.owl#MultiLanguageText"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/cc.owl#hasTextGroup -->
+
+    <owl:ObjectProperty rdf:about="https://si-ra.github.io/ontologies/cc.owl#hasTextGroup">
+        <rdfs:range rdf:resource="https://si-ra.github.io/ontologies/cc.owl#TextGroup"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/cc.owl#hasTextGroupElement -->
+
+    <owl:ObjectProperty rdf:about="https://si-ra.github.io/ontologies/cc.owl#hasTextGroupElement">
+        <rdfs:domain rdf:resource="https://si-ra.github.io/ontologies/cc.owl#TextGroup"/>
+        <rdfs:range rdf:resource="https://si-ra.github.io/ontologies/cc.owl#TextGroupElement"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/cc.owl#hasDatapointObjectId -->
+
+    <owl:DatatypeProperty rdf:about="https://si-ra.github.io/ontologies/cc.owl#hasDatapointObjectId">
+        <rdfs:domain rdf:resource="https://si-ra.github.io/ontologies/cc.owl#CNSNode"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/cc.owl#hasDescription -->
+
+    <owl:DatatypeProperty rdf:about="https://si-ra.github.io/ontologies/cc.owl#hasDescription">
+        <rdfs:domain rdf:resource="https://si-ra.github.io/ontologies/cc.owl#CNSNode"/>
+        <rdfs:domain rdf:resource="https://si-ra.github.io/ontologies/cc.owl#Object"/>
+        <rdfs:domain rdf:resource="https://si-ra.github.io/ontologies/cc.owl#Property"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/cc.owl#hasDiscipline -->
+
+    <owl:DatatypeProperty rdf:about="https://si-ra.github.io/ontologies/cc.owl#hasDiscipline"/>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/cc.owl#hasEquivalentValueType -->
+
+    <owl:DatatypeProperty rdf:about="https://si-ra.github.io/ontologies/cc.owl#hasEquivalentValueType">
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/cc.owl#hasIcon -->
+
+    <owl:DatatypeProperty rdf:about="https://si-ra.github.io/ontologies/cc.owl#hasIcon">
+        <rdfs:domain rdf:resource="https://si-ra.github.io/ontologies/cc.owl#Property"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/cc.owl#hasMax -->
+
+    <owl:DatatypeProperty rdf:about="https://si-ra.github.io/ontologies/cc.owl#hasMax"/>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/cc.owl#hasMin -->
+
+    <owl:DatatypeProperty rdf:about="https://si-ra.github.io/ontologies/cc.owl#hasMin"/>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/cc.owl#hasName -->
+
+    <owl:DatatypeProperty rdf:about="https://si-ra.github.io/ontologies/cc.owl#hasName">
+        <rdfs:domain rdf:resource="https://si-ra.github.io/ontologies/cc.owl#CNSNode"/>
+        <rdfs:domain rdf:resource="https://si-ra.github.io/ontologies/cc.owl#FunctionType"/>
+        <rdfs:domain rdf:resource="https://si-ra.github.io/ontologies/cc.owl#Object"/>
+        <rdfs:domain rdf:resource="https://si-ra.github.io/ontologies/cc.owl#Property"/>
+        <rdfs:domain rdf:resource="https://si-ra.github.io/ontologies/cc.owl#TextGroup"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/cc.owl#hasObjectType -->
+
+    <owl:DatatypeProperty rdf:about="https://si-ra.github.io/ontologies/cc.owl#hasObjectType"/>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/cc.owl#hasPropertyID -->
+
+    <owl:DatatypeProperty rdf:about="https://si-ra.github.io/ontologies/cc.owl#hasPropertyID">
+        <rdfs:domain rdf:resource="https://si-ra.github.io/ontologies/cc.owl#Property"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedInt"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/cc.owl#hasSystemDesignation -->
+
+    <owl:DatatypeProperty rdf:about="https://si-ra.github.io/ontologies/cc.owl#hasSystemDesignation">
+        <rdfs:domain rdf:resource="https://si-ra.github.io/ontologies/cc.owl#DPIdentifier"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/cc.owl#hasSystemIdentifier -->
+
+    <owl:DatatypeProperty rdf:about="https://si-ra.github.io/ontologies/cc.owl#hasSystemIdentifier">
+        <rdfs:domain rdf:resource="https://si-ra.github.io/ontologies/cc.owl#DPIdentifier"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/cc.owl#hasValueType -->
+
+    <owl:DatatypeProperty rdf:about="https://si-ra.github.io/ontologies/cc.owl#hasValueType">
+        <rdfs:range rdf:resource="https://si-ra.github.io/ontologies/cc.owl#GmsAny"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/cc.owl#AlarmConfiguration -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/cc.owl#AlarmConfiguration"/>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/cc.owl#CNSNode -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/cc.owl#CNSNode"/>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/cc.owl#CommandConfiguration -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/cc.owl#CommandConfiguration"/>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/cc.owl#ConversionConfiguration -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/cc.owl#ConversionConfiguration"/>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/cc.owl#DPIdentifier -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/cc.owl#DPIdentifier"/>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/cc.owl#Discipline -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/cc.owl#Discipline"/>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/cc.owl#ExtendedMapper -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/cc.owl#ExtendedMapper">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#PropertyMap"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/cc.owl#FunctionMapper -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/cc.owl#FunctionMapper"/>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/cc.owl#FunctionType -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/cc.owl#FunctionType"/>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/cc.owl#FunctionalMapper -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/cc.owl#FunctionalMapper">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#PropertyMap"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/cc.owl#LogicalViewRoot -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/cc.owl#LogicalViewRoot">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#CNSNode"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/cc.owl#ManagedType -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/cc.owl#ManagedType"/>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/cc.owl#ManagementViewRoot -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/cc.owl#ManagementViewRoot">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#CNSNode"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/cc.owl#MixedMapper -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/cc.owl#MixedMapper">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#PropertyMap"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/cc.owl#MultiLanguageText -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/cc.owl#MultiLanguageText"/>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/cc.owl#Object -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/cc.owl#Object"/>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ObjectType"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/cc.owl#ObjectType -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/cc.owl#ObjectType"/>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/cc.owl#Property -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/cc.owl#Property"/>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/cc.owl#PropertyMap -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/cc.owl#PropertyMap"/>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/cc.owl#SimpleMapper -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/cc.owl#SimpleMapper">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#PropertyMap"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/cc.owl#SmoothingConfiguration -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/cc.owl#SmoothingConfiguration"/>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/cc.owl#TextGroup -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/cc.owl#TextGroup"/>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/cc.owl#TextGroupElement -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/cc.owl#TextGroupElement"/>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/cc.owl#UserViewRoot -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/cc.owl#UserViewRoot">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#CNSNode"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/cc.owl#View -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/cc.owl#View"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/cc.owl#LogicalView -->
+
+    <owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/cc.owl#LogicalView">
+        <rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#View"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/cc.owl#ManagementView -->
+
+    <owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/cc.owl#ManagementView">
+        <rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#View"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/cc.owl#UserView -->
+
+    <owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/cc.owl#UserView">
+        <rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#View"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+

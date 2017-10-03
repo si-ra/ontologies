@@ -1,0 +1,19 @@
+{    
+    "@context": [
+      "https://w3c.github.io/wot/w3c-wot-td-context.jsonld",
+      "https://w3c.github.io/wot/w3c-wot-common-context.jsonld",
+      {
+        "gms": "https://si-ra.github.io/ontologies/cc.owl#",
+        "ba": "https://si-ra.github.io/ontologies/ccba.owl#",
+        "js:type": {
+          "@type": "@vocab"
+        },
+        "gms:hasValueType": {
+          "@type": "@vocab"
+        },
+        "js": "http://json-schema.org/ns#",
+        "minimum": "js:minimum",
+        "maximum": "js:maximum"
+      }
+    ]
+}
