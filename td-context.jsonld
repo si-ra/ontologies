@@ -16,7 +16,10 @@
         },
         "gms:hasParentNode": {
           "@type": "@vocab"
-        },                
+        },   
+		"gms:hasSiblingNode": {
+          "@type": "@vocab"
+        },
         "js": "http://json-schema.org/ns#",
         "minimum": "js:minimum",
         "maximum": "js:maximum"
