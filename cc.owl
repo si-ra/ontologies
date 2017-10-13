@@ -201,11 +201,22 @@
     
 
 
+    <!-- https://si-ra.github.io/ontologies/cc.owl#hasDatapointItem -->
+
+    <owl:ObjectProperty rdf:about="https://si-ra.github.io/ontologies/cc.owl#hasDatapointItem">
+        <rdfs:subPropertyOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#hasLink"/>
+        <owl:inverseOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#isRepresentedByNode"/>
+        <rdfs:domain rdf:resource="https://si-ra.github.io/ontologies/cc.owl#CNSNode"/>
+        <rdfs:range rdf:resource="https://si-ra.github.io/ontologies/cc.owl#Function"/>
+    </owl:ObjectProperty>
+    
+
+
     <!-- https://si-ra.github.io/ontologies/cc.owl#hasDefaultProperty -->
 
     <owl:ObjectProperty rdf:about="https://si-ra.github.io/ontologies/cc.owl#hasDefaultProperty">
         <rdfs:subPropertyOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#hasProperty"/>
-        <rdfs:domain rdf:resource="https://si-ra.github.io/ontologies/cc.owl#Object"/>
+        <rdfs:domain rdf:resource="https://si-ra.github.io/ontologies/cc.owl#TypeFunction"/>
         <rdfs:range rdf:resource="https://si-ra.github.io/ontologies/cc.owl#Property"/>
     </owl:ObjectProperty>
     
@@ -214,8 +225,8 @@
     <!-- https://si-ra.github.io/ontologies/cc.owl#hasFunction -->
 
     <owl:ObjectProperty rdf:about="https://si-ra.github.io/ontologies/cc.owl#hasFunction">
-        <rdfs:domain rdf:resource="https://si-ra.github.io/ontologies/cc.owl#Object"/>
-        <rdfs:range rdf:resource="https://si-ra.github.io/ontologies/cc.owl#FunctionType"/>
+        <rdfs:domain rdf:resource="https://si-ra.github.io/ontologies/cc.owl#TypeFunction"/>
+        <rdfs:range rdf:resource="https://si-ra.github.io/ontologies/cc.owl#SemanticFunction"/>
     </owl:ObjectProperty>
     
 
@@ -223,7 +234,7 @@
     <!-- https://si-ra.github.io/ontologies/cc.owl#hasFunctionMapper -->
 
     <owl:ObjectProperty rdf:about="https://si-ra.github.io/ontologies/cc.owl#hasFunctionMapper">
-        <rdfs:domain rdf:resource="https://si-ra.github.io/ontologies/cc.owl#Object"/>
+        <rdfs:domain rdf:resource="https://si-ra.github.io/ontologies/cc.owl#TypeFunction"/>
         <rdfs:range rdf:resource="https://si-ra.github.io/ontologies/cc.owl#FunctionMapper"/>
     </owl:ObjectProperty>
     
@@ -232,8 +243,8 @@
     <!-- https://si-ra.github.io/ontologies/cc.owl#hasIdentifier -->
 
     <owl:ObjectProperty rdf:about="https://si-ra.github.io/ontologies/cc.owl#hasIdentifier">
-        <rdfs:domain rdf:resource="https://si-ra.github.io/ontologies/cc.owl#Object"/>
         <rdfs:domain rdf:resource="https://si-ra.github.io/ontologies/cc.owl#Property"/>
+        <rdfs:domain rdf:resource="https://si-ra.github.io/ontologies/cc.owl#TypeFunction"/>
         <rdfs:range rdf:resource="https://si-ra.github.io/ontologies/cc.owl#DPIdentifier"/>
     </owl:ObjectProperty>
     
@@ -249,7 +260,7 @@
 
     <owl:ObjectProperty rdf:about="https://si-ra.github.io/ontologies/cc.owl#hasMappingFunction">
         <rdfs:domain rdf:resource="https://si-ra.github.io/ontologies/cc.owl#FunctionMapper"/>
-        <rdfs:range rdf:resource="https://si-ra.github.io/ontologies/cc.owl#FunctionType"/>
+        <rdfs:range rdf:resource="https://si-ra.github.io/ontologies/cc.owl#SemanticFunction"/>
     </owl:ObjectProperty>
     
 
@@ -267,8 +278,8 @@
     <!-- https://si-ra.github.io/ontologies/cc.owl#hasProperty -->
 
     <owl:ObjectProperty rdf:about="https://si-ra.github.io/ontologies/cc.owl#hasProperty">
-        <rdfs:domain rdf:resource="https://si-ra.github.io/ontologies/cc.owl#FunctionType"/>
-        <rdfs:domain rdf:resource="https://si-ra.github.io/ontologies/cc.owl#Object"/>
+        <rdfs:domain rdf:resource="https://si-ra.github.io/ontologies/cc.owl#SemanticFunction"/>
+        <rdfs:domain rdf:resource="https://si-ra.github.io/ontologies/cc.owl#TypeFunction"/>
         <rdfs:range rdf:resource="https://si-ra.github.io/ontologies/cc.owl#Property"/>
     </owl:ObjectProperty>
     
@@ -356,6 +367,16 @@
     
 
 
+    <!-- https://si-ra.github.io/ontologies/cc.owl#isRepresentedByNode -->
+
+    <owl:ObjectProperty rdf:about="https://si-ra.github.io/ontologies/cc.owl#isRepresentedByNode">
+        <rdfs:subPropertyOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#hasLink"/>
+        <rdfs:domain rdf:resource="https://si-ra.github.io/ontologies/cc.owl#Function"/>
+        <rdfs:range rdf:resource="https://si-ra.github.io/ontologies/cc.owl#CNSNode"/>
+    </owl:ObjectProperty>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -380,8 +401,8 @@
 
     <owl:DatatypeProperty rdf:about="https://si-ra.github.io/ontologies/cc.owl#hasDescription">
         <rdfs:domain rdf:resource="https://si-ra.github.io/ontologies/cc.owl#CNSNode"/>
-        <rdfs:domain rdf:resource="https://si-ra.github.io/ontologies/cc.owl#Object"/>
         <rdfs:domain rdf:resource="https://si-ra.github.io/ontologies/cc.owl#Property"/>
+        <rdfs:domain rdf:resource="https://si-ra.github.io/ontologies/cc.owl#TypeFunction"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
     
@@ -428,10 +449,10 @@
 
     <owl:DatatypeProperty rdf:about="https://si-ra.github.io/ontologies/cc.owl#hasName">
         <rdfs:domain rdf:resource="https://si-ra.github.io/ontologies/cc.owl#CNSNode"/>
-        <rdfs:domain rdf:resource="https://si-ra.github.io/ontologies/cc.owl#FunctionType"/>
-        <rdfs:domain rdf:resource="https://si-ra.github.io/ontologies/cc.owl#Object"/>
         <rdfs:domain rdf:resource="https://si-ra.github.io/ontologies/cc.owl#Property"/>
+        <rdfs:domain rdf:resource="https://si-ra.github.io/ontologies/cc.owl#SemanticFunction"/>
         <rdfs:domain rdf:resource="https://si-ra.github.io/ontologies/cc.owl#TextGroup"/>
+        <rdfs:domain rdf:resource="https://si-ra.github.io/ontologies/cc.owl#TypeFunction"/>
     </owl:DatatypeProperty>
     
 
@@ -557,15 +578,15 @@
     
 
 
-    <!-- https://si-ra.github.io/ontologies/cc.owl#FunctionMapper -->
+    <!-- https://si-ra.github.io/ontologies/cc.owl#Function -->
 
-    <owl:Class rdf:about="https://si-ra.github.io/ontologies/cc.owl#FunctionMapper"/>
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/cc.owl#Function"/>
     
 
 
-    <!-- https://si-ra.github.io/ontologies/cc.owl#FunctionType -->
+    <!-- https://si-ra.github.io/ontologies/cc.owl#FunctionMapper -->
 
-    <owl:Class rdf:about="https://si-ra.github.io/ontologies/cc.owl#FunctionType"/>
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/cc.owl#FunctionMapper"/>
     
 
 
@@ -615,12 +636,6 @@
     
 
 
-    <!-- https://si-ra.github.io/ontologies/cc.owl#Object -->
-
-    <owl:Class rdf:about="https://si-ra.github.io/ontologies/cc.owl#Object"/>
-    
-
-
     <!-- https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype -->
 
     <owl:Class rdf:about="https://si-ra.github.io/ontologies/cc.owl#ObjectSubtype">
@@ -652,6 +667,14 @@
     <!-- https://si-ra.github.io/ontologies/cc.owl#PropertyMap -->
 
     <owl:Class rdf:about="https://si-ra.github.io/ontologies/cc.owl#PropertyMap"/>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/cc.owl#SemanticFunction -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/cc.owl#SemanticFunction">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#Function"/>
+    </owl:Class>
     
 
 
@@ -694,6 +717,14 @@
     <!-- https://si-ra.github.io/ontologies/cc.owl#TextGroupElement -->
 
     <owl:Class rdf:about="https://si-ra.github.io/ontologies/cc.owl#TextGroupElement"/>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/cc.owl#TypeFunction -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/cc.owl#TypeFunction">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#Function"/>
+    </owl:Class>
     
 
 
