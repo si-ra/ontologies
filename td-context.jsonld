@@ -20,6 +20,9 @@
 		"gms:hasSiblingNode": {
           "@type": "@vocab"
         },
+		"gms:hasDatapointItem": {
+          "@type": "@vocab"
+        },
         "js": "http://json-schema.org/ns#",
         "minimum": "js:minimum",
         "maximum": "js:maximum"
