@@ -23,6 +23,9 @@
 		"gms:hasDatapointItem": {
           "@type": "@vocab"
         },
+		"gms:isRepresentedByNode": {
+          "@type": "@vocab"
+        },		
         "js": "http://json-schema.org/ns#",
         "minimum": "js:minimum",
         "maximum": "js:maximum"
