@@ -302,6 +302,20 @@
     
 
 
+    <!-- https://si-ra.github.io/ontologies/cc.owl#hasSiblingNode -->
+
+    <owl:ObjectProperty rdf:about="https://si-ra.github.io/ontologies/cc.owl#hasSiblingNode">
+        <rdfs:subPropertyOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#hasLink"/>
+        <rdfs:domain rdf:resource="https://si-ra.github.io/ontologies/cc.owl#CNSNode"/>
+        <rdfs:range rdf:resource="https://si-ra.github.io/ontologies/cc.owl#CNSNode"/>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://si-ra.github.io/ontologies/cc.owl#hasParentNode"/>
+            <rdf:Description rdf:about="https://si-ra.github.io/ontologies/cc.owl#hasChildNode"/>
+        </owl:propertyChainAxiom>
+    </owl:ObjectProperty>
+    
+
+
     <!-- https://si-ra.github.io/ontologies/cc.owl#hasSmoothing -->
 
     <owl:ObjectProperty rdf:about="https://si-ra.github.io/ontologies/cc.owl#hasSmoothing">
