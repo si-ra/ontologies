@@ -306,11 +306,15 @@
 
     <owl:ObjectProperty rdf:about="https://si-ra.github.io/ontologies/cc.owl#hasSiblingNode">
         <rdfs:subPropertyOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#hasLink"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
         <rdfs:domain rdf:resource="https://si-ra.github.io/ontologies/cc.owl#CNSNode"/>
         <rdfs:range rdf:resource="https://si-ra.github.io/ontologies/cc.owl#CNSNode"/>
         <owl:propertyChainAxiom rdf:parseType="Collection">
             <rdf:Description rdf:about="https://si-ra.github.io/ontologies/cc.owl#hasParentNode"/>
-            <rdf:Description rdf:about="https://si-ra.github.io/ontologies/cc.owl#hasChildNode"/>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#hasParentNode"/>
+            </rdf:Description>
         </owl:propertyChainAxiom>
     </owl:ObjectProperty>
     
