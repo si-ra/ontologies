@@ -11,6 +11,12 @@
         "gms:hasValueType": {
           "@type": "@vocab"
         },
+        "gms:hasChildNode": {
+          "@type": "@vocab"
+        },
+        "gms:hasParentNode": {
+          "@type": "@vocab"
+        },                
         "js": "http://json-schema.org/ns#",
         "minimum": "js:minimum",
         "maximum": "js:maximum"
