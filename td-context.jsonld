@@ -20,10 +20,16 @@
 		"gms:hasSiblingNode": {
           "@type": "@vocab"
         },
+		"gms:hasSiblingDatapoint": {
+          "@type": "@vocab"
+        },		
 		"gms:hasDatapointItem": {
           "@type": "@vocab"
         },
 		"gms:isRepresentedByNode": {
+          "@type": "@vocab"
+        },
+		"gms:hasRelatedItem": {
           "@type": "@vocab"
         },		
         "js": "http://json-schema.org/ns#",

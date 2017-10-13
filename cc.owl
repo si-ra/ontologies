@@ -313,6 +313,18 @@
     
 
 
+    <!-- https://si-ra.github.io/ontologies/cc.owl#hasSiblingDatapoint -->
+
+    <owl:ObjectProperty rdf:about="https://si-ra.github.io/ontologies/cc.owl#hasSiblingDatapoint">
+        <rdfs:subPropertyOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#hasLink"/>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://si-ra.github.io/ontologies/cc.owl#isRepresentedByNode"/>
+            <rdf:Description rdf:about="https://si-ra.github.io/ontologies/cc.owl#hasDatapointItem"/>
+        </owl:propertyChainAxiom>
+    </owl:ObjectProperty>
+    
+
+
     <!-- https://si-ra.github.io/ontologies/cc.owl#hasSiblingNode -->
 
     <owl:ObjectProperty rdf:about="https://si-ra.github.io/ontologies/cc.owl#hasSiblingNode">
@@ -323,9 +335,7 @@
         <rdfs:range rdf:resource="https://si-ra.github.io/ontologies/cc.owl#CNSNode"/>
         <owl:propertyChainAxiom rdf:parseType="Collection">
             <rdf:Description rdf:about="https://si-ra.github.io/ontologies/cc.owl#hasParentNode"/>
-            <rdf:Description>
-                <owl:inverseOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#hasParentNode"/>
-            </rdf:Description>
+            <rdf:Description rdf:about="https://si-ra.github.io/ontologies/cc.owl#hasChildNode"/>
         </owl:propertyChainAxiom>
     </owl:ObjectProperty>
     
