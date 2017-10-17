@@ -546,7 +546,9 @@
 
     <!-- https://si-ra.github.io/ontologies/cc.owl#CNSNode -->
 
-    <owl:Class rdf:about="https://si-ra.github.io/ontologies/cc.owl#CNSNode"/>
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/cc.owl#CNSNode">
+        <rdfs:label>Hierarchy node</rdfs:label>
+    </owl:Class>
     
 
 
@@ -590,7 +592,9 @@
 
     <!-- https://si-ra.github.io/ontologies/cc.owl#Function -->
 
-    <owl:Class rdf:about="https://si-ra.github.io/ontologies/cc.owl#Function"/>
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/cc.owl#Function">
+        <rdfs:label>Datapoint instance</rdfs:label>
+    </owl:Class>
     
 
 
@@ -664,7 +668,9 @@
 
     <!-- https://si-ra.github.io/ontologies/cc.owl#Property -->
 
-    <owl:Class rdf:about="https://si-ra.github.io/ontologies/cc.owl#Property"/>
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/cc.owl#Property">
+        <rdfs:label>Datapoint property</rdfs:label>
+    </owl:Class>
     
 
 
@@ -684,6 +690,7 @@
 
     <owl:Class rdf:about="https://si-ra.github.io/ontologies/cc.owl#SemanticFunction">
         <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#Function"/>
+        <rdfs:label>Semantic instance</rdfs:label>
     </owl:Class>
     
 
@@ -734,6 +741,7 @@
 
     <owl:Class rdf:about="https://si-ra.github.io/ontologies/cc.owl#TypeFunction">
         <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#Function"/>
+        <rdfs:label>Subsystem instance</rdfs:label>
     </owl:Class>
     
 
