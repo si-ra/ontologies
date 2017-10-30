@@ -110,19 +110,19 @@
             <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#SemanticFunction"/>
 
             <ontology:managedType rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#UnknownManagedType"/>   
-            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hcrv</rdfs:comment>
+            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Heating curve;Heating curve</rdfs:comment>
         </owl:Class>
 <owl:Class rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Hra">
             <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#SemanticFunction"/>
 
             <ontology:managedType rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#UnknownManagedType"/>   
-            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hra</rdfs:comment>
+            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Heating release algorithm;Heat release algorithm</rdfs:comment>
         </owl:Class>
 <owl:Class rdf:about="https://si-ra.github.io/ontologies/ccba.owl#MtrH1">
             <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#SemanticFunction"/>
 
             <ontology:managedType rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#UnknownManagedType"/>   
-            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MtrH1</rdfs:comment>
+            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Heat meter 1, TXI1.OPEN</rdfs:comment>
         </owl:Class>
 <owl:Class rdf:about="https://si-ra.github.io/ontologies/ccba.owl#MeasureCumulated">
             <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#SemanticFunction"/>
@@ -158,19 +158,19 @@
             <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#SemanticFunction"/>
 
             <ontology:managedType rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#UnknownManagedType"/>   
-            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NgtC</rdfs:comment>
+            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nachtventilatie;Night cooling;Night cooling;Night cooling;Night cooling</rdfs:comment>
         </owl:Class>
 <owl:Class rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Ossc">
             <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#SemanticFunction"/>
 
             <ontology:managedType rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#UnknownManagedType"/>   
-            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ossc</rdfs:comment>
+            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Optimum start stop control</rdfs:comment>
         </owl:Class>
 <owl:Class rdf:about="https://si-ra.github.io/ontologies/ccba.owl#PrdvHCtl">
             <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#SemanticFunction"/>
 
             <ontology:managedType rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#UnknownManagedType"/>   
-            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PrdvHCtl</rdfs:comment>
+            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Predictive heating control;Predictive heating controller</rdfs:comment>
         </owl:Class>
 <owl:Class rdf:about="https://si-ra.github.io/ontologies/ccba.owl#GMS_desigo_px_EOT_BA_FW_Hvac_Purge_10">
             <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#TypeFunction"/>
@@ -194,31 +194,31 @@
             <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#SemanticFunction"/>
 
             <ontology:managedType rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#UnknownManagedType"/>   
-            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SolPos</rdfs:comment>
+            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Solar position;Solar position calculation</rdfs:comment>
         </owl:Class>
 <owl:Class rdf:about="https://si-ra.github.io/ontologies/ccba.owl#SpField">
             <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#SemanticFunction"/>
 
             <ontology:managedType rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#UnknownManagedType"/>   
-            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SpField</rdfs:comment>
+            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Determ.setpoint field room;Setpoint field</rdfs:comment>
         </owl:Class>
 <owl:Class rdf:about="https://si-ra.github.io/ontologies/ccba.owl#SpSupply">
             <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#SemanticFunction"/>
 
             <ontology:managedType rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#UnknownManagedType"/>   
-            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SpSupply</rdfs:comment>
+            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Determ.setpoint supply air</rdfs:comment>
         </owl:Class>
 <owl:Class rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Swi2p">
             <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#SemanticFunction"/>
 
             <ontology:managedType rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#UnknownManagedType"/>   
-            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Swi2p</rdfs:comment>
+            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Switch with on and off point</rdfs:comment>
         </owl:Class>
 <owl:Class rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Swi2ph">
             <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#SemanticFunction"/>
 
             <ontology:managedType rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#UnknownManagedType"/>   
-            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Swi2ph</rdfs:comment>
+            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Switch with on point and  hyst.</rdfs:comment>
         </owl:Class>
 <owl:Class rdf:about="https://si-ra.github.io/ontologies/ccba.owl#GMS_desigo_px_EOT_BA_FW_Hvac_TPhiHx_10">
             <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#TypeFunction"/>
@@ -236,7 +236,7 @@
             <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#SemanticFunction"/>
 
             <ontology:managedType rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#UnknownManagedType"/>   
-            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BUsROc</rdfs:comment>
+            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Build.use  and  room occupancy</rdfs:comment>
         </owl:Class>
 <owl:Class rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Discipline">
             <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#SemanticFunction"/>
@@ -470,7 +470,7 @@
             <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#SemanticFunction"/>
 
             <ontology:managedType rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#UnknownManagedType"/>   
-            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PltCtl</rdfs:comment>
+            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plant control</rdfs:comment>
         </owl:Class>
 <owl:Class rdf:about="https://si-ra.github.io/ontologies/ccba.owl#ObserverEE">
             <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#SemanticFunction"/>
@@ -536,7 +536,7 @@
             <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#SemanticFunction"/>
 
             <ontology:managedType rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#UnknownManagedType"/>   
-            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PwrCtl</rdfs:comment>
+            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Power control</rdfs:comment>
         </owl:Class>
 <owl:Class rdf:about="https://si-ra.github.io/ontologies/ccba.owl#GMS_desigo_px_EOT_BA_PX_TRNDMLT_10">
             <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#TypeFunction"/>
@@ -548,7 +548,7 @@
             <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#SemanticFunction"/>
 
             <ontology:managedType rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#UnknownManagedType"/>   
-            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ahu01</rdfs:comment>
+            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Templ.Ahu (1St,RN,CMD_CTL)</rdfs:comment>
         </owl:Class>
 <owl:Class rdf:about="https://si-ra.github.io/ontologies/ccba.owl#MonitorStatus">
             <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#SemanticFunction"/>
@@ -560,7 +560,7 @@
             <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#SemanticFunction"/>
 
             <ontology:managedType rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#UnknownManagedType"/>   
-            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ccl</rdfs:comment>
+            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cooling coil;Cooling coil</rdfs:comment>
         </owl:Class>
 <owl:Class rdf:about="https://si-ra.github.io/ontologies/ccba.owl#ValveVariable">
             <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#SemanticFunction"/>
@@ -578,7 +578,7 @@
             <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#SemanticFunction"/>
 
             <ontology:managedType rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#UnknownManagedType"/>   
-            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DmpMx</rdfs:comment>
+            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mixing air damper;Mixing air damper (ODA, EHA,RCA)</rdfs:comment>
         </owl:Class>
 <owl:Class rdf:about="https://si-ra.github.io/ontologies/ccba.owl#DamperVariable">
             <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#SemanticFunction"/>
@@ -596,7 +596,7 @@
             <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#SemanticFunction"/>
 
             <ontology:managedType rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#UnknownManagedType"/>   
-            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ErcRo</rdfs:comment>
+            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Energy recov., rotary heat exch.;Energy recovery rotating</rdfs:comment>
         </owl:Class>
 <owl:Class rdf:about="https://si-ra.github.io/ontologies/ccba.owl#DamperBinary">
             <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#SemanticFunction"/>
@@ -608,7 +608,7 @@
             <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#SemanticFunction"/>
 
             <ontology:managedType rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#UnknownManagedType"/>   
-            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ErcMon</rdfs:comment>
+            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Energy recovery monitoring;Energy recovery monitoring</rdfs:comment>
         </owl:Class>
 <owl:Class rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Measure">
             <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#SemanticFunction"/>
@@ -638,7 +638,7 @@
             <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#SemanticFunction"/>
 
             <ontology:managedType rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#UnknownManagedType"/>   
-            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MotMdlt</rdfs:comment>
+            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Motor, modulating control</rdfs:comment>
         </owl:Class>
 <owl:Class rdf:about="https://si-ra.github.io/ontologies/ccba.owl#CommandVariable">
             <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#SemanticFunction"/>
@@ -650,7 +650,7 @@
             <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#SemanticFunction"/>
 
             <ontology:managedType rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#UnknownManagedType"/>   
-            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fan1St</rdfs:comment>
+            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fan, 1-stage</rdfs:comment>
         </owl:Class>
 <owl:Class rdf:about="https://si-ra.github.io/ontologies/ccba.owl#SensorAirHumidity">
             <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#SemanticFunction"/>
@@ -668,19 +668,19 @@
             <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#SemanticFunction"/>
 
             <ontology:managedType rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#UnknownManagedType"/>   
-            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HumEl</rdfs:comment>
+            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Humidifier, electrical steam</rdfs:comment>
         </owl:Class>
 <owl:Class rdf:about="https://si-ra.github.io/ontologies/ccba.owl#StSwi">
             <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#SemanticFunction"/>
 
             <ontology:managedType rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#UnknownManagedType"/>   
-            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">StSwi</rdfs:comment>
+            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Step switch</rdfs:comment>
         </owl:Class>
 <owl:Class rdf:about="https://si-ra.github.io/ontologies/ccba.owl#NgtCEvl1">
             <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#SemanticFunction"/>
 
             <ontology:managedType rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#UnknownManagedType"/>   
-            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NgtCEvl1</rdfs:comment>
+            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Night cooling evaluation 1</rdfs:comment>
         </owl:Class>
 <owl:Class rdf:about="https://si-ra.github.io/ontologies/ccba.owl#SwitchMultistate">
             <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#SemanticFunction"/>
@@ -692,7 +692,7 @@
             <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#SemanticFunction"/>
 
             <ontology:managedType rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#UnknownManagedType"/>   
-            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tx2MxeCho</rdfs:comment>
+            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tx2 maximum economy changeover</rdfs:comment>
         </owl:Class>
 <owl:Class rdf:about="https://si-ra.github.io/ontologies/ccba.owl#SetpointAnalog">
             <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#SemanticFunction"/>
@@ -710,7 +710,7 @@
             <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#SemanticFunction"/>
 
             <ontology:managedType rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#UnknownManagedType"/>   
-            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PreHcl</rdfs:comment>
+            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Preheater;Preheating coil;Preheating coil</rdfs:comment>
         </owl:Class>
 <owl:Class rdf:about="https://si-ra.github.io/ontologies/ccba.owl#MonitorAirFrost">
             <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#SemanticFunction"/>
@@ -722,7 +722,7 @@
             <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#SemanticFunction"/>
 
             <ontology:managedType rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#UnknownManagedType"/>   
-            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pu1St</rdfs:comment>
+            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pump, 1-stage</rdfs:comment>
         </owl:Class>
 <owl:Class rdf:about="https://si-ra.github.io/ontologies/ccba.owl#MonitorFlow">
             <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#SemanticFunction"/>
@@ -734,7 +734,7 @@
             <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#SemanticFunction"/>
 
             <ontology:managedType rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#UnknownManagedType"/>   
-            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KickFnct</rdfs:comment>
+            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kick function;Kick function (pump)</rdfs:comment>
         </owl:Class>
 <owl:Class rdf:about="https://si-ra.github.io/ontologies/ccba.owl#MonitorElectrical">
             <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#SemanticFunction"/>
@@ -764,25 +764,25 @@
             <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#SemanticFunction"/>
 
             <ontology:managedType rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#UnknownManagedType"/>   
-            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">XCasCtl</rdfs:comment>
+            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Temp. and  humidity cascade control</rdfs:comment>
         </owl:Class>
 <owl:Class rdf:about="https://si-ra.github.io/ontologies/ccba.owl#CasCtr">
             <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#SemanticFunction"/>
 
             <ontology:managedType rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#UnknownManagedType"/>   
-            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CasCtr</rdfs:comment>
+            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cascade controller;Cascade controller</rdfs:comment>
         </owl:Class>
 <owl:Class rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Char">
             <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#SemanticFunction"/>
 
             <ontology:managedType rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#UnknownManagedType"/>   
-            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Char</rdfs:comment>
+            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Characteristics;Characteristics</rdfs:comment>
         </owl:Class>
 <owl:Class rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Ahu35">
             <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#SemanticFunction"/>
 
             <ontology:managedType rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#UnknownManagedType"/>   
-            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ahu35</rdfs:comment>
+            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AHU 35, temp. and hum.ctrl,1-st,room</rdfs:comment>
         </owl:Class>
 <owl:Class rdf:about="https://si-ra.github.io/ontologies/ccba.owl#SensorRoomQuality">
             <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#SemanticFunction"/>
@@ -794,7 +794,7 @@
             <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#SemanticFunction"/>
 
             <ontology:managedType rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#UnknownManagedType"/>   
-            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VntCtl1</rdfs:comment>
+            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ventilation ctrl.1,setp.air flow</rdfs:comment>
         </owl:Class>
 <owl:Class rdf:about="https://si-ra.github.io/ontologies/ccba.owl#SetpointFlow">
             <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#SemanticFunction"/>
@@ -806,37 +806,37 @@
             <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#SemanticFunction"/>
 
             <ontology:managedType rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#UnknownManagedType"/>   
-            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AQualCtl</rdfs:comment>
+            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Air quality control;Control air quality </rdfs:comment>
         </owl:Class>
 <owl:Class rdf:about="https://si-ra.github.io/ontologies/ccba.owl#EefCtl1">
             <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#SemanticFunction"/>
 
             <ontology:managedType rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#UnknownManagedType"/>   
-            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EefCtl1</rdfs:comment>
+            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Energy efficiency control 1</rdfs:comment>
         </owl:Class>
 <owl:Class rdf:about="https://si-ra.github.io/ontologies/ccba.owl#AqEefCtl">
             <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#SemanticFunction"/>
 
             <ontology:managedType rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#UnknownManagedType"/>   
-            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AqEefCtl</rdfs:comment>
+            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Air quality engy.efficiency ctrl;AQ engy.efficiency ctrl.</rdfs:comment>
         </owl:Class>
 <owl:Class rdf:about="https://si-ra.github.io/ontologies/ccba.owl#HuEefCtl">
             <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#SemanticFunction"/>
 
             <ontology:managedType rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#UnknownManagedType"/>   
-            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HuEefCtl</rdfs:comment>
+            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hum.engy.efficiency ctrl.;Humidity engy.efficiency ctrl.</rdfs:comment>
         </owl:Class>
 <owl:Class rdf:about="https://si-ra.github.io/ontologies/ccba.owl#TEefCtl">
             <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#SemanticFunction"/>
 
             <ontology:managedType rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#UnknownManagedType"/>   
-            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TEefCtl</rdfs:comment>
+            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Temp.engy.efficiency ctrl.;Temperature engy.efficiency ctrl</rdfs:comment>
         </owl:Class>
 <owl:Class rdf:about="https://si-ra.github.io/ontologies/ccba.owl#EefOpti1">
             <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#SemanticFunction"/>
 
             <ontology:managedType rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#UnknownManagedType"/>   
-            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EefOpti1</rdfs:comment>
+            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Energy efficiency optimizer 1</rdfs:comment>
         </owl:Class>
 <owl:Class rdf:about="https://si-ra.github.io/ontologies/ccba.owl#SensorAirDeltaPressure">
             <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#SemanticFunction"/>
@@ -860,7 +860,7 @@
             <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#SemanticFunction"/>
 
             <ontology:managedType rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#UnknownManagedType"/>   
-            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FanMdlt</rdfs:comment>
+            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fan, modulating control;Modulating controlled fan</rdfs:comment>
         </owl:Class>
 <owl:Class rdf:about="https://si-ra.github.io/ontologies/ccba.owl#GMS_desigo_px_EOT_BA_PX_Block_10">
             <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#TypeFunction"/>
@@ -878,13 +878,13 @@
             <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#SemanticFunction"/>
 
             <ontology:managedType rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#UnknownManagedType"/>   
-            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HumAw</rdfs:comment>
+            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Humidifier, air washer</rdfs:comment>
         </owl:Class>
 <owl:Class rdf:about="https://si-ra.github.io/ontologies/ccba.owl#RPnl">
             <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#SemanticFunction"/>
 
             <ontology:managedType rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#UnknownManagedType"/>   
-            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RPnl</rdfs:comment>
+            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Room panel</rdfs:comment>
         </owl:Class>
 <owl:Class rdf:about="https://si-ra.github.io/ontologies/ccba.owl#SetpointAirQuality">
             <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#SemanticFunction"/>
@@ -896,13 +896,13 @@
             <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#SemanticFunction"/>
 
             <ontology:managedType rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#UnknownManagedType"/>   
-            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SpRCalc1</rdfs:comment>
+            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Room setpoint calculation 1</rdfs:comment>
         </owl:Class>
 <owl:Class rdf:about="https://si-ra.github.io/ontologies/ccba.owl#TCasCtl2">
             <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#SemanticFunction"/>
 
             <ontology:managedType rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#UnknownManagedType"/>   
-            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TCasCtl2</rdfs:comment>
+            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Temp.casc.ctrl.2, operating mode</rdfs:comment>
         </owl:Class>
 <owl:Class rdf:about="https://si-ra.github.io/ontologies/ccba.owl#CGrp01">
             <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#SemanticFunction"/>
@@ -926,25 +926,25 @@
             <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#SemanticFunction"/>
 
             <ontology:managedType rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#UnknownManagedType"/>   
-            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HCMxCrt20</rdfs:comment>
+            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H/C mix.circ.20, flow ctrl, 2vlv</rdfs:comment>
         </owl:Class>
 <owl:Class rdf:about="https://si-ra.github.io/ontologies/ccba.owl#PWMCtl">
             <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#SemanticFunction"/>
 
             <ontology:managedType rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#UnknownManagedType"/>   
-            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PWMCtl</rdfs:comment>
+            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pulsewidth modulation ctrl.</rdfs:comment>
         </owl:Class>
 <owl:Class rdf:about="https://si-ra.github.io/ontologies/ccba.owl#TFlCtlHC">
             <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#SemanticFunction"/>
 
             <ontology:managedType rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#UnknownManagedType"/>   
-            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TFlCtlHC</rdfs:comment>
+            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Flow temp.ctrl.heating/cool.;Flow temp.ctrl.heating/cooling</rdfs:comment>
         </owl:Class>
 <owl:Class rdf:about="https://si-ra.github.io/ontologies/ccba.owl#HCMxCrt10">
             <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#SemanticFunction"/>
 
             <ontology:managedType rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#UnknownManagedType"/>   
-            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HCMxCrt10</rdfs:comment>
+            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H/C mixing circuit 10, flow ctrl</rdfs:comment>
         </owl:Class>
 <owl:Class rdf:about="https://si-ra.github.io/ontologies/ccba.owl#ValveBinary">
             <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#SemanticFunction"/>
@@ -956,7 +956,7 @@
             <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#SemanticFunction"/>
 
             <ontology:managedType rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#UnknownManagedType"/>   
-            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HGen01</rdfs:comment>
+            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Centrale termica (01)</rdfs:comment>
         </owl:Class>
 <owl:Class rdf:about="https://si-ra.github.io/ontologies/ccba.owl#BoCtl">
             <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#SemanticFunction"/>
@@ -968,7 +968,7 @@
             <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#SemanticFunction"/>
 
             <ontology:managedType rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#UnknownManagedType"/>   
-            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BuSt</rdfs:comment>
+            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Burner stage;Burner staged</rdfs:comment>
         </owl:Class>
 <owl:Class rdf:about="https://si-ra.github.io/ontologies/ccba.owl#MonitorFlame">
             <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#SemanticFunction"/>
@@ -1004,7 +1004,7 @@
             <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#SemanticFunction"/>
 
             <ontology:managedType rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#UnknownManagedType"/>   
-            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MxCrt</rdfs:comment>
+            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mixing circuit</rdfs:comment>
         </owl:Class>
 <owl:Class rdf:about="https://si-ra.github.io/ontologies/ccba.owl#MeasureEnergy">
             <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#SemanticFunction"/>
@@ -1016,19 +1016,19 @@
             <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#SemanticFunction"/>
 
             <ontology:managedType rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#UnknownManagedType"/>   
-            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PuMdlt</rdfs:comment>
+            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pump, modulating control</rdfs:comment>
         </owl:Class>
 <owl:Class rdf:about="https://si-ra.github.io/ontologies/ccba.owl#DmpShof">
             <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#SemanticFunction"/>
 
             <ontology:managedType rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#UnknownManagedType"/>   
-            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DmpShof</rdfs:comment>
+            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shutoff damper</rdfs:comment>
         </owl:Class>
 <owl:Class rdf:about="https://si-ra.github.io/ontologies/ccba.owl#FilMon2">
             <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#SemanticFunction"/>
 
             <ontology:managedType rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#UnknownManagedType"/>   
-            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FilMon2</rdfs:comment>
+            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Filter monitoring 2, sensor</rdfs:comment>
         </owl:Class>
 <owl:Class rdf:about="https://si-ra.github.io/ontologies/ccba.owl#MonitorAlarm">
             <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#SemanticFunction"/>
@@ -1046,13 +1046,13 @@
             <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#SemanticFunction"/>
 
             <ontology:managedType rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#UnknownManagedType"/>   
-            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PdlLdGrp</rdfs:comment>
+            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peak demand lim.load group</rdfs:comment>
         </owl:Class>
 <owl:Class rdf:about="https://si-ra.github.io/ontologies/ccba.owl#PdlGrpUn">
             <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#SemanticFunction"/>
 
             <ontology:managedType rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#UnknownManagedType"/>   
-            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PdlGrpUn</rdfs:comment>
+            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peak dem.lim.group unit</rdfs:comment>
         </owl:Class>
 <owl:Class rdf:about="https://si-ra.github.io/ontologies/ccba.owl#SetpointElectrical">
             <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#SemanticFunction"/>
@@ -1064,7 +1064,7 @@
             <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#SemanticFunction"/>
 
             <ontology:managedType rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#UnknownManagedType"/>   
-            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PwrCTrnd</rdfs:comment>
+            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Power consumption trending</rdfs:comment>
         </owl:Class>
 <owl:Class rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Monitor">
             <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#SemanticFunction"/>
