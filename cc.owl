@@ -298,8 +298,9 @@
 
     <owl:ObjectProperty rdf:about="https://si-ra.github.io/ontologies/cc.owl#hasRelatedItem">
         <rdfs:subPropertyOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#hasLink"/>
-        <rdfs:domain rdf:resource="https://si-ra.github.io/ontologies/cc.owl#Property"/>
-        <rdfs:range rdf:resource="https://si-ra.github.io/ontologies/cc.owl#DPIdentifier"/>
+        <owl:inverseOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#isRelatedItemOf"/>
+        <rdfs:domain rdf:resource="https://si-ra.github.io/ontologies/cc.owl#Function"/>
+        <rdfs:range rdf:resource="https://si-ra.github.io/ontologies/cc.owl#Function"/>
     </owl:ObjectProperty>
     
 
@@ -373,6 +374,16 @@
     <owl:ObjectProperty rdf:about="https://si-ra.github.io/ontologies/cc.owl#hasTextGroupElement">
         <rdfs:domain rdf:resource="https://si-ra.github.io/ontologies/cc.owl#TextGroup"/>
         <rdfs:range rdf:resource="https://si-ra.github.io/ontologies/cc.owl#TextGroupElement"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/cc.owl#isRelatedItemOf -->
+
+    <owl:ObjectProperty rdf:about="https://si-ra.github.io/ontologies/cc.owl#isRelatedItemOf">
+        <rdfs:subPropertyOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#hasLink"/>
+        <rdfs:domain rdf:resource="https://si-ra.github.io/ontologies/cc.owl#Function"/>
+        <rdfs:range rdf:resource="https://si-ra.github.io/ontologies/cc.owl#Function"/>
     </owl:ObjectProperty>
     
 

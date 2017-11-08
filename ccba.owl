@@ -226,6 +226,96 @@
             <ontology:managedType rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#Point"/>   
             <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Desigo PX-FW Hvac Temp and rel Hum To Entha and abs Hum</rdfs:comment>
         </owl:Class>
+<owl:Class rdf:about="https://si-ra.github.io/ontologies/ccba.owl#GMS_FS20EN_EOT_FI_SubfolderElem">
+            <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#TypeFunction"/>
+
+            <ontology:managedType rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#Point"/>   
+            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FS20EN Subfolder Elem</rdfs:comment>
+        </owl:Class>
+<owl:Class rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Area">
+            <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#SemanticFunction"/>
+
+            <ontology:managedType rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#UnknownManagedType"/>   
+            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Area</rdfs:comment>
+        </owl:Class>
+<owl:Class rdf:about="https://si-ra.github.io/ontologies/ccba.owl#VerificationElem">
+            <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#SemanticFunction"/>
+
+            <ontology:managedType rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#UnknownManagedType"/>   
+            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Verification Elem</rdfs:comment>
+        </owl:Class>
+<owl:Class rdf:about="https://si-ra.github.io/ontologies/ccba.owl#MultiState">
+            <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#SemanticFunction"/>
+
+            <ontology:managedType rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#UnknownManagedType"/>   
+            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Multi State</rdfs:comment>
+        </owl:Class>
+<owl:Class rdf:about="https://si-ra.github.io/ontologies/ccba.owl#AreaElements">
+            <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#SemanticFunction"/>
+
+            <ontology:managedType rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#UnknownManagedType"/>   
+            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Area Elements</rdfs:comment>
+        </owl:Class>
+<owl:Class rdf:about="https://si-ra.github.io/ontologies/ccba.owl#AreaSoundersOff">
+            <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#SemanticFunction"/>
+
+            <ontology:managedType rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#UnknownManagedType"/>   
+            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Area Sounders Off</rdfs:comment>
+        </owl:Class>
+<owl:Class rdf:about="https://si-ra.github.io/ontologies/ccba.owl#AreaPropagation">
+            <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#SemanticFunction"/>
+
+            <ontology:managedType rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#UnknownManagedType"/>   
+            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Area Propagation</rdfs:comment>
+        </owl:Class>
+<owl:Class rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Section">
+            <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#SemanticFunction"/>
+
+            <ontology:managedType rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#UnknownManagedType"/>   
+            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Section</rdfs:comment>
+        </owl:Class>
+<owl:Class rdf:about="https://si-ra.github.io/ontologies/ccba.owl#AutomaticZone">
+            <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#SemanticFunction"/>
+
+            <ontology:managedType rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#UnknownManagedType"/>   
+            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Automatic Zone</rdfs:comment>
+        </owl:Class>
+<owl:Class rdf:about="https://si-ra.github.io/ontologies/ccba.owl#AutomaticDetector">
+            <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#SemanticFunction"/>
+
+            <ontology:managedType rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#UnknownManagedType"/>   
+            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Automatic Detector</rdfs:comment>
+        </owl:Class>
+<owl:Class rdf:about="https://si-ra.github.io/ontologies/ccba.owl#TechnicalZone">
+            <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#SemanticFunction"/>
+
+            <ontology:managedType rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#UnknownManagedType"/>   
+            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Technical Zone</rdfs:comment>
+        </owl:Class>
+<owl:Class rdf:about="https://si-ra.github.io/ontologies/ccba.owl#InputChannel">
+            <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#SemanticFunction"/>
+
+            <ontology:managedType rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#UnknownManagedType"/>   
+            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Input Channel</rdfs:comment>
+        </owl:Class>
+<owl:Class rdf:about="https://si-ra.github.io/ontologies/ccba.owl#ManualZone">
+            <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#SemanticFunction"/>
+
+            <ontology:managedType rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#UnknownManagedType"/>   
+            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Manual Zone</rdfs:comment>
+        </owl:Class>
+<owl:Class rdf:about="https://si-ra.github.io/ontologies/ccba.owl#ManualCallPoint">
+            <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#SemanticFunction"/>
+
+            <ontology:managedType rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#UnknownManagedType"/>   
+            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Manual Call Point</rdfs:comment>
+        </owl:Class>
+<owl:Class rdf:about="https://si-ra.github.io/ontologies/ccba.owl#GasDetector">
+            <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#SemanticFunction"/>
+
+            <ontology:managedType rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#UnknownManagedType"/>   
+            <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gas Detector</rdfs:comment>
+        </owl:Class>
 <owl:Class rdf:about="https://si-ra.github.io/ontologies/ccba.owl#RoomFpb05">
             <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#SemanticFunction"/>
 
@@ -1805,4 +1895,6 @@
 <owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#SORISAdapter"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ManagedType"/></owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#SORISDriver"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ManagedType"/></owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#SORISNetwork"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ManagedType"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#LibraryBlock_MacroViewer"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ManagedType"/></owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/ccba.owl#LibraryBlock_NodeMap"><rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ManagedType"/></owl:NamedIndividual>
 </rdf:RDF>
