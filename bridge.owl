@@ -1,0 +1,507 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.schema.siemens.com/bt/bridge#"
+     xml:base="http://www.schema.siemens.com/bt/bridge"
+     xmlns:cc="https://si-ra.github.io/ontologies/cc.owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:ns="http://creativecommons.org/ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:vann="http://purl.org/vocab/vann/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <owl:Ontology rdf:about="http://www.schema.siemens.com/bt/bridge">
+        <owl:imports rdf:resource="https://si-ra.github.io/ontologies/cc.owl"/>
+        <owl:imports rdf:resource="https://si-ra.github.io/ontologies/ccba.owl"/>
+        <owl:imports rdf:resource="http://ifcowl.openbimstandards.org/IFC4"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://ifcowl.openbimstandards.org/IFC4#IfcAirTerminal -->
+
+    <rdf:Description rdf:about="http://ifcowl.openbimstandards.org/IFC4#IfcAirTerminal">
+        <owl:equivalentClass rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#RoomFnc04"/>
+        <owl:equivalentClass rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#RoomFnc08"/>
+        <owl:equivalentClass rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#RoomFnc20"/>
+        <owl:equivalentClass rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#RoomVav01"/>
+        <owl:equivalentClass rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#RoomVav14"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://ifcowl.openbimstandards.org/IFC4#IfcBoiler -->
+
+    <rdf:Description rdf:about="http://ifcowl.openbimstandards.org/IFC4#IfcBoiler">
+        <owl:equivalentClass rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#BoCtl"/>
+        <owl:equivalentClass rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#HGen01"/>
+        <owl:equivalentClass rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#HGrp01"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://ifcowl.openbimstandards.org/IFC4#IfcBurner -->
+
+    <rdf:Description rdf:about="http://ifcowl.openbimstandards.org/IFC4#IfcBurner">
+        <owl:equivalentClass rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#BuSt"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://ifcowl.openbimstandards.org/IFC4#IfcChiller -->
+
+    <rdf:Description rdf:about="http://ifcowl.openbimstandards.org/IFC4#IfcChiller">
+        <owl:equivalentClass rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#CGrp01"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://ifcowl.openbimstandards.org/IFC4#IfcCoil -->
+
+    <rdf:Description rdf:about="http://ifcowl.openbimstandards.org/IFC4#IfcCoil">
+        <owl:equivalentClass rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#Ccl"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://ifcowl.openbimstandards.org/IFC4#IfcController -->
+
+    <rdf:Description rdf:about="http://ifcowl.openbimstandards.org/IFC4#IfcController">
+        <owl:equivalentClass rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#CasCtr"/>
+        <owl:equivalentClass rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#FnctController"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://ifcowl.openbimstandards.org/IFC4#IfcCooledBeam -->
+
+    <rdf:Description rdf:about="http://ifcowl.openbimstandards.org/IFC4#IfcCooledBeam">
+        <owl:equivalentClass rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#RoomClc02"/>
+        <owl:equivalentClass rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#RoomClc08"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://ifcowl.openbimstandards.org/IFC4#IfcDamper -->
+
+    <rdf:Description rdf:about="http://ifcowl.openbimstandards.org/IFC4#IfcDamper">
+        <owl:equivalentClass rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#DamperBinary"/>
+        <owl:equivalentClass rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#DamperVariable"/>
+        <owl:equivalentClass rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#DmpMx"/>
+        <owl:equivalentClass rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#DmpShof"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://ifcowl.openbimstandards.org/IFC4#IfcFan -->
+
+    <rdf:Description rdf:about="http://ifcowl.openbimstandards.org/IFC4#IfcFan">
+        <owl:equivalentClass rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#Fan1St"/>
+        <owl:equivalentClass rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#FanMdlt"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://ifcowl.openbimstandards.org/IFC4#IfcFilter -->
+
+    <rdf:Description rdf:about="http://ifcowl.openbimstandards.org/IFC4#IfcFilter">
+        <owl:equivalentClass rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#FilMon2"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://ifcowl.openbimstandards.org/IFC4#IfcLamp -->
+
+    <rdf:Description rdf:about="http://ifcowl.openbimstandards.org/IFC4#IfcLamp">
+        <owl:equivalentClass rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#LGT01"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://ifcowl.openbimstandards.org/IFC4#IfcPump -->
+
+    <rdf:Description rdf:about="http://ifcowl.openbimstandards.org/IFC4#IfcPump">
+        <owl:equivalentClass rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#Pu1St"/>
+        <owl:equivalentClass rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#PuMdlt"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://ifcowl.openbimstandards.org/IFC4#IfcSensor -->
+
+    <rdf:Description rdf:about="http://ifcowl.openbimstandards.org/IFC4#IfcSensor">
+        <owl:equivalentClass rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#GasDetector"/>
+        <owl:equivalentClass rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#SensorAirDeltaPressure"/>
+        <owl:equivalentClass rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#SensorAirHumidity"/>
+        <owl:equivalentClass rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#SensorAirTemperature"/>
+        <owl:equivalentClass rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#SensorFlow"/>
+        <owl:equivalentClass rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#SensorOutsideHumidity"/>
+        <owl:equivalentClass rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#SensorOutsideTemperature"/>
+        <owl:equivalentClass rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#SensorRoomHumidity"/>
+        <owl:equivalentClass rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#SensorRoomQuality"/>
+        <owl:equivalentClass rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#SensorRoomTemperature"/>
+        <owl:equivalentClass rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#SensorTemperature"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://ifcowl.openbimstandards.org/IFC4#IfcSpaceHeater -->
+
+    <rdf:Description rdf:about="http://ifcowl.openbimstandards.org/IFC4#IfcSpaceHeater">
+        <owl:equivalentClass rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#RoomRad01"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://ifcowl.openbimstandards.org/IFC4#IfcUnitaryEquipment -->
+
+    <rdf:Description rdf:about="http://ifcowl.openbimstandards.org/IFC4#IfcUnitaryEquipment">
+        <owl:equivalentClass rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#Ahu01"/>
+        <owl:equivalentClass rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#Ahu35"/>
+        <owl:equivalentClass rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#RoomFpb05"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://ifcowl.openbimstandards.org/IFC4#IfcValve -->
+
+    <rdf:Description rdf:about="http://ifcowl.openbimstandards.org/IFC4#IfcValve">
+        <owl:equivalentClass rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#ValveBinary"/>
+        <owl:equivalentClass rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#ValveVariable"/>
+    </rdf:Description>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/ccba.owl#Ahu01 -->
+
+    <rdf:Description rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Ahu01"/>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/ccba.owl#Ahu35 -->
+
+    <rdf:Description rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Ahu35"/>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/ccba.owl#BoCtl -->
+
+    <rdf:Description rdf:about="https://si-ra.github.io/ontologies/ccba.owl#BoCtl"/>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/ccba.owl#BuSt -->
+
+    <rdf:Description rdf:about="https://si-ra.github.io/ontologies/ccba.owl#BuSt"/>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/ccba.owl#CGrp01 -->
+
+    <rdf:Description rdf:about="https://si-ra.github.io/ontologies/ccba.owl#CGrp01"/>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/ccba.owl#CasCtr -->
+
+    <rdf:Description rdf:about="https://si-ra.github.io/ontologies/ccba.owl#CasCtr"/>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/ccba.owl#Ccl -->
+
+    <rdf:Description rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Ccl"/>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/ccba.owl#DamperBinary -->
+
+    <rdf:Description rdf:about="https://si-ra.github.io/ontologies/ccba.owl#DamperBinary"/>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/ccba.owl#DamperVariable -->
+
+    <rdf:Description rdf:about="https://si-ra.github.io/ontologies/ccba.owl#DamperVariable"/>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/ccba.owl#DmpMx -->
+
+    <rdf:Description rdf:about="https://si-ra.github.io/ontologies/ccba.owl#DmpMx"/>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/ccba.owl#DmpShof -->
+
+    <rdf:Description rdf:about="https://si-ra.github.io/ontologies/ccba.owl#DmpShof"/>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/ccba.owl#Fan1St -->
+
+    <rdf:Description rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Fan1St"/>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/ccba.owl#FanMdlt -->
+
+    <rdf:Description rdf:about="https://si-ra.github.io/ontologies/ccba.owl#FanMdlt"/>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/ccba.owl#FilMon2 -->
+
+    <rdf:Description rdf:about="https://si-ra.github.io/ontologies/ccba.owl#FilMon2"/>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/ccba.owl#FnctController -->
+
+    <rdf:Description rdf:about="https://si-ra.github.io/ontologies/ccba.owl#FnctController"/>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/ccba.owl#GasDetector -->
+
+    <rdf:Description rdf:about="https://si-ra.github.io/ontologies/ccba.owl#GasDetector"/>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/ccba.owl#HGen01 -->
+
+    <rdf:Description rdf:about="https://si-ra.github.io/ontologies/ccba.owl#HGen01"/>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/ccba.owl#HGrp01 -->
+
+    <rdf:Description rdf:about="https://si-ra.github.io/ontologies/ccba.owl#HGrp01"/>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/ccba.owl#LGT01 -->
+
+    <rdf:Description rdf:about="https://si-ra.github.io/ontologies/ccba.owl#LGT01"/>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/ccba.owl#Pu1St -->
+
+    <rdf:Description rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Pu1St"/>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/ccba.owl#PuMdlt -->
+
+    <rdf:Description rdf:about="https://si-ra.github.io/ontologies/ccba.owl#PuMdlt"/>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/ccba.owl#RoomClc02 -->
+
+    <rdf:Description rdf:about="https://si-ra.github.io/ontologies/ccba.owl#RoomClc02"/>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/ccba.owl#RoomClc08 -->
+
+    <rdf:Description rdf:about="https://si-ra.github.io/ontologies/ccba.owl#RoomClc08"/>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/ccba.owl#RoomFnc04 -->
+
+    <rdf:Description rdf:about="https://si-ra.github.io/ontologies/ccba.owl#RoomFnc04"/>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/ccba.owl#RoomFnc08 -->
+
+    <rdf:Description rdf:about="https://si-ra.github.io/ontologies/ccba.owl#RoomFnc08"/>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/ccba.owl#RoomFnc20 -->
+
+    <rdf:Description rdf:about="https://si-ra.github.io/ontologies/ccba.owl#RoomFnc20"/>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/ccba.owl#RoomFpb05 -->
+
+    <rdf:Description rdf:about="https://si-ra.github.io/ontologies/ccba.owl#RoomFpb05"/>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/ccba.owl#RoomRad01 -->
+
+    <rdf:Description rdf:about="https://si-ra.github.io/ontologies/ccba.owl#RoomRad01"/>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/ccba.owl#RoomVav01 -->
+
+    <rdf:Description rdf:about="https://si-ra.github.io/ontologies/ccba.owl#RoomVav01"/>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/ccba.owl#RoomVav14 -->
+
+    <rdf:Description rdf:about="https://si-ra.github.io/ontologies/ccba.owl#RoomVav14"/>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/ccba.owl#SensorAirDeltaPressure -->
+
+    <rdf:Description rdf:about="https://si-ra.github.io/ontologies/ccba.owl#SensorAirDeltaPressure"/>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/ccba.owl#SensorAirHumidity -->
+
+    <rdf:Description rdf:about="https://si-ra.github.io/ontologies/ccba.owl#SensorAirHumidity"/>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/ccba.owl#SensorAirTemperature -->
+
+    <rdf:Description rdf:about="https://si-ra.github.io/ontologies/ccba.owl#SensorAirTemperature"/>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/ccba.owl#SensorFlow -->
+
+    <rdf:Description rdf:about="https://si-ra.github.io/ontologies/ccba.owl#SensorFlow"/>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/ccba.owl#SensorOutsideHumidity -->
+
+    <rdf:Description rdf:about="https://si-ra.github.io/ontologies/ccba.owl#SensorOutsideHumidity"/>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/ccba.owl#SensorOutsideTemperature -->
+
+    <rdf:Description rdf:about="https://si-ra.github.io/ontologies/ccba.owl#SensorOutsideTemperature"/>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/ccba.owl#SensorRoomHumidity -->
+
+    <rdf:Description rdf:about="https://si-ra.github.io/ontologies/ccba.owl#SensorRoomHumidity"/>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/ccba.owl#SensorRoomQuality -->
+
+    <rdf:Description rdf:about="https://si-ra.github.io/ontologies/ccba.owl#SensorRoomQuality"/>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/ccba.owl#SensorRoomTemperature -->
+
+    <rdf:Description rdf:about="https://si-ra.github.io/ontologies/ccba.owl#SensorRoomTemperature"/>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/ccba.owl#SensorTemperature -->
+
+    <rdf:Description rdf:about="https://si-ra.github.io/ontologies/ccba.owl#SensorTemperature"/>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/ccba.owl#ValveBinary -->
+
+    <rdf:Description rdf:about="https://si-ra.github.io/ontologies/ccba.owl#ValveBinary"/>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/ccba.owl#ValveVariable -->
+
+    <rdf:Description rdf:about="https://si-ra.github.io/ontologies/ccba.owl#ValveVariable"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://ifcowl.openbimstandards.org/IFC4#AIRHANDLER -->
+
+    <rdf:Description rdf:about="http://ifcowl.openbimstandards.org/IFC4#AIRHANDLER">
+        <owl:sameAs rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#AHU"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://ifcowl.openbimstandards.org/IFC4#BATTERY -->
+
+    <rdf:Description rdf:about="http://ifcowl.openbimstandards.org/IFC4#BATTERY">
+        <owl:sameAs rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#Battery"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://ifcowl.openbimstandards.org/IFC4#BUILDING -->
+
+    <rdf:Description rdf:about="http://ifcowl.openbimstandards.org/IFC4#BUILDING">
+        <owl:sameAs rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#Building"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://ifcowl.openbimstandards.org/IFC4#SHUTTER -->
+
+    <rdf:Description rdf:about="http://ifcowl.openbimstandards.org/IFC4#SHUTTER">
+        <owl:sameAs rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#Blinds"/>
+    </rdf:Description>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/ccba.owl#AHU -->
+
+    <rdf:Description rdf:about="https://si-ra.github.io/ontologies/ccba.owl#AHU"/>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/ccba.owl#Battery -->
+
+    <rdf:Description rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Battery"/>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/ccba.owl#Blinds -->
+
+    <rdf:Description rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Blinds"/>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/ccba.owl#Building -->
+
+    <rdf:Description rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Building"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
