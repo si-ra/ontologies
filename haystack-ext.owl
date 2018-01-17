@@ -7,7 +7,7 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
     <owl:Ontology rdf:about="https://si-ra.github.io/ontologies/haystack-ext">
-        <owl:imports rdf:resource="https://si-ra.github.io/ontologies/haystack"/>
+        <owl:imports rdf:resource="https://si-ra.github.io/ontologies/haystack.owl"/>
     </owl:Ontology>
     
 
@@ -728,6 +728,12 @@
     <owl:Class rdf:about="http://www.siemens.com/bt/haystack/ontology#zone">
         <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack-ext#Section"/>
     </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#Marker -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#Marker"/>
     
 
 
