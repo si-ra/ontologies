@@ -409,6 +409,16 @@
     
 
 
+    <!-- https://si-ra.github.io/ontologies/cc.owl#hasCCProjectID -->
+
+    <owl:DatatypeProperty rdf:about="https://si-ra.github.io/ontologies/cc.owl#hasCCProjectID">
+        <rdfs:domain rdf:resource="https://si-ra.github.io/ontologies/cc.owl#CNSNode"/>
+        <rdfs:domain rdf:resource="https://si-ra.github.io/ontologies/cc.owl#Function"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
     <!-- https://si-ra.github.io/ontologies/cc.owl#hasDatapointObjectId -->
 
     <owl:DatatypeProperty rdf:about="https://si-ra.github.io/ontologies/cc.owl#hasDatapointObjectId">

@@ -1,0 +1,811 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://si-ra.github.io/ontologies/haystack-ext#"
+     xml:base="https://si-ra.github.io/ontologies/haystack-ext"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="https://si-ra.github.io/ontologies/haystack-ext">
+        <owl:imports rdf:resource="https://si-ra.github.io/ontologies/haystack"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.siemens.com/bt/haystack/ontology#Ref -->
+
+    <owl:ObjectProperty rdf:about="http://www.siemens.com/bt/haystack/ontology#Ref">
+        <owl:inverseOf rdf:resource="https://si-ra.github.io/ontologies/haystack-ext#referredBy"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.siemens.com/bt/haystack/ontology#chilledWaterPlantRef -->
+
+    <owl:ObjectProperty rdf:about="http://www.siemens.com/bt/haystack/ontology#chilledWaterPlantRef"/>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack-ext#contains -->
+
+    <owl:ObjectProperty rdf:about="https://si-ra.github.io/ontologies/haystack-ext#contains"/>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack-ext#coolingMethod -->
+
+    <owl:ObjectProperty rdf:about="https://si-ra.github.io/ontologies/haystack-ext#coolingMethod"/>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack-ext#hasMarker -->
+
+    <owl:ObjectProperty rdf:about="https://si-ra.github.io/ontologies/haystack-ext#hasMarker">
+        <rdfs:range rdf:resource="http://www.siemens.com/bt/haystack/ontology#Marker"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack-ext#heatingMethod -->
+
+    <owl:ObjectProperty rdf:about="https://si-ra.github.io/ontologies/haystack-ext#heatingMethod"/>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack-ext#measuredBy -->
+
+    <owl:ObjectProperty rdf:about="https://si-ra.github.io/ontologies/haystack-ext#measuredBy">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="https://si-ra.github.io/ontologies/haystack-ext#measures"/>
+        <rdfs:domain rdf:resource="https://si-ra.github.io/ontologies/haystack-ext#Measurement"/>
+        <rdfs:range rdf:resource="http://www.siemens.com/bt/haystack/ontology#sensor"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack-ext#measures -->
+
+    <owl:ObjectProperty rdf:about="https://si-ra.github.io/ontologies/haystack-ext#measures"/>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack-ext#referredBy -->
+
+    <owl:ObjectProperty rdf:about="https://si-ra.github.io/ontologies/haystack-ext#referredBy">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack-ext#suppliesTo -->
+
+    <owl:ObjectProperty rdf:about="https://si-ra.github.io/ontologies/haystack-ext#suppliesTo"/>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack-ext#usedWith -->
+
+    <owl:ObjectProperty rdf:about="https://si-ra.github.io/ontologies/haystack-ext#usedWith"/>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack-ext#usesProcessMethod -->
+
+    <owl:ObjectProperty rdf:about="https://si-ra.github.io/ontologies/haystack-ext#usesProcessMethod">
+        <rdfs:domain rdf:resource="http://www.siemens.com/bt/haystack/ontology#equip"/>
+        <rdfs:range rdf:resource="https://si-ra.github.io/ontologies/haystack-ext#AirFlowControl"/>
+        <rdfs:range rdf:resource="https://si-ra.github.io/ontologies/haystack-ext#CoolingMethod"/>
+        <rdfs:range rdf:resource="https://si-ra.github.io/ontologies/haystack-ext#HeatingMethod"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.siemens.com/bt/haystack/ontology#Marker -->
+
+    <owl:Class rdf:about="http://www.siemens.com/bt/haystack/ontology#Marker"/>
+    
+
+
+    <!-- http://www.siemens.com/bt/haystack/ontology#ahu -->
+
+    <owl:Class rdf:about="http://www.siemens.com/bt/haystack/ontology#ahu">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="https://si-ra.github.io/ontologies/haystack-ext#contains"/>
+                                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                                <owl:onClass>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="http://www.siemens.com/bt/haystack/ontology#discharge"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="https://si-ra.github.io/ontologies/haystack-ext#contains"/>
+                                                <owl:allValuesFrom rdf:resource="http://www.siemens.com/bt/haystack/ontology#air"/>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:onClass>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="https://si-ra.github.io/ontologies/haystack-ext#contains"/>
+                                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                                <owl:onClass>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="http://www.siemens.com/bt/haystack/ontology#exhaust"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="https://si-ra.github.io/ontologies/haystack-ext#contains"/>
+                                                <owl:allValuesFrom rdf:resource="http://www.siemens.com/bt/haystack/ontology#air"/>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:onClass>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://si-ra.github.io/ontologies/haystack-ext#contains"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <owl:Class>
+                                        <owl:unionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="http://www.siemens.com/bt/haystack/ontology#flow"/>
+                                            <rdf:Description rdf:about="http://www.siemens.com/bt/haystack/ontology#humidity"/>
+                                            <rdf:Description rdf:about="http://www.siemens.com/bt/haystack/ontology#pressure"/>
+                                            <rdf:Description rdf:about="http://www.siemens.com/bt/haystack/ontology#temp"/>
+                                        </owl:unionOf>
+                                    </owl:Class>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="https://si-ra.github.io/ontologies/haystack-ext#measuredBy"/>
+                                        <owl:allValuesFrom rdf:resource="http://www.siemens.com/bt/haystack/ontology#sensor"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://si-ra.github.io/ontologies/haystack-ext#usedWith"/>
+                        <owl:allValuesFrom rdf:resource="http://www.siemens.com/bt/haystack/ontology#equip"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://si-ra.github.io/ontologies/haystack-ext#usedWith"/>
+                        <owl:allValuesFrom rdf:resource="http://www.siemens.com/bt/haystack/ontology#rooftop"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.siemens.com/bt/haystack/ontology#chilledWaterPlantRef"/>
+                <owl:someValuesFrom rdf:resource="http://www.siemens.com/bt/haystack/ontology#chilledWaterPlant"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.siemens.com/bt/haystack/ontology#air -->
+
+    <owl:Class rdf:about="http://www.siemens.com/bt/haystack/ontology#air">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.siemens.com/bt/haystack/ontology#chilledBeamZone -->
+
+    <owl:Class rdf:about="http://www.siemens.com/bt/haystack/ontology#chilledBeamZone">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack-ext#ZoneDelivery"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.siemens.com/bt/haystack/ontology#chilledWaterCool -->
+
+    <owl:Class rdf:about="http://www.siemens.com/bt/haystack/ontology#chilledWaterCool">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack-ext#CoolingMethod"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.siemens.com/bt/haystack/ontology#chilledWaterPlant -->
+
+    <owl:Class rdf:about="http://www.siemens.com/bt/haystack/ontology#chilledWaterPlant"/>
+    
+
+
+    <!-- http://www.siemens.com/bt/haystack/ontology#co -->
+
+    <owl:Class rdf:about="http://www.siemens.com/bt/haystack/ontology#co">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack-ext#Measurement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.siemens.com/bt/haystack/ontology#co2 -->
+
+    <owl:Class rdf:about="http://www.siemens.com/bt/haystack/ontology#co2">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack-ext#Measurement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.siemens.com/bt/haystack/ontology#coldDeck -->
+
+    <owl:Class rdf:about="http://www.siemens.com/bt/haystack/ontology#coldDeck">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack-ext#Deck"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.siemens.com/bt/haystack/ontology#constantVolume -->
+
+    <owl:Class rdf:about="http://www.siemens.com/bt/haystack/ontology#constantVolume">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack-ext#AirFlowControl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.siemens.com/bt/haystack/ontology#cool -->
+
+    <owl:Class rdf:about="http://www.siemens.com/bt/haystack/ontology#cool">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack-ext#Section"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.siemens.com/bt/haystack/ontology#directZone -->
+
+    <owl:Class rdf:about="http://www.siemens.com/bt/haystack/ontology#directZone">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack-ext#ZoneDelivery"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.siemens.com/bt/haystack/ontology#discharge -->
+
+    <owl:Class rdf:about="http://www.siemens.com/bt/haystack/ontology#discharge">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack-ext#Section"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.siemens.com/bt/haystack/ontology#dualDuct -->
+
+    <owl:Class rdf:about="http://www.siemens.com/bt/haystack/ontology#dualDuct">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack-ext#Duct"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://si-ra.github.io/ontologies/haystack-ext#suppliesTo"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="https://si-ra.github.io/ontologies/haystack-ext#Deck"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.siemens.com/bt/haystack/ontology#dxCool -->
+
+    <owl:Class rdf:about="http://www.siemens.com/bt/haystack/ontology#dxCool">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack-ext#CoolingMethod"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.siemens.com/bt/haystack/ontology#elecHeat -->
+
+    <owl:Class rdf:about="http://www.siemens.com/bt/haystack/ontology#elecHeat">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack-ext#HeatingMethod"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.siemens.com/bt/haystack/ontology#enable -->
+
+    <owl:Class rdf:about="http://www.siemens.com/bt/haystack/ontology#enable"/>
+    
+
+
+    <!-- http://www.siemens.com/bt/haystack/ontology#energy -->
+
+    <owl:Class rdf:about="http://www.siemens.com/bt/haystack/ontology#energy">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack-ext#Measurement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.siemens.com/bt/haystack/ontology#equip -->
+
+    <owl:Class rdf:about="http://www.siemens.com/bt/haystack/ontology#equip"/>
+    
+
+
+    <!-- http://www.siemens.com/bt/haystack/ontology#exhaust -->
+
+    <owl:Class rdf:about="http://www.siemens.com/bt/haystack/ontology#exhaust">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack-ext#Section"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.siemens.com/bt/haystack/ontology#flow -->
+
+    <owl:Class rdf:about="http://www.siemens.com/bt/haystack/ontology#flow">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack-ext#Measurement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.siemens.com/bt/haystack/ontology#freq -->
+
+    <owl:Class rdf:about="http://www.siemens.com/bt/haystack/ontology#freq"/>
+    
+
+
+    <!-- http://www.siemens.com/bt/haystack/ontology#gas -->
+
+    <owl:Class rdf:about="http://www.siemens.com/bt/haystack/ontology#gas">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack-ext#Medium"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.siemens.com/bt/haystack/ontology#gasHeat -->
+
+    <owl:Class rdf:about="http://www.siemens.com/bt/haystack/ontology#gasHeat">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack-ext#HeatingMethod"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.siemens.com/bt/haystack/ontology#heat -->
+
+    <owl:Class rdf:about="http://www.siemens.com/bt/haystack/ontology#heat">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack-ext#Section"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.siemens.com/bt/haystack/ontology#hotDeck -->
+
+    <owl:Class rdf:about="http://www.siemens.com/bt/haystack/ontology#hotDeck">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack-ext#Deck"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.siemens.com/bt/haystack/ontology#hotWaterHeat -->
+
+    <owl:Class rdf:about="http://www.siemens.com/bt/haystack/ontology#hotWaterHeat">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack-ext#HeatingMethod"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.siemens.com/bt/haystack/ontology#humidity -->
+
+    <owl:Class rdf:about="http://www.siemens.com/bt/haystack/ontology#humidity">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack-ext#Measurement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.siemens.com/bt/haystack/ontology#level -->
+
+    <owl:Class rdf:about="http://www.siemens.com/bt/haystack/ontology#level">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack-ext#Measurement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.siemens.com/bt/haystack/ontology#lightLevel -->
+
+    <owl:Class rdf:about="http://www.siemens.com/bt/haystack/ontology#lightLevel">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack-ext#Measurement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.siemens.com/bt/haystack/ontology#load -->
+
+    <owl:Class rdf:about="http://www.siemens.com/bt/haystack/ontology#load">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack-ext#Measurement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.siemens.com/bt/haystack/ontology#mau -->
+
+    <owl:Class rdf:about="http://www.siemens.com/bt/haystack/ontology#mau">
+        <rdfs:subClassOf rdf:resource="http://www.siemens.com/bt/haystack/ontology#Marker"/>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:complementOf>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://si-ra.github.io/ontologies/haystack-ext#contains"/>
+                        <owl:someValuesFrom rdf:resource="http://www.siemens.com/bt/haystack/ontology#exhaust"/>
+                    </owl:Restriction>
+                </owl:complementOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.siemens.com/bt/haystack/ontology#multiZone -->
+
+    <owl:Class rdf:about="http://www.siemens.com/bt/haystack/ontology#multiZone">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack-ext#ZoneDelivery"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.siemens.com/bt/haystack/ontology#neutralDeck -->
+
+    <owl:Class rdf:about="http://www.siemens.com/bt/haystack/ontology#neutralDeck">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack-ext#Deck"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.siemens.com/bt/haystack/ontology#outside -->
+
+    <owl:Class rdf:about="http://www.siemens.com/bt/haystack/ontology#outside">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack-ext#Section"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.siemens.com/bt/haystack/ontology#pf -->
+
+    <owl:Class rdf:about="http://www.siemens.com/bt/haystack/ontology#pf">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack-ext#Measurement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.siemens.com/bt/haystack/ontology#point -->
+
+    <owl:Class rdf:about="http://www.siemens.com/bt/haystack/ontology#point"/>
+    
+
+
+    <!-- http://www.siemens.com/bt/haystack/ontology#power -->
+
+    <owl:Class rdf:about="http://www.siemens.com/bt/haystack/ontology#power">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack-ext#Measurement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.siemens.com/bt/haystack/ontology#precipitation -->
+
+    <owl:Class rdf:about="http://www.siemens.com/bt/haystack/ontology#precipitation">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack-ext#Measurement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.siemens.com/bt/haystack/ontology#pressure -->
+
+    <owl:Class rdf:about="http://www.siemens.com/bt/haystack/ontology#pressure">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack-ext#Measurement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.siemens.com/bt/haystack/ontology#pump -->
+
+    <owl:Class rdf:about="http://www.siemens.com/bt/haystack/ontology#pump">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://si-ra.github.io/ontologies/haystack-ext#usedWith"/>
+                        <owl:allValuesFrom rdf:resource="http://www.siemens.com/bt/haystack/ontology#equip"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://si-ra.github.io/ontologies/haystack-ext#usedWith"/>
+                        <owl:allValuesFrom rdf:resource="http://www.siemens.com/bt/haystack/ontology#point"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.siemens.com/bt/haystack/ontology#return -->
+
+    <owl:Class rdf:about="http://www.siemens.com/bt/haystack/ontology#return">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack-ext#Section"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.siemens.com/bt/haystack/ontology#rooftop -->
+
+    <owl:Class rdf:about="http://www.siemens.com/bt/haystack/ontology#rooftop"/>
+    
+
+
+    <!-- http://www.siemens.com/bt/haystack/ontology#run -->
+
+    <owl:Class rdf:about="http://www.siemens.com/bt/haystack/ontology#run"/>
+    
+
+
+    <!-- http://www.siemens.com/bt/haystack/ontology#sensor -->
+
+    <owl:Class rdf:about="http://www.siemens.com/bt/haystack/ontology#sensor"/>
+    
+
+
+    <!-- http://www.siemens.com/bt/haystack/ontology#singleDuct -->
+
+    <owl:Class rdf:about="http://www.siemens.com/bt/haystack/ontology#singleDuct">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack-ext#Duct"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://si-ra.github.io/ontologies/haystack-ext#suppliesTo"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="https://si-ra.github.io/ontologies/haystack-ext#Deck"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.siemens.com/bt/haystack/ontology#speed -->
+
+    <owl:Class rdf:about="http://www.siemens.com/bt/haystack/ontology#speed">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack-ext#Measurement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.siemens.com/bt/haystack/ontology#steamHeat -->
+
+    <owl:Class rdf:about="http://www.siemens.com/bt/haystack/ontology#steamHeat">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack-ext#HeatingMethod"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.siemens.com/bt/haystack/ontology#temp -->
+
+    <owl:Class rdf:about="http://www.siemens.com/bt/haystack/ontology#temp">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack-ext#Measurement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.siemens.com/bt/haystack/ontology#tripleDuct -->
+
+    <owl:Class rdf:about="http://www.siemens.com/bt/haystack/ontology#tripleDuct">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack-ext#Duct"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://si-ra.github.io/ontologies/haystack-ext#suppliesTo"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">3</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="https://si-ra.github.io/ontologies/haystack-ext#Deck"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.siemens.com/bt/haystack/ontology#uv -->
+
+    <owl:Class rdf:about="http://www.siemens.com/bt/haystack/ontology#uv">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack-ext#Measurement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.siemens.com/bt/haystack/ontology#variableVolume -->
+
+    <owl:Class rdf:about="http://www.siemens.com/bt/haystack/ontology#variableVolume">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack-ext#AirFlowControl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.siemens.com/bt/haystack/ontology#vavZone -->
+
+    <owl:Class rdf:about="http://www.siemens.com/bt/haystack/ontology#vavZone">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack-ext#ZoneDelivery"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.siemens.com/bt/haystack/ontology#vfd -->
+
+    <owl:Class rdf:about="http://www.siemens.com/bt/haystack/ontology#vfd">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://si-ra.github.io/ontologies/haystack-ext#referredBy"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.siemens.com/bt/haystack/ontology#point"/>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="https://si-ra.github.io/ontologies/haystack-ext#hasMarker"/>
+                                        <owl:someValuesFrom rdf:resource="http://www.siemens.com/bt/haystack/ontology#enable"/>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="https://si-ra.github.io/ontologies/haystack-ext#hasMarker"/>
+                                        <owl:someValuesFrom rdf:resource="http://www.siemens.com/bt/haystack/ontology#freq"/>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="https://si-ra.github.io/ontologies/haystack-ext#hasMarker"/>
+                                        <owl:someValuesFrom rdf:resource="http://www.siemens.com/bt/haystack/ontology#speed"/>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="https://si-ra.github.io/ontologies/haystack-ext#hasMarker"/>
+                                        <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                                        <owl:onClass rdf:resource="http://www.siemens.com/bt/haystack/ontology#run"/>
+                                    </owl:Restriction>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://si-ra.github.io/ontologies/haystack-ext#usedWith"/>
+                <owl:allValuesFrom rdf:resource="http://www.siemens.com/bt/haystack/ontology#equip"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.siemens.com/bt/haystack/ontology#volt -->
+
+    <owl:Class rdf:about="http://www.siemens.com/bt/haystack/ontology#volt">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack-ext#Measurement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.siemens.com/bt/haystack/ontology#water -->
+
+    <owl:Class rdf:about="http://www.siemens.com/bt/haystack/ontology#water">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack-ext#Medium"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.siemens.com/bt/haystack/ontology#wetBulb -->
+
+    <owl:Class rdf:about="http://www.siemens.com/bt/haystack/ontology#wetBulb">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack-ext#Measurement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.siemens.com/bt/haystack/ontology#zone -->
+
+    <owl:Class rdf:about="http://www.siemens.com/bt/haystack/ontology#zone">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack-ext#Section"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack-ext#AirFlowControl -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack-ext#AirFlowControl"/>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack-ext#CoolingMethod -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack-ext#CoolingMethod"/>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack-ext#Deck -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack-ext#Deck"/>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack-ext#Duct -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack-ext#Duct"/>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack-ext#HeatingMethod -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack-ext#HeatingMethod"/>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack-ext#Measurement -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack-ext#Measurement"/>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack-ext#Medium -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack-ext#Medium"/>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack-ext#Section -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack-ext#Section"/>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack-ext#VVTSystem -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack-ext#VVTSystem">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://si-ra.github.io/ontologies/haystack-ext#usesProcessMethod"/>
+                        <owl:someValuesFrom rdf:resource="http://www.siemens.com/bt/haystack/ontology#constantVolume"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://si-ra.github.io/ontologies/haystack-ext#suppliesTo"/>
+                        <owl:allValuesFrom rdf:resource="http://www.siemens.com/bt/haystack/ontology#vavZone"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack-ext#ZoneDelivery -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack-ext#ZoneDelivery"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+

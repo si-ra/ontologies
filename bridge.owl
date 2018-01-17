@@ -470,6 +470,82 @@
     
 
 
+    <!-- http://ifcowl.openbimstandards.org/IFC4#CAMERA -->
+
+    <rdf:Description rdf:about="http://ifcowl.openbimstandards.org/IFC4#CAMERA">
+        <owl:sameAs rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#Camera"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://ifcowl.openbimstandards.org/IFC4#CHANGEOVER -->
+
+    <rdf:Description rdf:about="http://ifcowl.openbimstandards.org/IFC4#CHANGEOVER">
+        <owl:sameAs rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#ChangeOver"/>
+        <owl:sameAs rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#Changeover"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://ifcowl.openbimstandards.org/IFC4#CHILLEDWATER -->
+
+    <rdf:Description rdf:about="http://ifcowl.openbimstandards.org/IFC4#CHILLEDWATER">
+        <owl:sameAs rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#ChilledWater"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://ifcowl.openbimstandards.org/IFC4#CONDENSERWATER -->
+
+    <rdf:Description rdf:about="http://ifcowl.openbimstandards.org/IFC4#CONDENSERWATER">
+        <owl:sameAs rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#CondenserWater"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://ifcowl.openbimstandards.org/IFC4#CONTACTOR -->
+
+    <rdf:Description rdf:about="http://ifcowl.openbimstandards.org/IFC4#CONTACTOR">
+        <owl:sameAs rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#Contact"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://ifcowl.openbimstandards.org/IFC4#CONTROLPANEL -->
+
+    <rdf:Description rdf:about="http://ifcowl.openbimstandards.org/IFC4#CONTROLPANEL">
+        <owl:sameAs rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#ControlPanel"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://ifcowl.openbimstandards.org/IFC4#HERMETIC -->
+
+    <rdf:Description rdf:about="http://ifcowl.openbimstandards.org/IFC4#HERMETIC">
+        <owl:sameAs rdf:resource="http://ifcowl.openbimstandards.org/IFC4#RECIPROCATING"/>
+        <owl:sameAs rdf:resource="http://ifcowl.openbimstandards.org/IFC4#REFRIGERATION"/>
+        <owl:sameAs rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#Chiller"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://ifcowl.openbimstandards.org/IFC4#RECIPROCATING -->
+
+    <rdf:Description rdf:about="http://ifcowl.openbimstandards.org/IFC4#RECIPROCATING">
+        <owl:sameAs rdf:resource="http://ifcowl.openbimstandards.org/IFC4#REFRIGERATION"/>
+        <owl:sameAs rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#Chiller"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://ifcowl.openbimstandards.org/IFC4#REFRIGERATION -->
+
+    <rdf:Description rdf:about="http://ifcowl.openbimstandards.org/IFC4#REFRIGERATION">
+        <owl:sameAs rdf:resource="https://si-ra.github.io/ontologies/ccba.owl#Chiller"/>
+    </rdf:Description>
+    
+
+
     <!-- http://ifcowl.openbimstandards.org/IFC4#SHUTTER -->
 
     <rdf:Description rdf:about="http://ifcowl.openbimstandards.org/IFC4#SHUTTER">
@@ -499,6 +575,54 @@
     <!-- https://si-ra.github.io/ontologies/ccba.owl#Building -->
 
     <rdf:Description rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Building"/>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/ccba.owl#Camera -->
+
+    <rdf:Description rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Camera"/>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/ccba.owl#ChangeOver -->
+
+    <rdf:Description rdf:about="https://si-ra.github.io/ontologies/ccba.owl#ChangeOver"/>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/ccba.owl#Changeover -->
+
+    <rdf:Description rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Changeover"/>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/ccba.owl#ChilledWater -->
+
+    <rdf:Description rdf:about="https://si-ra.github.io/ontologies/ccba.owl#ChilledWater"/>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/ccba.owl#Chiller -->
+
+    <rdf:Description rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Chiller"/>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/ccba.owl#CondenserWater -->
+
+    <rdf:Description rdf:about="https://si-ra.github.io/ontologies/ccba.owl#CondenserWater"/>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/ccba.owl#Contact -->
+
+    <rdf:Description rdf:about="https://si-ra.github.io/ontologies/ccba.owl#Contact"/>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/ccba.owl#ControlPanel -->
+
+    <rdf:Description rdf:about="https://si-ra.github.io/ontologies/ccba.owl#ControlPanel"/>
 </rdf:RDF>
 
 

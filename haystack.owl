@@ -1,0 +1,1923 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://si-ra.github.io/ontologies/haystack#"
+     xml:base="https://si-ra.github.io/ontologies/haystack"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="https://si-ra.github.io/ontologies/haystack"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#Ref -->
+
+    <owl:ObjectProperty rdf:about="https://si-ra.github.io/ontologies/haystack#Ref"/>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#ahuRef -->
+
+    <owl:ObjectProperty rdf:about="https://si-ra.github.io/ontologies/haystack#ahuRef">
+        <rdfs:subPropertyOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Ref"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#chilledWaterPlantRef -->
+
+    <owl:ObjectProperty rdf:about="https://si-ra.github.io/ontologies/haystack#chilledWaterPlantRef">
+        <rdfs:subPropertyOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Ref"/>
+        <rdfs:domain rdf:resource="https://si-ra.github.io/ontologies/haystack#equip"/>
+        <rdfs:range rdf:resource="https://si-ra.github.io/ontologies/haystack#chilledWaterPlant"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#device1Ref -->
+
+    <owl:ObjectProperty rdf:about="https://si-ra.github.io/ontologies/haystack#device1Ref">
+        <rdfs:subPropertyOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Ref"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#device2Ref -->
+
+    <owl:ObjectProperty rdf:about="https://si-ra.github.io/ontologies/haystack#device2Ref">
+        <rdfs:subPropertyOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Ref"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#elecMeterLoad -->
+
+    <owl:ObjectProperty rdf:about="https://si-ra.github.io/ontologies/haystack#elecMeterLoad">
+        <rdfs:subPropertyOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Ref"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#elecMeterRef -->
+
+    <owl:ObjectProperty rdf:about="https://si-ra.github.io/ontologies/haystack#elecMeterRef">
+        <rdfs:subPropertyOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Ref"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#elecPanelOf -->
+
+    <owl:ObjectProperty rdf:about="https://si-ra.github.io/ontologies/haystack#elecPanelOf">
+        <rdfs:subPropertyOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Ref"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#equipRef -->
+
+    <owl:ObjectProperty rdf:about="https://si-ra.github.io/ontologies/haystack#equipRef">
+        <rdfs:subPropertyOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Ref"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#gasMeterLoad -->
+
+    <owl:ObjectProperty rdf:about="https://si-ra.github.io/ontologies/haystack#gasMeterLoad">
+        <rdfs:subPropertyOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Ref"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#hotWaterPlantRef -->
+
+    <owl:ObjectProperty rdf:about="https://si-ra.github.io/ontologies/haystack#hotWaterPlantRef">
+        <rdfs:subPropertyOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Ref"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#id -->
+
+    <owl:ObjectProperty rdf:about="https://si-ra.github.io/ontologies/haystack#id">
+        <rdfs:subPropertyOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Ref"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#networkRef -->
+
+    <owl:ObjectProperty rdf:about="https://si-ra.github.io/ontologies/haystack#networkRef">
+        <rdfs:subPropertyOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Ref"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#siteRef -->
+
+    <owl:ObjectProperty rdf:about="https://si-ra.github.io/ontologies/haystack#siteRef">
+        <rdfs:subPropertyOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Ref"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#steamMeterLoad -->
+
+    <owl:ObjectProperty rdf:about="https://si-ra.github.io/ontologies/haystack#steamMeterLoad">
+        <rdfs:subPropertyOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Ref"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#steamPlantRef -->
+
+    <owl:ObjectProperty rdf:about="https://si-ra.github.io/ontologies/haystack#steamPlantRef">
+        <rdfs:subPropertyOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Ref"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#subPanelOf -->
+
+    <owl:ObjectProperty rdf:about="https://si-ra.github.io/ontologies/haystack#subPanelOf">
+        <rdfs:subPropertyOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Ref"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#submeterOf -->
+
+    <owl:ObjectProperty rdf:about="https://si-ra.github.io/ontologies/haystack#submeterOf">
+        <rdfs:subPropertyOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Ref"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#waterMeterLoad -->
+
+    <owl:ObjectProperty rdf:about="https://si-ra.github.io/ontologies/haystack#waterMeterLoad">
+        <rdfs:subPropertyOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Ref"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#weatherRef -->
+
+    <owl:ObjectProperty rdf:about="https://si-ra.github.io/ontologies/haystack#weatherRef">
+        <rdfs:subPropertyOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Ref"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#Coord -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#Coord"/>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#Marker -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#Number -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#Number"/>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#Obj -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#Obj"/>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#Str -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#Str"/>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#absorption -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#absorption">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#ac -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#ac">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#active -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#active">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#ahu -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#ahu">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#air -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#air">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#airCooled -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#airCooled">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#angle -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#angle">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#apparent -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#apparent">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#area -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#area">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Number"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#avg -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#avg">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#barometric -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#barometric">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#blowdown -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#blowdown">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#boiler -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#boiler">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#bypass -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#bypass">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#centrifugal -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#centrifugal">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#chilled -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#chilled">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#chilledBeamZone -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#chilledBeamZone">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#chilledWaterCool -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#chilledWaterCool">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#chilledWaterPlant -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#chilledWaterPlant">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#chiller -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#chiller">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#circ -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#circ">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#circuit -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#circuit">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#closedLoop -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#closedLoop">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#cloudage -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#cloudage">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#cmd -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#cmd">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#co -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#co">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#co2 -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#co2">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#coldDeck -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#coldDeck">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#condensate -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#condensate">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#condenser -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#condenser">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#connection -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#connection">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#constantVolume -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#constantVolume">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#cool -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#cool">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#coolOnly -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#coolOnly">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#cooling -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#cooling">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#coolingCapacity -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#coolingCapacity">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Number"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#coolingTower -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#coolingTower">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#cur -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#cur">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#curErr -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#curErr">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Str"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#curStatus -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#curStatus">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Str"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#curVal -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#curVal">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Obj"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#current -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#current">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#damper -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#damper">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#dc -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#dc">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#delta -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#delta">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#device -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#device">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#dew -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#dew">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#directZone -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#directZone">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#direction -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#direction">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#dis -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#dis">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Str"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#discharge -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#discharge">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#diverting -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#diverting">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#domestic -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#domestic">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#dualDuct -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#dualDuct">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#ductArea -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#ductArea">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#dxCool -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#dxCool">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#effective -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#effective">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#efficiency -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#efficiency">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#elec -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#elec">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#elecHeat -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#elecHeat">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#elecPanel -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#elecPanel">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#elecReheat -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#elecReheat">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#enable -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#enable">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#energy -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#energy">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#entering -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#entering">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#enum -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#enum">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Str"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#equip -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#equip">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#evaporator -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#evaporator">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#exhaust -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#exhaust">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#export -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#export">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#faceBypass -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#faceBypass">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#fan -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#fan">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#fanPowered -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#fanPowered">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#fcu -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#fcu">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#filter -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#filter">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#flow -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#flow">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#flue -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#flue">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#freezeStat -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#freezeStat">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#freq -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#freq">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#gas -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#gas">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#gasHeat -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#gasHeat">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#geoAddr -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#geoAddr">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Str"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#geoCity -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#geoCity">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Str"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#geoCoord -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#geoCoord">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Coord"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#geoCountry -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#geoCountry">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Str"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#geoCounty -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#geoCounty">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Str"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#geoPostalCode -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#geoPostalCode">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Str"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#geoState -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#geoState">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Str"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#geoStreet -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#geoStreet">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Str"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#header -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#header">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#heat -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#heat">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#heatExchanger -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#heatExchanger">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#heatPump -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#heatPump">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#heatWheel -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#heatWheel">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#heating -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#heating">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#his -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#his">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#hisErr -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#hisErr">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Str"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#hisInterpolate -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#hisInterpolate">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Str"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#hisStatus -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#hisStatus">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Str"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#hisTotalized -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#hisTotalized">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#hot -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#hot">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#hotDeck -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#hotDeck">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#hotWaterHeat -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#hotWaterHeat">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#hotWaterPlant -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#hotWaterPlant">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#hotWaterReheat -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#hotWaterReheat">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#humidifier -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#humidifier">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#humidity -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#humidity">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#hvac -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#hvac">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#imbalance -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#imbalance">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#import -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#import">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#irradiance -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#irradiance">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#isolation -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#isolation">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#kind -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#kind">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Str"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#leaving -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#leaving">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#level -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#level">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#lightLevel -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#lightLevel">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#lighting -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#lighting">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#lights -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#lights">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#lightsGroup -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#lightsGroup">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#load -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#load">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#mag -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#mag">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#makeup -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#makeup">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#mau -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#mau">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#max -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#max">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#maxVal -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#maxVal">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Number"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#meter -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#meter">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#min -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#min">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#minVal -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#minVal">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Number"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#mixed -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#mixed">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#mixing -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#mixing">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#multiZone -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#multiZone">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#name -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#name">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#kind"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#net -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#net">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#network -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#network">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#neutralDeck -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#neutralDeck">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#occ -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#occ">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#occupancyIndicator -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#occupancyIndicator">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#occupied -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#occupied">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#oil -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#oil">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#openLoop -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#openLoop">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#outside -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#outside">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#parallel -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#parallel">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#perimeterHeat -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#perimeterHeat">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#pf -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#pf">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#phase -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#phase">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Str"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#point -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#point">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#power -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#power">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#precipitation -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#precipitation">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#pressure -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#pressure">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#pressureDependent -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#pressureDependent">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#pressureIndependent -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#pressureIndependent">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#primaryFunction -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#primaryFunction">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Str"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#primaryLoop -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#primaryLoop">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#protocol -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#protocol">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Str"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#pump -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#pump">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#reactive -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#reactive">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#reciprocal -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#reciprocal">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#refrig -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#refrig">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#reheat -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#reheat">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#reheating -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#reheating">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#return -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#return">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#rooftop -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#rooftop">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#run -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#run">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#screw -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#screw">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#secondaryLoop -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#secondaryLoop">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#sensor -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#sensor">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#series -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#series">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#singleDuct -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#singleDuct">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#site -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#site">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#siteMeter -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#siteMeter">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#sitePanel -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#sitePanel">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#solar -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#solar">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#sp -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#sp">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#speed -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#speed">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#stage -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#stage">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Number"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#standby -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#standby">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#steam -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#steam">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#steamHeat -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#steamHeat">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#steamPlant -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#steamPlant">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#sunrise -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#sunrise">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#tank -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#tank">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#temp -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#temp">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#thd -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#thd">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#total -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#total">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#tripleDuct -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#tripleDuct">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#tz -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#tz">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Str"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#unit -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#unit">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Str"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#unocc -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#unocc">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#uv -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#uv">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#valve -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#valve">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#variableVolume -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#variableVolume">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#vav -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#vav">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#vavMode -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#vavMode">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#vavZone -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#vavZone">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#vfd -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#vfd">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#visibility -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#visibility">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#volt -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#volt">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#volume -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#volume">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#water -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#water">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#waterCooled -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#waterCooled">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#weather -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#weather">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#weatherCond -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#weatherCond">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#weatherPoint -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#weatherPoint">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#wetBulb -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#wetBulb">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#wind -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#wind">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#writable -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#writable">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#writeErr -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#writeErr">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Str"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#writeLevel -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#writeLevel">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Number"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#writeStatus -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#writeStatus">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Str"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#writeVal -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#writeVal">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Obj"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#yearBuilt -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#yearBuilt">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Number"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/haystack#zone -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/haystack#zone">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/haystack#Marker"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
