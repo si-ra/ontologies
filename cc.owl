@@ -378,6 +378,15 @@
     
 
 
+    <!-- https://si-ra.github.io/ontologies/cc.owl#hasViewType -->
+
+    <owl:ObjectProperty rdf:about="https://si-ra.github.io/ontologies/cc.owl#hasViewType">
+        <rdfs:domain rdf:resource="https://si-ra.github.io/ontologies/cc.owl#View"/>
+        <rdfs:range rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ViewTypeEnum"/>
+    </owl:ObjectProperty>
+    
+
+
     <!-- https://si-ra.github.io/ontologies/cc.owl#isRelatedItemOf -->
 
     <owl:ObjectProperty rdf:about="https://si-ra.github.io/ontologies/cc.owl#isRelatedItemOf">
@@ -781,6 +790,12 @@
     
 
 
+    <!-- https://si-ra.github.io/ontologies/cc.owl#ViewTypeEnum -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/cc.owl#ViewTypeEnum"/>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -792,10 +807,16 @@
     
 
 
+    <!-- https://si-ra.github.io/ontologies/cc.owl#ApplicationView -->
+
+    <owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/cc.owl#ApplicationView"/>
+    
+
+
     <!-- https://si-ra.github.io/ontologies/cc.owl#LogicalView -->
 
     <owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/cc.owl#LogicalView">
-        <rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#View"/>
+        <rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ViewTypeEnum"/>
     </owl:NamedIndividual>
     
 
@@ -803,7 +824,7 @@
     <!-- https://si-ra.github.io/ontologies/cc.owl#ManagementView -->
 
     <owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/cc.owl#ManagementView">
-        <rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#View"/>
+        <rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ViewTypeEnum"/>
     </owl:NamedIndividual>
     
 
@@ -811,7 +832,7 @@
     <!-- https://si-ra.github.io/ontologies/cc.owl#UserView -->
 
     <owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/cc.owl#UserView">
-        <rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#View"/>
+        <rdf:type rdf:resource="https://si-ra.github.io/ontologies/cc.owl#ViewTypeEnum"/>
     </owl:NamedIndividual>
 </rdf:RDF>
 
