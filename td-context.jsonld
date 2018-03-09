@@ -1,6 +1,5 @@
 {    
-    "@context": [
-      "http://w3c.github.io/wot/w3c-wot-td-context.jsonld",
+    "@context": [      
       "http://w3c.github.io/wot/w3c-wot-common-context.jsonld",
       {
         "gms": "https://si-ra.github.io/ontologies/cc.owl#",
@@ -38,6 +37,45 @@
         "js": "http://json-schema.org/ns#",
         "minimum": "js:minimum",
         "maximum": "js:maximum"
-      }
+      },
+      {
+        "Link": "td:Link",
+        "href": {
+          "@id": "td:href",
+          "@type": "@id"
+        },
+        "mediaType": {
+          "@id": "td:hasMediaType"
+        },
+        "Interaction": "td:Interaction",
+        "interaction": {
+          "@id": "td:providesInteractionPattern",
+          "@type": "@id",
+          "@container": "@set"
+        },
+        "link": {
+          "@id": "td:isAccessibleThrough",
+          "@type": "@id"
+        },
+        "security": "td:implementsSecurity",
+        "Property": "td:Property",
+        "required": {
+          "@id": "td:isRequired",
+          "@type": "xsd:boolean"
+        },
+        "writable": {
+          "@id": "td:isWritable",
+          "@type": "xsd:boolean"
+        },
+        "Event": "td:Event",
+        "Action": "td:Action",
+        "inputData": {
+          "@id": "td:hasInputData"
+        },
+        "outputData": {
+          "@id": "td:hasOutputData"
+        },
+        "child": "td:isChildOf"
+      }      
     ]
 }
