@@ -83,7 +83,8 @@
       "outputData": {
         "@id": "td:hasOutputData"
       },
-      "child": "td:isChildOf"
+      "child": "td:isChildOf",
+      "links": "td:links"
     }            
   ]
 }
