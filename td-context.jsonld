@@ -1,5 +1,5 @@
 {    
-    "@context": [      
+    "@context": [
       "http://w3c.github.io/wot/w3c-wot-common-context.jsonld",
       {
         "gms": "https://si-ra.github.io/ontologies/cc.owl#",
@@ -37,45 +37,53 @@
         "js": "http://json-schema.org/ns#",
         "minimum": "js:minimum",
         "maximum": "js:maximum"
-      },
+      },      
       {
-        "Link": "td:Link",
-        "href": {
-          "@id": "td:href",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "td": "http://iot.linkeddata.es/def/wot#",
+        "Thing": "td:Thing",
+        "name": "td:name",
+        "base": {
+          "@id": "td:baseURI",
           "@type": "@id"
-        },
-        "mediaType": {
-          "@id": "td:hasMediaType"
-        },
-        "Interaction": "td:Interaction",
-        "interaction": {
-          "@id": "td:providesInteractionPattern",
-          "@type": "@id",
-          "@container": "@set"
-        },
-        "link": {
-          "@id": "td:isAccessibleThrough",
-          "@type": "@id"
-        },
-        "security": "td:implementsSecurity",
-        "Property": "td:Property",
-        "required": {
-          "@id": "td:isRequired",
-          "@type": "xsd:boolean"
-        },
-        "writable": {
-          "@id": "td:isWritable",
-          "@type": "xsd:boolean"
-        },
-        "Event": "td:Event",
-        "Action": "td:Action",
-        "inputData": {
-          "@id": "td:hasInputData"
-        },
-        "outputData": {
-          "@id": "td:hasOutputData"
-        },
-        "child": "td:isChildOf"
-      }      
-    ]
+      },
+      "Link": "td:Link",
+      "href": {
+        "@id": "td:href",
+        "@type": "@id"
+      },
+      "mediaType": {
+        "@id": "td:hasMediaType"
+      },
+      "Interaction": "td:Interaction",
+      "interaction": {
+        "@id": "td:providesInteractionPattern",
+        "@type": "@id",
+        "@container": "@set"
+      },
+      "link": {
+        "@id": "td:isAccessibleThrough",
+        "@type": "@id"
+      },
+      "security": "td:implementsSecurity",
+      "Property": "td:Property",
+      "required": {
+        "@id": "td:isRequired",
+        "@type": "xsd:boolean"
+      },
+      "writable": {
+        "@id": "td:isWritable",
+        "@type": "xsd:boolean"
+      },
+      "Event": "td:Event",
+      "Action": "td:Action",
+      "inputData": {
+        "@id": "td:hasInputData"
+      },
+      "outputData": {
+        "@id": "td:hasOutputData"
+      },
+      "child": "td:isChildOf"
+    }            
+  ]
 }
