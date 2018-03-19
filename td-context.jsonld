@@ -31,6 +31,9 @@
 		"gms:hasRelatedItem": {
           "@type": "@vocab"
         },
+		"gms:belongsToSystem": {
+          "@type": "@vocab"
+        },        
 		"gms:hasSemanticTag": {
           "@type": "@vocab"
         },		

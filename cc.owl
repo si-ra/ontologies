@@ -145,6 +145,16 @@
     
 
 
+    <!-- https://si-ra.github.io/ontologies/cc.owl#belongsToSystem -->
+
+    <owl:ObjectProperty rdf:about="https://si-ra.github.io/ontologies/cc.owl#belongsToSystem">
+        <rdfs:domain rdf:resource="https://si-ra.github.io/ontologies/cc.owl#CNSNode"/>
+        <rdfs:domain rdf:resource="https://si-ra.github.io/ontologies/cc.owl#Function"/>
+        <rdfs:range rdf:resource="https://si-ra.github.io/ontologies/cc.owl#System"/>
+    </owl:ObjectProperty>
+    
+
+
     <!-- https://si-ra.github.io/ontologies/cc.owl#belongsToView -->
 
     <owl:ObjectProperty rdf:about="https://si-ra.github.io/ontologies/cc.owl#belongsToView">
@@ -752,6 +762,12 @@
     <owl:Class rdf:about="https://si-ra.github.io/ontologies/cc.owl#SubDiscipline">
         <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#Discipline"/>
     </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/cc.owl#System -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/cc.owl#System"/>
     
 
 
