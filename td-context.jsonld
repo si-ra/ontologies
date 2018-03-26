@@ -123,11 +123,9 @@
       },
       "rel" : {
         "@id" : "http://www.w3.org/ns/td#rel",
-        "@type" : "http://www.w3.org/2001/XMLSchema#string"
       },
       "mediaType" : {
         "@id" : "http://www.w3.org/ns/td#mediaType",
-        "@type" : "http://www.w3.org/2001/XMLSchema#string"
       },
       "InteractionPattern" : {
         "@id" : "http://www.w3.org/ns/td#InteractionPattern"
