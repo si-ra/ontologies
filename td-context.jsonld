@@ -16,25 +16,25 @@
         "gms:hasParentNode": {
           "@type": "@vocab"
         },   
-		"gms:hasSiblingNode": {
+		    "gms:hasSiblingNode": {
           "@type": "@vocab"
         },
-		"gms:hasSiblingDatapoint": {
+		    "gms:hasSiblingDatapoint": {
           "@type": "@vocab"
         },		
-		"gms:hasDatapointItem": {
+		    "gms:hasDatapointItem": {
           "@type": "@vocab"
         },
-		"gms:isRepresentedByNode": {
+		    "gms:isRepresentedByNode": {
           "@type": "@vocab"
         },
-		"gms:hasRelatedItem": {
+		    "gms:hasRelatedItem": {
           "@type": "@vocab"
         },
-		"gms:belongsToSystem": {
+		    "gms:belongsToSystem": {
           "@type": "@vocab"
         },        
-		"gms:hasSemanticTag": {
+		    "gms:hasSemanticTag": {
           "@type": "@vocab"
         },		
         "js": "http://json-schema.org/ns#",
@@ -55,6 +55,10 @@
         "@id": "td:href",
         "@type": "@id"
       },
+      "rel" : {
+        "@id" : "td:rel",
+        "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      },      
       "mediaType": {
         "@id": "td:hasMediaType"
       },
