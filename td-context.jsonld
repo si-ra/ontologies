@@ -51,17 +51,17 @@
           "@type": "@id"
       },
       "Link": "td:Link",
-      "href": {
-        "@id": "td:href",
-        "@type": "@id"
+      "link" : {
+        "@id" : "http://www.w3.org/ns/td#link",
+        "@type" : "@id",
+        "@container": "@list"
       },
       "rel" : {
-        "@id" : "td:rel",
-        "@type" : "http://www.w3.org/2001/XMLSchema#string"
-      },      
-      "mediaType": {
-        "@id": "td:hasMediaType"
+        "@id" : "http://www.w3.org/ns/td#rel",
       },
+      "mediaType" : {
+        "@id" : "http://www.w3.org/ns/td#mediaType",
+      }
       "Interaction": "td:Interaction",
       "interaction": {
         "@id": "td:providesInteractionPattern",
