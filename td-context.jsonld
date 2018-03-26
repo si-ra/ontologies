@@ -122,10 +122,10 @@
         "@type" : "@id"
       },
       "rel" : {
-        "@id" : "http://www.w3.org/ns/td#rel",
+        "@id" : "http://www.w3.org/ns/td#rel"
       },
       "mediaType" : {
-        "@id" : "http://www.w3.org/ns/td#mediaType",
+        "@id" : "http://www.w3.org/ns/td#mediaType"
       },
       "InteractionPattern" : {
         "@id" : "http://www.w3.org/ns/td#InteractionPattern"
