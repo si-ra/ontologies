@@ -46,7 +46,7 @@
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
         "xsd": "http://www.w3.org/2001/XMLSchema#",
         "outputData" : {
-          "@id" : "http://www.w3.org/ns/td#outputSchema",
+          "@id" : "http://www.w3.org/ns/td#outputData",
           "@type" : "@id"
         },
         "license" : {
@@ -96,7 +96,6 @@
         },
         "name" : {
           "@id" : "http://www.w3.org/ns/td#name",
-          "@type" : "http://www.w3.org/2001/XMLSchema#string"
         },
         "observable" : {
           "@id" : "http://www.w3.org/ns/td#observable",
@@ -135,7 +134,7 @@
           "@id" : "http://www.w3.org/ns/td#Action"
         },
         "inputData" : {
-          "@id" : "http://www.w3.org/ns/td#inputSchema",
+          "@id" : "http://www.w3.org/ns/td#inputData",
           "@type" : "@id"
         },
         "anyOf" : {
