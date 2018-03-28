@@ -36,6 +36,9 @@
         },        
 		    "gms:hasSemanticTag": {
           "@type": "@vocab"
+        },
+        "gms:hasChildren": {
+          "@type": "http://www.w3.org/2001/XMLSchema#boolean"
         },		
         "js": "http://json-schema.org/ns#",
         "minimum": "js:minimum",
