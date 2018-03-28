@@ -95,7 +95,7 @@
           "@type" : "http://www.w3.org/2001/XMLSchema#anyURI"
         },
         "name" : {
-          "@id" : "http://www.w3.org/ns/td#name",
+          "@id" : "http://www.w3.org/ns/td#name"
         },
         "observable" : {
           "@id" : "http://www.w3.org/ns/td#observable",
