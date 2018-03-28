@@ -438,6 +438,15 @@
     
 
 
+    <!-- https://si-ra.github.io/ontologies/cc.owl#hasChildren -->
+
+    <owl:DatatypeProperty rdf:about="https://si-ra.github.io/ontologies/cc.owl#hasChildren">
+        <rdfs:domain rdf:resource="https://si-ra.github.io/ontologies/cc.owl#CNSNode"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
     <!-- https://si-ra.github.io/ontologies/cc.owl#hasDatapointObjectId -->
 
     <owl:DatatypeProperty rdf:about="https://si-ra.github.io/ontologies/cc.owl#hasDatapointObjectId">
