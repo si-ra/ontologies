@@ -200,6 +200,9 @@
         "type": {
           "@id" : "http://www.w3.org/ns/td#schemaType",
           "@type": "@vocab"
+        },
+        "default" : {
+          "@id" : "http://www.w3.org/ns/td#default"
         }
       }
   ]
