@@ -192,7 +192,7 @@
         },
         "enum" : {
           "@id" : "http://www.w3.org/ns/td#enum",
-          "@type" : "@id"
+          "@container" : "@list"
         },
         "boolean" : {
           "@id" : "http://www.w3.org/ns/td#Boolean"
