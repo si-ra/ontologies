@@ -4,10 +4,10 @@
     <uri id="User Entered Import Resolution" name="https://w3id.org/express" uri="file:/D:/Data/RDF/BIM/express.owl"/>
     <uri id="User Entered Import Resolution" name="http://ifcowl.openbimstandards.org/IFC4" uri="file:/D:/Data/RDF/BIM/IFC4.owl"/>
     <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
-        <uri id="Automatically generated entry, Timestamp=1522225367089" name="http://www.schema.siemens.com/bt/bridge" uri="bridge.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1522225367089" name="https://si-ra.github.io/ontologies/cc.owl" uri="cc.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1522225367089" name="https://si-ra.github.io/ontologies/ccba.owl" uri="ccba.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1522225367089" name="https://si-ra.github.io/ontologies/haystack-ext" uri="haystack-ext.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1522225367089" name="https://si-ra.github.io/ontologies/haystack.owl" uri="haystack.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1522934352553" name="http://www.schema.siemens.com/bt/bridge" uri="bridge.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1522934352553" name="https://si-ra.github.io/ontologies/cc.owl" uri="cc.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1522934352553" name="https://si-ra.github.io/ontologies/ccba.owl" uri="ccba.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1522934352553" name="https://si-ra.github.io/ontologies/haystack-ext" uri="haystack-ext.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1522934352553" name="https://si-ra.github.io/ontologies/haystack.owl" uri="haystack.owl"/>
     </group>
 </catalog>

@@ -150,6 +150,7 @@
     <owl:ObjectProperty rdf:about="https://si-ra.github.io/ontologies/cc.owl#belongsToSystem">
         <rdfs:domain rdf:resource="https://si-ra.github.io/ontologies/cc.owl#CNSNode"/>
         <rdfs:domain rdf:resource="https://si-ra.github.io/ontologies/cc.owl#Function"/>
+        <rdfs:domain rdf:resource="https://si-ra.github.io/ontologies/cc.owl#View"/>
         <rdfs:range rdf:resource="https://si-ra.github.io/ontologies/cc.owl#System"/>
     </owl:ObjectProperty>
     
@@ -315,6 +316,15 @@
     
 
 
+    <!-- https://si-ra.github.io/ontologies/cc.owl#hasRelatedProperty -->
+
+    <owl:ObjectProperty rdf:about="https://si-ra.github.io/ontologies/cc.owl#hasRelatedProperty">
+        <rdfs:subPropertyOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#hasLink"/>
+        <rdfs:range rdf:resource="https://si-ra.github.io/ontologies/cc.owl#Property"/>
+    </owl:ObjectProperty>
+    
+
+
     <!-- https://si-ra.github.io/ontologies/cc.owl#hasRootNode -->
 
     <owl:ObjectProperty rdf:about="https://si-ra.github.io/ontologies/cc.owl#hasRootNode">
@@ -442,7 +452,6 @@
 
     <owl:DatatypeProperty rdf:about="https://si-ra.github.io/ontologies/cc.owl#hasChildren">
         <rdfs:domain rdf:resource="https://si-ra.github.io/ontologies/cc.owl#CNSNode"/>
-       <!-- <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>-->
     </owl:DatatypeProperty>
     
 
@@ -551,7 +560,7 @@
     <!-- https://si-ra.github.io/ontologies/cc.owl#hasSystemIdentifier -->
 
     <owl:DatatypeProperty rdf:about="https://si-ra.github.io/ontologies/cc.owl#hasSystemIdentifier">
-        <rdfs:domain rdf:resource="https://si-ra.github.io/ontologies/cc.owl#DPIdentifier"/>
+        <rdfs:domain rdf:resource="https://si-ra.github.io/ontologies/cc.owl#Function"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
     
