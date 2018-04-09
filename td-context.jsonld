@@ -13,7 +13,6 @@
         "gms:hasChildNode": {
           "@type": "@vocab"
         },
-        },
         "gms:hasParentNode": {
           "@type": "@vocab"
         },   
