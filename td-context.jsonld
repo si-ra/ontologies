@@ -13,6 +13,7 @@
         "gms:hasChildNode": {
           "@type": "@vocab"
         },
+        },
         "gms:hasParentNode": {
           "@type": "@vocab"
         },   
@@ -38,8 +39,8 @@
           "@type": "@vocab"
         },		
         "js": "http://json-schema.org/ns#",
-        "minimum": "js:minimum",
-        "maximum": "js:maximum"
+        "minimum": { "@type" : "xsd:double", "@id": "js:minimum"},
+        "maximum": { "@type" : "xsd:double", "@id":"js:maximum"}
       },
       {      
         "td": "http://www.w3.org/ns/td#",
