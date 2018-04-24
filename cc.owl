@@ -675,6 +675,10 @@
     <owl:Class rdf:about="https://si-ra.github.io/ontologies/cc.owl#LogicalViewRoot">
         <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#CNSNode"/>
     </owl:Class>
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/cc.owl#ApplicationViewRoot">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#CNSNode"/>
+    </owl:Class>    
     
 
 

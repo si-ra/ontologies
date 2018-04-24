@@ -13,6 +13,9 @@
         "gms:hasChildNode": {
           "@type": "@vocab"
         },
+        "gms:hasChildren": {
+          "@type": "xsd:boolean"
+        },
         "gms:hasParentNode": {
           "@type": "@vocab"
         },   
@@ -119,7 +122,8 @@
         },
         "link" : {
           "@id" : "http://www.w3.org/ns/td#link",
-          "@type" : "@id"
+          "@type" : "@id",
+          "@container" : "@list"
         },
         "rel" : {
           "@id" : "http://www.w3.org/ns/td#rel"
@@ -165,7 +169,8 @@
         },
         "field" : {
           "@id" : "http://www.w3.org/ns/td#field",
-          "@type" : "@id"
+          "@type" : "@id",
+          "@container" : "@list"
         },
         "integer" : {
           "@id" : "http://www.w3.org/ns/td#Integer"
