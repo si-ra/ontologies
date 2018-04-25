@@ -122,7 +122,6 @@
         },
         "link" : {
           "@id" : "http://www.w3.org/ns/td#link",
-          "@type" : "@id",
           "@container" : "@list"
         },
         "rel" : {
