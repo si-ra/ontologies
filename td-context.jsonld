@@ -174,7 +174,7 @@
         "field" : {
           "@id" : "http://www.w3.org/ns/td#field",
           "@type" : "@id",
-          "@container" : "@list"
+          "@container" : "@set"
         },
         "integer" : {
           "@id" : "http://www.w3.org/ns/td#Integer"
