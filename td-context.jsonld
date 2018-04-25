@@ -39,7 +39,8 @@
           "@type": "@vocab"
         },        
 		    "gms:hasSemanticTag": {
-          "@type": "@vocab"
+          "@type": "@vocab",
+          "@container" : "@set"
         },		
         "js": "http://json-schema.org/ns#",
         "minimum": { "@type" : "xsd:double", "@id": "js:minimum"},
