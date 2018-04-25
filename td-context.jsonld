@@ -97,6 +97,10 @@
           "@id" : "http://www.w3.org/ns/td#href",
           "@type" : "http://www.w3.org/2001/XMLSchema#anyURI"
         },
+        "title" : {
+          "@id" : "http://www.w3.org/ns/td#title",
+          "@type" : "http://www.w3.org/2001/XMLSchema#string"
+        },        
         "name" : {
           "@id" : "http://www.w3.org/ns/td#name"
         },
@@ -122,8 +126,8 @@
         },
         "link" : {
           "@id" : "http://www.w3.org/ns/td#link",
-          "@type" : "http://www.w3.org/2001/XMLSchema#string",
-          "@container" : "@list"
+          "@type" : "@id",
+          "@container" : "@set"
         },
         "rel" : {
           "@id" : "http://www.w3.org/ns/td#rel"
