@@ -32,7 +32,8 @@
           "@type": "@vocab"
         },
 		    "gms:hasRelatedItem": {
-          "@type": "@vocab"
+          "@type": "@vocab",
+          "@container" : "@set"
         },
 		    "gms:belongsToSystem": {
           "@type": "@vocab"
