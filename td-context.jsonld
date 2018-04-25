@@ -122,6 +122,7 @@
         },
         "link" : {
           "@id" : "http://www.w3.org/ns/td#link",
+          "@type" : "http://www.w3.org/2001/XMLSchema#string",
           "@container" : "@list"
         },
         "rel" : {
