@@ -37,11 +37,17 @@
         },
 		    "gms:belongsToSystem": {
           "@type": "@vocab"
+        },
+        "gms:belongsToView": {
+          "@type": "@vocab"
         },        
 		    "gms:hasSemanticTag": {
           "@type": "@vocab",
           "@container" : "@set"
-        },		
+        },
+		    "gms:hasRelatedProperty": {
+          "@type": "@vocab"
+        },        		
         "js": "http://json-schema.org/ns#",
         "minimum": { "@type" : "xsd:double", "@id": "js:minimum"},
         "maximum": { "@type" : "xsd:double", "@id":"js:maximum"}
