@@ -47,6 +47,9 @@
         },
 		    "gms:hasRelatedProperty": {
           "@type": "@vocab"
+        },
+        "gms:hasRootNode": {
+          "@type": "@vocab"
         },        		
         "js": "http://json-schema.org/ns#",
         "minimum": { "@type" : "xsd:double", "@id": "js:minimum"},
