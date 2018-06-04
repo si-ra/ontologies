@@ -602,6 +602,14 @@
     
 
 
+    <!-- https://si-ra.github.io/ontologies/cc.owl#ApplicationViewRoot -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/cc.owl#ApplicationViewRoot">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#CNSNode"/>
+    </owl:Class>
+    
+
+
     <!-- https://si-ra.github.io/ontologies/cc.owl#CNSNode -->
 
     <owl:Class rdf:about="https://si-ra.github.io/ontologies/cc.owl#CNSNode">
@@ -675,10 +683,6 @@
     <owl:Class rdf:about="https://si-ra.github.io/ontologies/cc.owl#LogicalViewRoot">
         <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#CNSNode"/>
     </owl:Class>
-
-    <owl:Class rdf:about="https://si-ra.github.io/ontologies/cc.owl#ApplicationViewRoot">
-        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#CNSNode"/>
-    </owl:Class>    
     
 
 
@@ -724,6 +728,14 @@
 
     <owl:Class rdf:about="https://si-ra.github.io/ontologies/cc.owl#ObjectType">
         <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#SemanticTag"/>
+    </owl:Class>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/cc.owl#PhysicalViewRoot -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/cc.owl#PhysicalViewRoot">
+        <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#CNSNode"/>
     </owl:Class>
     
 
@@ -814,9 +826,9 @@
     
 
 
-    <!-- https://si-ra.github.io/ontologies/cc.owl#UserViewRoot -->
+    <!-- https://si-ra.github.io/ontologies/cc.owl#UserDefinedViewRoot -->
 
-    <owl:Class rdf:about="https://si-ra.github.io/ontologies/cc.owl#UserViewRoot">
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/cc.owl#UserDefinedViewRoot">
         <rdfs:subClassOf rdf:resource="https://si-ra.github.io/ontologies/cc.owl#CNSNode"/>
     </owl:Class>
     
