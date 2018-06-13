@@ -4,6 +4,8 @@
       {
         "gms": "https://si-ra.github.io/ontologies/cc.owl#",
         "ba": "https://si-ra.github.io/ontologies/ccba.owl#",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "js": "http://json-schema.org/ns#",
         "js:type": {
           "@type": "@vocab"
         },
@@ -51,7 +53,6 @@
         "gms:hasRootNode": {
           "@type": "@vocab"
         },        		
-        "js": "http://json-schema.org/ns#",
         "minimum": { "@type" : "xsd:double", "@id": "js:minimum"},
         "maximum": { "@type" : "xsd:double", "@id":"js:maximum"}
       },
@@ -71,7 +72,8 @@
         },
         "interaction" : {
           "@id" : "http://www.w3.org/ns/td#interaction",
-          "@type" : "@id"
+          "@type" : "@id",
+          "@container" : "@set"
         },
         "security" : {
           "@id" : "http://www.w3.org/ns/td#security",
