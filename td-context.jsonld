@@ -157,7 +157,7 @@
         },
         "inputData" : {
           "@id" : "https://www.w3.org/ns/td.jsonld#input",
-          "@type" : "@id"
+          "@type" : "@vocab"
         },
         "anyOf" : {
           "@id" : "http://www.w3.org/ns/td#anyOf",
