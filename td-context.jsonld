@@ -6,7 +6,6 @@
         "ba": "https://si-ra.github.io/ontologies/ccba.owl#",
         "xsd": "http://www.w3.org/2001/XMLSchema#",
         "js": "http://json-schema.org/ns#",
-	"td": "http://www.w3.org/ns/td#",
         "js:type": {
           "@type": "@vocab"
         },
@@ -155,9 +154,9 @@
         "Action" : {
           "@id" : "http://www.w3.org/ns/td#Action"
         },
-        "inputData" : {
-          "@id" : "https://www.w3.org/ns/td.jsonld#input",
-          "@type" : "@vocab"
+        "input" : {
+          "@id" : "http://www.w3.org/ns/td#input",
+          "@type" : "@id"
         },
         "anyOf" : {
           "@id" : "http://www.w3.org/ns/td#anyOf",
