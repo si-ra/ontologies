@@ -155,8 +155,8 @@
           "@id" : "http://www.w3.org/ns/td#Action"
         },
         "inputData" : {
-          "@id" : "http://www.w3.org/ns/td#inputData",
-          "@type" : "@vocab"
+          "@id" : "http://www.w3.org/ns/td#input",
+          "@type" : "@id"
         },
         "anyOf" : {
           "@id" : "http://www.w3.org/ns/td#anyOf",
