@@ -154,7 +154,7 @@
         "Action" : {
           "@id" : "http://www.w3.org/ns/td#Action"
         },
-        "inputData" : {
+        "input" : {
           "@id" : "http://www.w3.org/ns/td#input",
           "@type" : "@id"
         },
