@@ -1,0 +1,437 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://si-ra.github.io/ontologies/cc_event.owl#"
+     xml:base="https://si-ra.github.io/ontologies/cc_event.owl"
+     xmlns:cc="https://si-ra.github.io/ontologies/cc.owl#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="https://si-ra.github.io/ontologies/cc_event.owl">
+        <owl:imports rdf:resource="https://si-ra.github.io/ontologies/cc.owl"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/cc_event.owl#EventState -->
+
+    <rdfs:Datatype rdf:about="https://si-ra.github.io/ontologies/cc_event.owl#EventState">
+        <owl:equivalentClass rdf:resource="https://si-ra.github.io/ontologies/cc_event.owl#EventState"/>
+    </rdfs:Datatype>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/cc_event.owl#hasParent -->
+
+    <owl:ObjectProperty rdf:about="https://si-ra.github.io/ontologies/cc_event.owl#hasParent"/>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/cc_event.owl#hasSourceDevice -->
+
+    <owl:ObjectProperty rdf:about="https://si-ra.github.io/ontologies/cc_event.owl#hasSourceDevice"/>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/cc_event.owl#hasSourceIDOrigin -->
+
+    <owl:ObjectProperty rdf:about="https://si-ra.github.io/ontologies/cc_event.owl#hasSourceIDOrigin">
+        <rdfs:domain rdf:resource="https://si-ra.github.io/ontologies/cc_event.owl#Event"/>
+        <rdfs:range rdf:resource="https://si-ra.github.io/ontologies/cc.owl#DatapointInstance"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/cc_event.owl#hasSourceProperty -->
+
+    <owl:ObjectProperty rdf:about="https://si-ra.github.io/ontologies/cc_event.owl#hasSourceProperty"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/cc_event.owl#hasAuthScopes -->
+
+    <owl:DatatypeProperty rdf:about="https://si-ra.github.io/ontologies/cc_event.owl#hasAuthScopes"/>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/cc_event.owl#hasCategory -->
+
+    <owl:DatatypeProperty rdf:about="https://si-ra.github.io/ontologies/cc_event.owl#hasCategory">
+        <rdfs:domain rdf:resource="https://si-ra.github.io/ontologies/cc_event.owl#Event"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/cc_event.owl#hasCause -->
+
+    <owl:DatatypeProperty rdf:about="https://si-ra.github.io/ontologies/cc_event.owl#hasCause">
+        <rdfs:domain rdf:resource="https://si-ra.github.io/ontologies/cc_event.owl#Event"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/cc_event.owl#hasCreatedAt -->
+
+    <owl:DatatypeProperty rdf:about="https://si-ra.github.io/ontologies/cc_event.owl#hasCreatedAt">
+        <rdfs:domain rdf:resource="https://si-ra.github.io/ontologies/cc_event.owl#Event"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTimeStamp"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/cc_event.owl#hasCustomerText -->
+
+    <owl:DatatypeProperty rdf:about="https://si-ra.github.io/ontologies/cc_event.owl#hasCustomerText"/>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/cc_event.owl#hasDescription -->
+
+    <owl:DatatypeProperty rdf:about="https://si-ra.github.io/ontologies/cc_event.owl#hasDescription"/>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/cc_event.owl#hasDescriptionList -->
+
+    <owl:DatatypeProperty rdf:about="https://si-ra.github.io/ontologies/cc_event.owl#hasDescriptionList"/>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/cc_event.owl#hasDescriptionLocationsList -->
+
+    <owl:DatatypeProperty rdf:about="https://si-ra.github.io/ontologies/cc_event.owl#hasDescriptionLocationsList"/>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/cc_event.owl#hasDesignationList -->
+
+    <owl:DatatypeProperty rdf:about="https://si-ra.github.io/ontologies/cc_event.owl#hasDesignationList"/>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/cc_event.owl#hasDirection -->
+
+    <owl:DatatypeProperty rdf:about="https://si-ra.github.io/ontologies/cc_event.owl#hasDirection"/>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/cc_event.owl#hasDiscipline -->
+
+    <owl:DatatypeProperty rdf:about="https://si-ra.github.io/ontologies/cc_event.owl#hasDiscipline"/>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/cc_event.owl#hasEventId -->
+
+    <owl:DatatypeProperty rdf:about="https://si-ra.github.io/ontologies/cc_event.owl#hasEventId">
+        <rdfs:domain rdf:resource="https://si-ra.github.io/ontologies/cc_event.owl#Event"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/cc_event.owl#hasEventState -->
+
+    <owl:DatatypeProperty rdf:about="https://si-ra.github.io/ontologies/cc_event.owl#hasEventState">
+        <rdfs:domain rdf:resource="https://si-ra.github.io/ontologies/cc_event.owl#Event"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/cc_event.owl#hasIcon -->
+
+    <owl:DatatypeProperty rdf:about="https://si-ra.github.io/ontologies/cc_event.owl#hasIcon">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/cc_event.owl#hasInteractionAvailable -->
+
+    <owl:DatatypeProperty rdf:about="https://si-ra.github.io/ontologies/cc_event.owl#hasInteractionAvailable">
+        <rdfs:domain rdf:resource="https://si-ra.github.io/ontologies/cc_event.owl#Event"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/cc_event.owl#hasInteractionRecommended -->
+
+    <owl:DatatypeProperty rdf:about="https://si-ra.github.io/ontologies/cc_event.owl#hasInteractionRecommended">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="https://si-ra.github.io/ontologies/cc_event.owl#Event"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/cc_event.owl#hasIsDeleted -->
+
+    <owl:DatatypeProperty rdf:about="https://si-ra.github.io/ontologies/cc_event.owl#hasIsDeleted">
+        <rdfs:domain rdf:resource="https://si-ra.github.io/ontologies/cc_event.owl#Event"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/cc_event.owl#hasIsMaintenance -->
+
+    <owl:DatatypeProperty rdf:about="https://si-ra.github.io/ontologies/cc_event.owl#hasIsMaintenance">
+        <rdfs:domain rdf:resource="https://si-ra.github.io/ontologies/cc_event.owl#Event"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/cc_event.owl#hasIsTagged -->
+
+    <owl:DatatypeProperty rdf:about="https://si-ra.github.io/ontologies/cc_event.owl#hasIsTagged">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/cc_event.owl#hasIsUnavailable -->
+
+    <owl:DatatypeProperty rdf:about="https://si-ra.github.io/ontologies/cc_event.owl#hasIsUnavailable">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/cc_event.owl#hasIsVisibiltyChanged -->
+
+    <owl:DatatypeProperty rdf:about="https://si-ra.github.io/ontologies/cc_event.owl#hasIsVisibiltyChanged">
+        <rdfs:domain rdf:resource="https://si-ra.github.io/ontologies/cc_event.owl#Event"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/cc_event.owl#hasIsVisible -->
+
+    <owl:DatatypeProperty rdf:about="https://si-ra.github.io/ontologies/cc_event.owl#hasIsVisible">
+        <rdfs:domain rdf:resource="https://si-ra.github.io/ontologies/cc_event.owl#Event"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/cc_event.owl#hasLocation -->
+
+    <owl:DatatypeProperty rdf:about="https://si-ra.github.io/ontologies/cc_event.owl#hasLocation"/>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/cc_event.owl#hasMessages -->
+
+    <owl:DatatypeProperty rdf:about="https://si-ra.github.io/ontologies/cc_event.owl#hasMessages">
+        <rdfs:domain rdf:resource="https://si-ra.github.io/ontologies/cc_event.owl#Event"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/cc_event.owl#hasModifiedAt -->
+
+    <owl:DatatypeProperty rdf:about="https://si-ra.github.io/ontologies/cc_event.owl#hasModifiedAt">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTimeStamp"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/cc_event.owl#hasObserver -->
+
+    <owl:DatatypeProperty rdf:about="https://si-ra.github.io/ontologies/cc_event.owl#hasObserver">
+        <rdfs:domain rdf:resource="https://si-ra.github.io/ontologies/cc_event.owl#Event"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/cc_event.owl#hasPriority -->
+
+    <owl:DatatypeProperty rdf:about="https://si-ra.github.io/ontologies/cc_event.owl#hasPriority">
+        <rdfs:domain rdf:resource="https://si-ra.github.io/ontologies/cc_event.owl#Event"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedInt"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/cc_event.owl#hasSound -->
+
+    <owl:DatatypeProperty rdf:about="https://si-ra.github.io/ontologies/cc_event.owl#hasSound">
+        <rdfs:domain rdf:resource="https://si-ra.github.io/ontologies/cc_event.owl#Event"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/cc_event.owl#hasSourceDescription -->
+
+    <owl:DatatypeProperty rdf:about="https://si-ra.github.io/ontologies/cc_event.owl#hasSourceDescription">
+        <rdfs:domain rdf:resource="https://si-ra.github.io/ontologies/cc_event.owl#Event"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/cc_event.owl#hasSourceDesignationList -->
+
+    <owl:DatatypeProperty rdf:about="https://si-ra.github.io/ontologies/cc_event.owl#hasSourceDesignationList"/>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/cc_event.owl#hasSourceViewDescriptor -->
+
+    <owl:DatatypeProperty rdf:about="https://si-ra.github.io/ontologies/cc_event.owl#hasSourceViewDescriptor">
+        <rdfs:domain rdf:resource="https://si-ra.github.io/ontologies/cc_event.owl#Event"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/cc_event.owl#hasSrcSystemId -->
+
+    <owl:DatatypeProperty rdf:about="https://si-ra.github.io/ontologies/cc_event.owl#hasSrcSystemId">
+        <rdfs:domain rdf:resource="https://si-ra.github.io/ontologies/cc_event.owl#Event"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/cc_event.owl#hasSubdiscipline -->
+
+    <owl:DatatypeProperty rdf:about="https://si-ra.github.io/ontologies/cc_event.owl#hasSubdiscipline">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/cc_event.owl#hasTimestamp -->
+
+    <owl:DatatypeProperty rdf:about="https://si-ra.github.io/ontologies/cc_event.owl#hasTimestamp">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTimeStamp"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/cc_event.owl#hasTriggeredAt -->
+
+    <owl:DatatypeProperty rdf:about="https://si-ra.github.io/ontologies/cc_event.owl#hasTriggeredAt">
+        <rdfs:domain rdf:resource="https://si-ra.github.io/ontologies/cc_event.owl#Event"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTimeStamp"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/cc_event.owl#Event -->
+
+    <owl:Class rdf:about="https://si-ra.github.io/ontologies/cc_event.owl#Event">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://si-ra.github.io/ontologies/cc_event.owl#hasEventId"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://si-ra.github.io/ontologies/cc_event.owl#hasEventState"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="https://si-ra.github.io/ontologies/cc_event.owl#EventState"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://si-ra.github.io/ontologies/cc_event.owl#hasTimestamp"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#dateTimeStamp"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/cc_event.owl#EVENT_ACTIVE -->
+
+    <owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/cc_event.owl#EVENT_ACTIVE"/>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/cc_event.owl#EVENT_ACTIVE_ACKNOWLEDGED -->
+
+    <owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/cc_event.owl#EVENT_ACTIVE_ACKNOWLEDGED"/>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/cc_event.owl#EVENT_NORMAL -->
+
+    <owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/cc_event.owl#EVENT_NORMAL"/>
+    
+
+
+    <!-- https://si-ra.github.io/ontologies/cc_event.owl#EVENT_UNRESET -->
+
+    <owl:NamedIndividual rdf:about="https://si-ra.github.io/ontologies/cc_event.owl#EVENT_UNRESET"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
