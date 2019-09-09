@@ -1,0 +1,296 @@
+@prefix : <https://si-ra.github.io/ontologies/events.owl#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://bt.schema.siemens.io/custom/btea#> .
+
+<http://bt.schema.siemens.io/custom/btea#> rdf:type owl:Ontology ;
+                                            owl:imports <http://purl.obolibrary.org/obo/TEMP> ,
+                                                        <http://www.w3.org/2019/td#> .
+
+#################################################################
+#    Datatypes
+#################################################################
+
+###  http://bt.schema.siemens.io/custom/btea#EventState
+:EventState rdf:type rdfs:Datatype .
+
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://bt.schema.siemens.io/custom/btea##availableActions
+<http://bt.schema.siemens.io/custom/btea##availableActions> rdf:type owl:ObjectProperty ;
+                                                            rdfs:domain <http://bt.schema.siemens.io/custom/btea##Event> ;
+                                                            rdfs:range <http://bt.schema.siemens.io/custom/btea##EventAction> .
+
+
+###  http://bt.schema.siemens.io/custom/btea##notifies
+<http://bt.schema.siemens.io/custom/btea##notifies> rdf:type owl:ObjectProperty ;
+                                                    owl:inverseOf <http://bt.schema.siemens.io/custom/btea##notifies> ;
+                                                    rdfs:domain <http://bt.schema.siemens.io/custom/btea##EventObserver> ;
+                                                    rdfs:range <http://bt.schema.siemens.io/custom/btea##EventSubscriber> .
+
+
+###  http://bt.schema.siemens.io/custom/btea##observes
+<http://bt.schema.siemens.io/custom/btea##observes> rdf:type owl:ObjectProperty ;
+                                                    rdfs:domain <http://bt.schema.siemens.io/custom/btea##EventObserver> ;
+                                                    rdfs:range <http://bt.schema.siemens.io/custom/btea##EventSource> .
+
+
+###  http://bt.schema.siemens.io/custom/btea##produces
+<http://bt.schema.siemens.io/custom/btea##produces> rdf:type owl:ObjectProperty ;
+                                                    rdfs:domain <http://bt.schema.siemens.io/custom/btea##EventObserver> ;
+                                                    rdfs:range <http://bt.schema.siemens.io/custom/btea##Event> .
+
+
+###  http://bt.schema.siemens.io/custom/btea##recommendedAction
+<http://bt.schema.siemens.io/custom/btea##recommendedAction> rdf:type owl:ObjectProperty ;
+                                                             rdfs:domain <http://bt.schema.siemens.io/custom/btea##Event> ;
+                                                             rdfs:range <http://bt.schema.siemens.io/custom/btea##EventAction> .
+
+
+###  http://bt.schema.siemens.io/custom/btea##source
+<http://bt.schema.siemens.io/custom/btea##source> rdf:type owl:ObjectProperty ;
+                                                  rdfs:domain <http://bt.schema.siemens.io/custom/btea##Event> ;
+                                                  rdfs:range <http://bt.schema.siemens.io/custom/btea##EventSource> .
+
+
+###  http://bt.schema.siemens.io/custom/btea##subscribesTo
+<http://bt.schema.siemens.io/custom/btea##subscribesTo> rdf:type owl:ObjectProperty ;
+                                                        rdfs:domain <http://bt.schema.siemens.io/custom/btea##EventSubscriber> ;
+                                                        rdfs:range <http://bt.schema.siemens.io/custom/btea##EventObserver> .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://bt.schema.siemens.io/custom/btea#leadsToState
+:leadsToState rdf:type owl:DatatypeProperty ;
+              rdfs:domain <http://bt.schema.siemens.io/custom/btea##EventAction> ;
+              rdfs:range :EventState .
+
+
+###  http://bt.schema.siemens.io/custom/btea#state
+:state rdf:type owl:DatatypeProperty .
+
+
+###  http://bt.schema.siemens.io/custom/btea##category
+<http://bt.schema.siemens.io/custom/btea##category> rdf:type owl:DatatypeProperty ;
+                                                    rdfs:subPropertyOf owl:topDataProperty .
+
+
+###  http://bt.schema.siemens.io/custom/btea##closedAt
+<http://bt.schema.siemens.io/custom/btea##closedAt> rdf:type owl:DatatypeProperty ;
+                                                    rdfs:domain <http://bt.schema.siemens.io/custom/btea##Event> ;
+                                                    rdfs:range xsd:dateTimeStamp .
+
+
+###  http://bt.schema.siemens.io/custom/btea##created
+<http://bt.schema.siemens.io/custom/btea##created> rdf:type owl:DatatypeProperty ;
+                                                   rdfs:domain <http://bt.schema.siemens.io/custom/btea##Event> ;
+                                                   rdfs:range xsd:dateTimeStamp .
+
+
+###  http://bt.schema.siemens.io/custom/btea##deletedAt
+<http://bt.schema.siemens.io/custom/btea##deletedAt> rdf:type owl:DatatypeProperty ;
+                                                     rdfs:domain <http://bt.schema.siemens.io/custom/btea##Event> ;
+                                                     rdfs:range xsd:dateTimeStamp .
+
+
+###  http://bt.schema.siemens.io/custom/btea##eventId
+<http://bt.schema.siemens.io/custom/btea##eventId> rdf:type owl:DatatypeProperty ;
+                                                   rdfs:domain <http://bt.schema.siemens.io/custom/btea##Event> .
+
+
+###  http://bt.schema.siemens.io/custom/btea##link
+<http://bt.schema.siemens.io/custom/btea##link> rdf:type owl:DatatypeProperty .
+
+
+###  http://bt.schema.siemens.io/custom/btea##message
+<http://bt.schema.siemens.io/custom/btea##message> rdf:type owl:DatatypeProperty ;
+                                                   rdfs:domain <http://bt.schema.siemens.io/custom/btea##Event> ;
+                                                   rdfs:range xsd:string .
+
+
+###  http://bt.schema.siemens.io/custom/btea##modified
+<http://bt.schema.siemens.io/custom/btea##modified> rdf:type owl:DatatypeProperty ;
+                                                    rdfs:domain <http://bt.schema.siemens.io/custom/btea##Event> ;
+                                                    rdfs:range xsd:dateTimeStamp .
+
+
+###  http://bt.schema.siemens.io/custom/btea##name
+<http://bt.schema.siemens.io/custom/btea##name> rdf:type owl:DatatypeProperty ;
+                                                rdfs:range xsd:string .
+
+
+###  http://bt.schema.siemens.io/custom/btea##priority
+<http://bt.schema.siemens.io/custom/btea##priority> rdf:type owl:DatatypeProperty ;
+                                                    rdfs:domain <http://bt.schema.siemens.io/custom/btea##Event> ;
+                                                    rdfs:range xsd:unsignedInt .
+
+
+###  http://bt.schema.siemens.io/custom/btea##sourceValue
+<http://bt.schema.siemens.io/custom/btea##sourceValue> rdf:type owl:DatatypeProperty ;
+                                                       rdfs:domain <http://bt.schema.siemens.io/custom/btea##EventSource> .
+
+
+###  http://bt.schema.siemens.io/custom/btea##timestamp
+<http://bt.schema.siemens.io/custom/btea##timestamp> rdf:type owl:DatatypeProperty ;
+                                                     rdfs:domain <http://bt.schema.siemens.io/custom/btea##Event> ;
+                                                     rdfs:range xsd:dateTimeStamp .
+
+
+###  http://bt.schema.siemens.io/custom/btea##valid
+<http://bt.schema.siemens.io/custom/btea##valid> rdf:type owl:DatatypeProperty ;
+                                                 rdfs:domain <http://bt.schema.siemens.io/custom/btea##EventAction> ;
+                                                 rdfs:range xsd:boolean .
+
+
+###  https://si-ra.github.io/ontologies/events.owl#interactionLink
+:interactionLink rdf:type owl:DatatypeProperty ;
+                 rdfs:subPropertyOf <http://bt.schema.siemens.io/custom/btea##link> .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://bt.schema.siemens.io/custom/btea##Event
+<http://bt.schema.siemens.io/custom/btea##Event> rdf:type owl:Class ;
+                                                 rdfs:subClassOf <https://www.w3.org/2019/wot/td#Thing> ,
+                                                                 [ owl:intersectionOf ( [ rdf:type owl:Restriction ;
+                                                                                          owl:onProperty <http://bt.schema.siemens.io/custom/btea##closedAt> ;
+                                                                                          owl:someValuesFrom xsd:dateTime
+                                                                                        ]
+                                                                                        [ rdf:type owl:Restriction ;
+                                                                                          owl:onProperty <http://bt.schema.siemens.io/custom/btea##deletedAt> ;
+                                                                                          owl:someValuesFrom xsd:dateTime
+                                                                                        ]
+                                                                                      ) ;
+                                                                   rdf:type owl:Class
+                                                                 ] ,
+                                                                 [ rdf:type owl:Restriction ;
+                                                                   owl:onProperty <http://bt.schema.siemens.io/custom/btea##availableActions> ;
+                                                                   owl:someValuesFrom <http://bt.schema.siemens.io/custom/btea##EventAction>
+                                                                 ] ,
+                                                                 [ rdf:type owl:Restriction ;
+                                                                   owl:onProperty <http://bt.schema.siemens.io/custom/btea##recommendedAction> ;
+                                                                   owl:someValuesFrom <http://bt.schema.siemens.io/custom/btea##EventAction>
+                                                                 ] ,
+                                                                 [ rdf:type owl:Restriction ;
+                                                                   owl:onProperty <https://www.w3.org/2019/wot/td#hasActionAffordance> ;
+                                                                   owl:someValuesFrom <http://bt.schema.siemens.io/custom/btea##EventAction>
+                                                                 ] ,
+                                                                 [ rdf:type owl:Restriction ;
+                                                                   owl:onProperty <http://bt.schema.siemens.io/custom/btea##source> ;
+                                                                   owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                   owl:onClass <http://bt.schema.siemens.io/custom/btea##EventSource>
+                                                                 ] ,
+                                                                 [ rdf:type owl:Restriction ;
+                                                                   owl:onProperty :state ;
+                                                                   owl:someValuesFrom :EventState
+                                                                 ] ,
+                                                                 [ rdf:type owl:Restriction ;
+                                                                   owl:onProperty <http://bt.schema.siemens.io/custom/btea##category> ;
+                                                                   owl:someValuesFrom xsd:string
+                                                                 ] ,
+                                                                 [ rdf:type owl:Restriction ;
+                                                                   owl:onProperty <http://bt.schema.siemens.io/custom/btea##created> ;
+                                                                   owl:someValuesFrom xsd:dateTime
+                                                                 ] ,
+                                                                 [ rdf:type owl:Restriction ;
+                                                                   owl:onProperty <http://bt.schema.siemens.io/custom/btea##eventId> ;
+                                                                   owl:someValuesFrom xsd:string
+                                                                 ] ,
+                                                                 [ rdf:type owl:Restriction ;
+                                                                   owl:onProperty <http://bt.schema.siemens.io/custom/btea##message> ;
+                                                                   owl:someValuesFrom xsd:string
+                                                                 ] ,
+                                                                 [ rdf:type owl:Restriction ;
+                                                                   owl:onProperty <http://bt.schema.siemens.io/custom/btea##timestamp> ;
+                                                                   owl:someValuesFrom xsd:dateTime
+                                                                 ] .
+
+
+###  http://bt.schema.siemens.io/custom/btea##EventAction
+<http://bt.schema.siemens.io/custom/btea##EventAction> rdf:type owl:Class ;
+                                                       rdfs:subClassOf <https://www.w3.org/2019/wot/td#ActionAffordance> ,
+                                                                       [ rdf:type owl:Restriction ;
+                                                                         owl:onProperty :leadsToState ;
+                                                                         owl:someValuesFrom :EventState
+                                                                       ] ,
+                                                                       [ rdf:type owl:Restriction ;
+                                                                         owl:onProperty :interactionLink ;
+                                                                         owl:someValuesFrom xsd:anyURI
+                                                                       ] .
+
+
+###  http://bt.schema.siemens.io/custom/btea##EventObserver
+<http://bt.schema.siemens.io/custom/btea##EventObserver> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <https://www.w3.org/2019/wot/td#EventAffordance> ,
+                                                                         [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty <http://bt.schema.siemens.io/custom/btea##produces> ;
+                                                                           owl:someValuesFrom <http://bt.schema.siemens.io/custom/btea##Event>
+                                                                         ] .
+
+
+###  http://bt.schema.siemens.io/custom/btea##EventSource
+<http://bt.schema.siemens.io/custom/btea##EventSource> rdf:type owl:Class ;
+                                                       rdfs:subClassOf <https://www.w3.org/2019/wot/td#Thing> ;
+                                                       rdfs:comment "The process data which is considered as the cause for the event" .
+
+
+###  http://bt.schema.siemens.io/custom/btea##EventSubscriber
+<http://bt.schema.siemens.io/custom/btea##EventSubscriber> rdf:type owl:Class .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://bt.schema.siemens.io/custom/btea##Acknowledge
+<http://bt.schema.siemens.io/custom/btea##Acknowledge> rdf:type owl:NamedIndividual ,
+                                                                <http://bt.schema.siemens.io/custom/btea##EventAction> .
+
+
+###  http://bt.schema.siemens.io/custom/btea##Active
+<http://bt.schema.siemens.io/custom/btea##Active> rdf:type owl:NamedIndividual .
+
+
+###  http://bt.schema.siemens.io/custom/btea##ActiveAcknowledged
+<http://bt.schema.siemens.io/custom/btea##ActiveAcknowledged> rdf:type owl:NamedIndividual .
+
+
+###  http://bt.schema.siemens.io/custom/btea##Closed
+<http://bt.schema.siemens.io/custom/btea##Closed> rdf:type owl:NamedIndividual .
+
+
+###  http://bt.schema.siemens.io/custom/btea##Inactive
+<http://bt.schema.siemens.io/custom/btea##Inactive> rdf:type owl:NamedIndividual .
+
+
+###  http://bt.schema.siemens.io/custom/btea##InactiveAcknowledged
+<http://bt.schema.siemens.io/custom/btea##InactiveAcknowledged> rdf:type owl:NamedIndividual .
+
+
+###  http://bt.schema.siemens.io/custom/btea##Reset
+<http://bt.schema.siemens.io/custom/btea##Reset> rdf:type owl:NamedIndividual ,
+                                                          <http://bt.schema.siemens.io/custom/btea##EventAction> .
+
+
+###  http://bt.schema.siemens.io/custom/btea##Silence
+<http://bt.schema.siemens.io/custom/btea##Silence> rdf:type owl:NamedIndividual ,
+                                                            <http://bt.schema.siemens.io/custom/btea##EventAction> .
+
+
+###  http://bt.schema.siemens.io/custom/btea##Unsilence
+<http://bt.schema.siemens.io/custom/btea##Unsilence> rdf:type owl:NamedIndividual ,
+                                                              <http://bt.schema.siemens.io/custom/btea##EventAction> .
+
+
+###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi
